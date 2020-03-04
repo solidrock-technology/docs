@@ -4,7 +4,9 @@ Solidrock plays nicely with other services and platforms.
 
 ## Mailchimp
 
-Event Organisers can choose to connect their Mailchimp account with Solidrock. This integration will allow Solidrock to create and populate an audience with the Mailchimp account, subscribing users to the audience tagged with relevent tags to indicate the users specific events, roles (e.g. are they a Lead Booker, Group Coordinator etc) and other pertinent information such as which Groups or Teams do they belong to where relevant. Having this detail available within Mailchimp enables event organisers to segment are communicate to specific groups key information about the event.
+Event Organisers can choose to connect their Mailchimp account with Solidrock. This integration will allow Solidrock to create and populate an audience with the Mailchimp account, subscribing users to the audience tagged with relevent tags to indicate the users specific events, roles (e.g. are they a Lead Booker, Group Coordinator etc) and other pertinent information such as which Groups or Teams do they belong to. Having this detail available within Mailchimp enables event organisers to segment and communicate to specific people, key information about the event.
+
+With the integration in place Solidrock users are automatically subscribed and kept up-to-date whenever an [account type](/guide/accounts/#account-types) is added or changed or an association to a team or group is made or deleted.
 
 ### Setup
 
