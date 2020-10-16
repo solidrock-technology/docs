@@ -16,6 +16,11 @@ module.exports = {
         sidebar: [
             '/guide/',
             '/guide/accounts',
+            '/guide/organisations',
+            '/guide/events',
+            '/guide/digital-events',
+            '/guide/tickets',
+            '/guide/extras',
             '/guide/integrations'
         ]
     }
