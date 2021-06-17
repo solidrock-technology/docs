@@ -2,7 +2,7 @@
 
 ## General Information
 
-If your event is an online or digital event, or has a digital component, you can turn this module on by first of all setting the [Digital Event Streaming](/guide/event.md#digital-event-streaming) toggle on within the Event Info page.
+If your event is an online or digital event, or has a digital component, you can turn this module on by first of all setting the [Digital Event Streaming](/guide/events.md#digital-event-streaming) toggle on within the Event Info page.
 
 ### Digital Event Start Date
 

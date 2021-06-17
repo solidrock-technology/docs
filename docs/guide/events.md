@@ -8,7 +8,7 @@ The event name is shown in multiple places across the Solidrock Booking System b
 
 ### Slug
 
-The event slug is what appears in the unique Solidrock URL for your event. Typically the event slug would be similar to the event name, but must follow URL encoding principles such that it would predomintantely contain alphanumeric characters and hyphens. By way of example if the event slug was set to `our-amazing-event` and our [organisation slug](/guide/organisation.md#slug) was set to `mega-events`, the frontend landing page for this event would be reachable at `https://events.solidrock.io/mega-event/our-amazing-event`. 
+The event slug is what appears in the unique Solidrock URL for your event. Typically the event slug would be similar to the event name, but must follow URL encoding principles such that it would predomintantely contain alphanumeric characters and hyphens. By way of example if the event slug was set to `our-amazing-event` and our [organisation slug](/guide/organisations.md#slug) was set to `mega-events`, the frontend landing page for this event would be reachable at `https://events.solidrock.io/mega-event/our-amazing-event`. 
 
 ::: warning
 Once a slug has been set for an event it **cannot** be changed in the future.

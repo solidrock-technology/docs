@@ -21,6 +21,7 @@ module.exports = {
             '/guide/digital-events',
             '/guide/tickets',
             '/guide/extras',
+            '/guide/discounts',
             '/guide/integrations'
         ]
     }
