@@ -3,8 +3,10 @@ home: true
 heroImage: /images/home-hero.jpg
 heroText: Complex events made simple
 tagline: All you need to know about getting your events up and running on Solidrock
-actionText: How it works →
-actionLink: /guide/
+actions:
+- text: How it works →
+  link: /guide/
+  type: primary
 features:
 - title: Simple Pricing
   details: Per paid ticket fee. Running a free event? We'll share the love and power your event for free.

@@ -26,6 +26,10 @@ You can add simple text formatting to the description text, such as **bold** _it
 
 The event image is shown within event summary cards and on the frontend landing page for the event. The image you upload should be high resolution (at least 2000px wide), but no more than 4MB (megabytes) in size. Images can be PNG, JPG or GIF.
 
+::: tip
+To avoid any automated cropping taking place on the image it should be uploaded at 16:9 aspect ratio. This is especially important if your image has text or other critical details embeded in it.
+:::
+
 ### Start Date
 
 This is the start date and time of the event itself. Typically the date that delegates can start to arrive for your event.
@@ -40,7 +44,7 @@ Set the timezone for your event start date.
 
 ### Digital Event Streaming
 
-If your event is an online or digital event, or has a digital component, you can turn this option on to gain access to further content settings for the digital part of your event. The new area will appear in the sidebar called 'Digital Event'.
+If your event is an online or digital event, or has a digital component, you can turn this option on to gain access to further content settings for the digital part of your event. The new area will appear in the sidebar called ['Digital Event'](/guide/digital-events.md).
 
 From this new area you will be able to create a page, restricted by login using a ticket ID, to stream video content and provide details for other content available online, for example links to hidden content, digital meetings and so on.
 
@@ -67,11 +71,11 @@ This is the full URL (including the _https://_) of the website that provides com
 
 ### Address
 
-This is the address for the event location. If your event is in-person you can leave all of these fields empty.
+This is the address for the event location. If your event is not in-person (i.e. it's a digital only event) you can leave all of these fields empty.
 
 ### Hide Event Map
 
-On the event landing page we show a map to provide a clearer indication of the event location for those wishing to book in. If you'd prefer this map wasn't show you can toggle this setting on.
+If an event address has been set a map will be shown on the event landing page to provide a clearer indication of the event location for those wishing to book in. If you'd prefer this map wasn't show you can toggle this setting on.
 
 ## Booking Information
 
@@ -85,7 +89,7 @@ Once the prefix has been set, and bookings made for the event, it **cannot** be 
 
 ### Bookings Open Date
 
-This date and time signals when bookings can be made through Solidrock for this event. It can be set in the future or the past.The [event status](/guide/events.md#status) must also be set to something other than `Offline` for people to access the booking process.
+This date and time signals when bookings can be made through Solidrock for this event. It can be set in the future or the past. The [event status](/guide/events.md#status) must also be set to something other than `Offline` for people to access the booking process.
 
 ### Bookings Close Date
 
@@ -113,9 +117,17 @@ Team Member type tickets will **always** require the ticket form to be completed
 You can change this event setting at any point.
 :::
 
+### Custom Ticket Instructions
+
+This text will appear at the top of the ticket selection page during the frontend bookings flow. You can use this text to convey important booking information.
+
+### Custom Extra Instructions
+
+This text will appear at the top of the extra selection page during the frontend bookings flow. You can use this text to convey important information about extras.
+
 ## Payment Options
 
-This is where you set how people can pay for their bookings from the frontend. WE currently support payments through [Stripe](https://stripe.com) and by bank transfer (BACs). As you may wish to have the same payment options (e.g. the same Stripe account, or Bank Account for transfers) used across multiple events you first set these up [here](https://events.solidrock.io/admin/payment-options).
+This is where you set how people can pay for their bookings from the frontend. Supported payment methods include [Stripe](https://stripe.com) and bank transfer (BACs). As you may wish to have the same payment options (e.g. the same Stripe account, or Bank Account for transfers) used across multiple events you first set these up [here](https://events.solidrock.io/admin/payment-options).
 
 When adding a payment option, you can choose to limit that option to only Group Coordinators by using the checkbox below the payment option dropdown.
 
@@ -127,22 +139,22 @@ The Refund Admin Fee field is where you can set a specific baseline administrati
 
 This text will appear alongside the fee amount in the refund receipt email as a description of the fees.
 
-### Charges & Fees
+### Solidrock Charges & Fees
 
 Use the at a glance calculator to get an understanding for how fees will break down and what you, the event organiser, would receive once the Soldrock and any card processing/transaction fees have been charged. You can set an event to handle the fees in one of two ways:
 
-1. **Fees included within ticket & extra prices:** This is the default setting for fees. Under this option the Solidrock and card processing fees will be taken _out of_ the total cost of the order. For example a £100 order might have a 2% (£2) Solidorck fee decuted as well as a Stripe transaction fee (approximately 1.4%-2.9% if order paid by card). The customer would pay £100 and the event would receive in the region of £95.
+1. **Fees included within ticket & extra prices:** This is the default setting for fees. Under this option the Solidrock and card processing fees will be taken _out of_ the total cost of the order. For example a £100 order might have a 2% (£2) Solidrock fee deducted as well as a Stripe transaction fee (approximately 1.4%-2.9% if order paid by card). The customer would pay £100 and the event would receive in the region of £95.
 
-2. **Fees are charge to the customer:** You can turn this option on which charges the customer the **Solidrock** fees on top of the order total. Using the same example as before, a customer would pay the £100 order total plus the £2 Solidrock fee.
+2. **Fees are charged to the customer:** You can turn this option on which charges the customer the **Solidrock** fees on top of the order total. Using the same example as before, a customer would pay the £100 order total plus the £2 Solidrock fee. Stripe fees are always taken out of the final amount paid.
 
 ### Access Pass Image
 
-The access pass image relates to the [Teams](/guide/teams.md) area of and event within Solidrock. If you need to print out lanyards or passes for team members to wear at an event you can do so through Solidrock. This pass image becomes the background image/graphic for that printed pass that then has dynamic information (such as team member name, team name, access priviledges etc) overlaid on top.
+The access pass image relates to the [Teams](/guide/teams.md) area of an event within Solidrock. If you need to print out lanyards or passes for team members to wear at an event you can do so through Solidrock. This pass image becomes the background image/graphic for that printed pass that then has dynamic information –such as team member name, team name, access privileges etc– overlaid on top.
 
 The image you upload should be high resolution (at least 2000px wide), but no more than 4MB (megabytes) in size. Images can be PNG, JPG or GIF.
 
 ::: tip
-INSERT RECOMMENDED IMAGE DIMENSIONS
+Passes are printed at a portrait aspect ratio approximately 10:16. Images should therefore sollow this same sizing ratio to prevent unexpected cropping results.
 :::
 
 ### Team Opportunities Description
@@ -155,7 +167,7 @@ If your event doesn't require team members to be booked in through Solidrock you
 
 ### Team Times Description
 
-As with the 'Team Opportunities Description', this is shown on the frontend event bookings pages for Team Member ticket types where a person is being asked to select which team(s) they would like to join. This field is optional and could be used to explain a little more about how teams work across different time periods within your event. For example you may have some teams needed for the event setup, some for while the event runs and some for post-event setdown.
+As with the 'Team Opportunities Description', this is shown on the frontend event booking pages for Team Member ticket types where a person is being asked to select which team(s) they would like to join. This field is optional and could be used to explain a little more about how teams work across different time periods within your event. For example you may have some teams needed for the event setup, some for while the event runs and some for post-event setdown.
 
 ::: tip
 If your event doesn't require team members, or teams aren't required across multiple time periods, you can leave this empty.
@@ -177,10 +189,10 @@ Use this field to provide some custom text on the receipt email specifically to 
 
 ### Receipt Email BACs Payment Text
 
-Use this field to provide some custom text on the receipt email specifically to those who have opted to pay by bank transfer (BACs). You may for example want to outline that the bank transfer description should contain the Solidrock order reference to enable you to easily match up the money in your account with the right order here.
+Use this field to provide some custom text on the receipt email specifically to those who have opted to pay by bank transfer (BACs). You may for example want to outline that the bank transfer description should contain the Solidrock order reference to enable you to easily match up the money in your account with the right order in Solidrock.
 
 ## Tracking
 
 ### Facebook Pixel
 
-If you wish Solidrock to pass relevant data back to Facebook for your marketing and campaigns you can add a Facebook Pixel ID here which you can find or create from the [Facebook Events Manager](https://www.facebook.com/events_manager) page.
+If you wish Solidrock to pass relevant data back to Facebook for your marketing and campaign purposes you can add a Facebook Pixel ID here. Find out where and hoe to create a [Facebook Pixel here](https://www.facebook.com/business/help/952192354843755?id=1205376682832142).

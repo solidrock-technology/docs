@@ -2,9 +2,9 @@
 
 ## General Information
 
-### Youcher Name
+### Name
 
-The name of the voucher/discount seen within the backend for an event administrators reference.
+The name of the voucher/discount seen within the backend for an event administrator's reference.
 
 ### Code
 
@@ -12,7 +12,7 @@ The code a booker would enter on the booking summary page to apply this discount
 
 ### Discount Type
 
-Whether or not this discount applies a % off or a fixed value.
+Whether or not this discount applies a % off or a fixed (£) value.
 
 ### Discount Value
 
@@ -25,9 +25,9 @@ Used in combination with the 'Discount Type'. For example:
 
 The total number of times this discount code can be used by bookers on the frontend.
 
-### Maximum times this code can be used per booking
+### Maximum times this code can be used per lead booker
 
-The maximum number of times this discount code can be used per booking. Someone could make multiple, separate bookings to use the discount more times than this limit.
+The maximum number of times this discount code can be used per lead booker across all of their bookings.
 
 ### Maximum times this code can be used per group
 
@@ -65,7 +65,7 @@ If either **ticket** or **extra** are chosen there will be further options shown
 
 ### Can be used on bookings site?
 
-Turn this option on the enable the discount for use from the event frontend (in conjunction with the Valid to and from dates).
+Turn this option on the enable the discount for use from the event frontend (in conjunction with the valid to and from dates).
 
 ## Country Restrictions
 
@@ -101,7 +101,7 @@ The name of the group of codes being created. This is for an event administrator
 
 The total number of 1 time use discount codes to create within this batch.
 
-### Prefix
+### Prefix
 
 A 4 character prefix for the automatically generated discount code.
 
@@ -126,4 +126,5 @@ Batch generated discounts have a simpler set of available settings from regular 
 - Minimum Subtotal
 - Valid From Date
 - Valid To Date
-- Discount Type
+- Voucher Type
+- Can be used on bookings site?

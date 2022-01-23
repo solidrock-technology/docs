@@ -1,0 +1,1 @@
+const t={key:"v-02f7b4bb",path:"/guide/tickets/ticket-sets.html",title:"Ticket Sets",lang:"en-GB",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:null},filePathRelative:"guide/tickets/ticket-sets.md"};export{t as data};

@@ -20,11 +20,15 @@ This is the date and time that you want to allow people to access the event page
 
 In most cases the digital event page will be secured behind a simpe login. The login requires a valid ticket ID from Solidrock (each purchased ticket is assigned a unique ID that is sent to the lead booker). 
 
-Here you can set how many times a single Ticket ID can be used to login to the event. For example you may set this to a low number so that a single ticket ID can't be distrubitued to a group of people to gain access. Alternatively you may set this number in the thousands and distribute a sinlge ID yourselves to many people so that they'd all login under the same ID.
+Here you can set how many times a single Ticket ID can be used to login to the event. For example you may set this to a low number so that a single ticket ID can't be distrubitued to a group of people to gain access. Alternatively you may set this number in the thousands and distribute a single ID yourselves to many people so that they'd all login under the same ID.
 
 ::: tip
 If you've set this number low and a ticket holder ends up locking themselves out of the event by accident (perhaps they tried to login across multiple different devices during the course of the event), you can reset the number of uses back to '0' from the event tickets page.
 :::
+
+### Guest Access Allowed?
+
+If enabled the digital event pages will be accessible to anyone without needing to login using a ticket ID.
 
 ## Video Details
 
@@ -60,7 +64,7 @@ If turned on we'll show a timer that counts down the days, hours, minutes and se
 
 ### Stream Page Title
 
-This text shows at the top of the stream page.
+This large title text shows at the top of the stream page.
 
 ### Announcement
 
@@ -72,4 +76,4 @@ This text shows directly underneath the live stream video as an introduction to 
 
 ### Main Page Content Area
 
-Use this area to enrich your livestream page. You can use rich text formatting, add images and embed additional content such as videos, audio clips or engagement tools from sites such as Youtube, Vimeo, Soundcloud or Videoask.
+Use this area to enrich your livestream page. You can use rich text formatting, add images and embed additional content such as videos, audio clips or engagement tools from sites such as Youtube, Vimeo, Soundcloud or Videoask. You can update this content while the digital event is live and it will be pushed to all those people viewing the event with a need for them to refresh their webpage.
