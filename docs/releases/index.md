@@ -20,7 +20,7 @@ For events that sell extras, we've added a new chart to event dashboards to prov
 
 ### Quick link to documentation & guide
 
-In the event sidebar navigation you'll now find a new link this documentation site where we'll host guides, tutorials, FAQs and release notes!
+In the event sidebar navigation you'll now find a new link to this documentation site where we'll host guides, tutorials, FAQs and release notes!
 
 ## Previous Releases
 
