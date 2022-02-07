@@ -9,7 +9,7 @@ This updated primarily focussed on improvements to the underlying hosting infras
 Tidy up your event lists by archiving old, past events!
 
 ::: tip
-From the event list page in the backend open up the event options menu (by clikcing on the cog) and selecting 'Archive' from the list of options.
+From the event list page in the backend open up the event options menu (by clicking on the cog) and selecting 'Archive' from the list of options.
 :::
 
 Archived event data is still fully accessible and is now accessed from a more desicrete list on the same event list page. Archivfed events do not show in the 'My Events' navigation.
