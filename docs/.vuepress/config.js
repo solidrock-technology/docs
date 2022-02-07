@@ -9,37 +9,49 @@ module.exports = {
         navbar: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
+            { text: 'Releases', link: '/releases/' },
             { text: 'Booking System', link: 'https://events.solidrock.io' }
         ],
         lastUpdated: 'Last Updated',
-        // smoothScroll: true,
         editLink: false,
         contributors: false,
         sidebarDepth: 3,
-        sidebar: [
-            '/guide/',
-            '/guide/accounts',
-            '/guide/organisations',
-            '/guide/events',
-            '/guide/digital-events',
-            {
-                text: 'Tickets',
-                children: [
-                  {
-                      text: 'Tickets List',
-                      link: '/guide/tickets',
-                  },
-                  {
-                    text: 'Ticket Sets',
-                    link: '/guide/tickets/ticket-sets',
-                  },
-                ],
-              },
-            '/guide/extras',
-            '/guide/discounts',
-            '/guide/teams',
-            '/guide/integrations'
-        ]
+        sidebar: {
+            '/guide/': [
+                {
+                    text: 'Guide',
+                    children: [
+                        '/guide/accounts',
+                        '/guide/organisations',
+                        '/guide/events',
+                        '/guide/digital-events',
+                        {
+                            text: 'Tickets',
+                            children: [
+                            {
+                                text: 'Tickets List',
+                                link: '/guide/tickets',
+                            },
+                            {
+                                text: 'Ticket Sets',
+                                link: '/guide/tickets/ticket-sets',
+                            },
+                            ],
+                        },
+                        '/guide/extras',
+                        '/guide/discounts',
+                        '/guide/teams',
+                        '/guide/integrations'
+                    ]
+                },
+            ],
+            '/releases/': [
+                {
+                    text: 'Release History',
+                    children: ['/releases/index.md']
+                }
+            ]
+        }
     },
     plugins: [
         [

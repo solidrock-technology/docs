@@ -1,1 +1,0 @@
-const e={key:"v-68f4bf98",path:"/guide/teams/leaders.html",title:"Team Leaders",lang:"en-GB",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1623926695e3},filePathRelative:"guide/teams/leaders.md"};export{e as data};
