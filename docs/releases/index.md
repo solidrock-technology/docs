@@ -18,6 +18,10 @@ Archived event data is still fully accessible and is now accessed from a more de
 
 For events that sell extras, we've added a new chart to event dashboards to provide at a glance statistics on the number of extras sold, indiciating the number that are full paid, and those in Pending (BACs) orders.
 
+### Quick link to documentation & guide
+
+In the event sidebar navigation you'll now find a new link this documentation site where we'll host guides, tutorials, FAQs and release notes!
+
 ## Previous Releases
 
 Solidrock Booking System is under constant development. Some worthy mentions for recent improvements include:
