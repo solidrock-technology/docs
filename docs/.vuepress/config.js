@@ -1,3 +1,6 @@
+const { defaultTheme } = require('@vuepress/theme-default');
+const { searchPlugin } = require('@vuepress/plugin-search');
+
 module.exports = {
     lang: 'en-GB',
     title: 'Solidrock',
@@ -5,7 +8,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/icons/icon.png' }]
     ],
-    themeConfig: {
+    theme: defaultTheme({
         navbar: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
@@ -16,52 +19,70 @@ module.exports = {
         editLink: false,
         contributors: false,
         sidebarDepth: 3,
-        sidebar: {
-            '/guide/': [
-                {
-                    text: 'Guide',
-                    children: [
-                        '/guide/accounts',
-                        '/guide/organisations',
-                        '/guide/events',
-                        '/guide/digital-events',
+        sidebar: [
+            {
+                text: 'Guide',
+                link: '/guide/',
+                children: [
+                    '/guide/accounts',
+                    '/guide/organisations',
+                    '/guide/events',
+                    '/guide/digital-events',
+                    {
+                        text: 'Tickets',
+                        children: [
                         {
-                            text: 'Tickets',
-                            children: [
-                            {
-                                text: 'Tickets List',
-                                link: '/guide/tickets',
-                            },
-                            {
-                                text: 'Ticket Sets',
-                                link: '/guide/tickets/ticket-sets',
-                            },
-                            ],
+                            text: 'Tickets List',
+                            link: '/guide/tickets',
                         },
-                        '/guide/extras',
-                        '/guide/discounts',
-                        '/guide/teams',
-                        '/guide/integrations'
-                    ]
-                },
-            ],
-            '/releases/': [
-                {
-                    text: 'Release History',
-                    children: ['/releases/index.md']
-                }
-            ]
-        }
-    },
-    plugins: [
-        [
-            '@vuepress/plugin-search', {
-                locales: {
-                    '/': {
-                        placeholder: 'Search',
-                    }
-                }
+                        {
+                            text: 'Ticket Sets',
+                            link: '/guide/tickets/ticket-sets',
+                        },
+                        ],
+                    },
+                    '/guide/extras',
+                    '/guide/discounts',
+                    '/guide/teams',
+                    {
+                        text: 'Front of House',
+                        link: '/guide/front-of-house',
+                        children: [
+                            {
+                                text: 'Arrivals',
+                                link: '/guide/front-of-house/arrivals',
+                            },
+                            {
+                                text: 'Box Office',
+                                link: '/guide/front-of-house/box-office',
+                            },
+                            {
+                                text: 'Check In & Out',
+                                link: '/guide/front-of-house/check-in-out',
+                            },
+                            {
+                                text: 'Search',
+                                link: '/guide/front-of-house/search',
+                            },
+                        ]
+                    },
+                    '/guide/integrations'
+                ]
+            },
+            {
+                text: 'Release History',
+                link: '/releases/',
+                children: ['/releases/index.md']
             }
         ]
+    }),
+    plugins: [
+        searchPlugin({
+            locales: {
+                '/': {
+                    placeholder: 'Search',
+                }
+            }
+        })
     ]
 }

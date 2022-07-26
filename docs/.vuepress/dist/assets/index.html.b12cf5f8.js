@@ -1,1 +1,0 @@
-const e={key:"v-3933f5b6",path:"/guide/teams/",title:"Teams",lang:"en-GB",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1623926695e3},filePathRelative:"guide/teams/index.md"};export{e as data};

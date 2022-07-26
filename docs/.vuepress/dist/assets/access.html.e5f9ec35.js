@@ -1,1 +1,0 @@
-const e={key:"v-75810bb0",path:"/guide/teams/access.html",title:"Team Access Levels",lang:"en-GB",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1642927036e3},filePathRelative:"guide/teams/access.md"};export{e as data};
