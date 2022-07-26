@@ -70,7 +70,7 @@ module.exports = {
                 ]
             },
             {
-                text: 'Release History',
+                text: 'Releases',
                 link: '/releases/',
                 children: ['/releases/index.md']
             }

@@ -13,6 +13,7 @@ Accounts are registered through a secure invitation system meaning only the acco
 Accounts take the form of different roles/types including (in order of most privileges to least):
 
 - Organisation Admin
+- Front of House Admin
 - Group Coordinator
 - Lead Booker
 - Team Member
@@ -42,6 +43,17 @@ An organisation admin has permission to access the backend control panel to crea
   - See account details for those accounts who have made a booking for one or more of the organiser's events
 - Groups
 - Integrations (e.g. Mailchimp)
+- Front of House pages
+
+### Front of House Admin
+
+Front of House admins have permission to access the Front of House management pages as well as being able to access all other publicly available pages and their own profile. These admins **do not** have access to the backend event managament pages.
+They can access:
+
+- [Arrivals](/guide/front-of-house/arrivals)
+- [Check in & out](/guide/front-of-house/check-in-out)
+- [Ticket lookup/search](/guide/front-of-house/search)
+- The [Box Office](/guide/front-of-house/box-office)
 
 ### Group Coordinator
 

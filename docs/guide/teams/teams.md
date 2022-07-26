@@ -1,4 +1,4 @@
-# Team Mamagement
+# Team Management
 
 Create and manage the teams required to run the event.
 
