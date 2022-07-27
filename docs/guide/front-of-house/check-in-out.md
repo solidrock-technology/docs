@@ -12,7 +12,7 @@ If 0 or more than 1 result is found, an error will be returned indicating that t
 These check in and out functions are primarily tailored around quickly checking people into and out of venues where it is not necessary to know any details about the people other than that they do or do not have a ticket for the event.
 :::
 
-## Veunes & Entrances/Exits
+## Venues & Entrances/Exits
 
 Like the Arrivals feature you can select which venue you are checking people into and out of as well as the entrance/exit (where a venue has multiple entrances or exits).
 

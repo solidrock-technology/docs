@@ -107,10 +107,24 @@ If your event has Terms & Conditions that everyone making a booking must agree t
 
 By default, nobody is allowed to purchase tickets that are missing required data, for example, the name of the person the ticket is assigned to.
 
-You may change this option, to allow either Group Coordinators or anyone to purchase unassigned or incomplete tickets.
+You may change this option, to allow either Group Coordinators, everyone or nobody to purchase unassigned or incomplete tickets.
 
 ::: warning
 Team Member type tickets will **always** require the ticket form to be completed, regardless of this setting.
+:::
+
+::: tip
+You can change this event setting at any point.
+:::
+
+### Who can edit tickets after they're paid for?
+
+By default, nobody is allowed to edit the details associated to tickets and extra once they have been purchase, for example the name of the delegate.
+
+You may change this option, to allow either Group Coordinators, everyone or nobody to to edit ticket details on completed, paid for orders.
+
+::: warning
+This setting works in conjunction with the **Booking Editing Cutoff Date**, after which nobody will be able to edit any details.
 :::
 
 ::: tip

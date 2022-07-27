@@ -2,15 +2,15 @@
 
 ## 26th July 2022
 
-With in-person events now a real thing again (🙏🏻 *Hopefully we've said goodbye to COVID restrictions for good* 🙏🏻) we've spent some time refining and updating the delegate arrivals and check-in experience as well as bring the [Box Office](/guide/front-of-house/box-office) out of beta! We've brought all thes features under one roof we're calling ['Front of House'](/guide/front-of-house).
+With in-person events now a real thing again (🙏🏻 *Hopefully we've said goodbye to COVID restrictions for good* 🙏🏻) we've spent some time refining and updating the delegate arrivals and check-in experience as well as bring the [Box Office](/guide/front-of-house/box-office) out of beta! We've brought all these features under one roof we're calling ['Front of House'](/guide/front-of-house).
 
 With these updates we now also offer support for USB and Bluetooth HID barcode scanners and, now that we've revamped the check in and out process allowing multiple records per ticket, we've setup a new 'Check In' report so you can pull out this detail.
 
-As always with our releases we bring further tuning to the performance of platform and a healthy dose of bug fixes.
+As always with our releases we bring further tuning to the performance of the platform and a healthy dose of bug fixes.
 
 ## 1st July 2022
 
-In this update we've only gone and ticked off one of the most requested features - Payment Plans! Not to mention a plethora of bug fixes, updates to whole backend look and feel as well as Wristband assingment and scanning. IF it's been a bit quiet around here lately, now you know why!
+In this update we've only gone and ticked off one of the most requested features - Payment Plans! Not to mention a plethora of bug fixes, updates to whole backend look and feel as well as wristband assingment and scanning. If it's been a bit quiet around here lately, now you know why!
 
 ### Payment Plans
 
