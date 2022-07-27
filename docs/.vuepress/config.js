@@ -60,6 +60,16 @@ module.exports = {
                         },
                         {
                             collapsible: true,
+                            text: 'Form Builder',
+                            link: '/guide/form-builder/',
+                            children: [
+                                '/guide/form-builder/',
+                                '/guide/form-builder/fields',
+                                '/guide/form-builder/forms',
+                            ]
+                        },
+                        {
+                            collapsible: true,
                             text: 'Front of House',
                             link: '/guide/front-of-house/',
                             children: [
