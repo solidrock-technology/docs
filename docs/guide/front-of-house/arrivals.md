@@ -38,13 +38,35 @@ In addition, if your event is setup with [Ticket Sets]('/guide/tickets/ticket-se
 
 The figures are automatically kept in sync when multiple people and devices are being used to check people in to the same venue so everyone can see the up-to-date totals.
 
-### Scanning
+### Search
 
-#### Digital Tickets
+In addition to scanning a digital ticket or event pass you can also search for tickets by delegate name, order reference and unique ticket ID. Results will be listed alphabetically by surname.
+
+Each result will indicate where known:
+
+- the delegate name
+- the unique ticket ID
+- the ticket name (e.g. Team Member, Early Bird, V.I.P, Exhibitor etc)
+- the group they're with
+- whether or not they are checked in already to this venue, indicated by the date and time they were checked in
+- whether or not they have been assigned an event pass or wristband, indicated by listing the unique ID of the pass.
+
+In addition to this at a glance information you can check a person in and out of the selected venue using the checkmark icon as well as associate an event pass or wristband to the person using the wristband icon.
+
+Clicking on a ticket result returned from the search will open a window providing a little more detail about the delegate. In addition to what was listed in the search result row you will also see:
+
+- The date and time the ticket was booked and who by (the Lead Booker)
+- any teams they have applied to be on, and the approval status
+- The check-in information for this delegate and this venue - a record of all the times they checked in and out.
+- The Event Pass/Wristband details including the currently active ID and any previous IDs they may have been issued that have had to be replaced for one reason or other (e.g. damaged, lost, stolen) alsongside the date and time each pass or wristband was issued.
+
+## Scanning
+
+### Digital Tickets
 
 All completed and paid tickets in Solidrock are available as a digital ticket downloads - each of which displays a unique QR code. This QR code can be scanned via your devices built-in camera(s) or external camera/webcam through the scan tab.
 
-#### Event Pass or Wristband
+### Event Pass or Wristband
 
 Once you have issued an event pass, wristband or similar with a barcode or QR code printed you can also use the scanner to read those search for the associated ticket.
 
@@ -70,24 +92,19 @@ Bluetooth enabled devices should use the Human Interface Device (HID) protocol.
 If you find that nothing is happening when you perform a scan using a barcode reader, check that the keyboard cursor is within the search input field first, then use the scanner again.
 :::
 
-### Search
+### Connecting Bluetooth Barcode Scanners
+To connect your barcode scanner via Bluetooth: 
 
-In addition to scanning a digital ticket or event pass you can also search for tickets by delegate name, order reference and unique ticket ID. Results will be listed alphabetically by surname.
+- Power on the scanner
+- Make sure your barcode scanning device is discoverable via Bluetooth.
+- Make sure the device is in range with Bluetooth turned on 
+- Pressing the scan button will initiate the attempts to connect. 
+- Your barcode scanner will now be discoverable in your device’s Bluetooth connections. 
+- If a connection is made, the blue light will stop blinking and turn solid. 
+- If a connection is not made after several attempt the scanner will emit a long beep (and the blue light will turn off).
 
-Each result will indicate where known:
+**NOTE:** When using the smartphone cradle scanner, your keyboard may be hidden - if needed (e.g. for manual barcode input), press and hold the scan button on the cradle to access your keyboard.
 
-- the delegate name
-- the unique ticket ID
-- the ticket name (e.g. Team Member, Early Bird, V.I.P, Exhibitor etc)
-- the group they're with
-- whether or not they are checked in already to this venue, indicated by the date and time they were checked in
-- whether or not they have been assigned an event pass or wristband, indicated by listing the unique ID of the pass.
-
-In addition to this at a glance information you can check a person in and out of the selected venue using the checkmark icon as well as associate an event pass or wristband to the person using the wristband icon.
-
-Clicking on a ticket result returned from the search will open a window providing a little more detail about the delegate. In addition to what was listed in the search result row you will also see:
-
-- The date and time the ticket was booked and who by (the Lead Booker)
-- any teams they have applied to be on, and the approval status
-- The check-in information for this delegate and this venue - a record of all the times they checked in and out.
-- The Event Pass/Wristband details including the currently active ID and any previous IDs they may have been issued that have had to be replaced for one reason or other (e.g. damaged, lost, stolen) alsongside the date and time each pass or wristband was issued.
+:::tip 
+In order to make your scanner discoverable via Bluetooth, you may need to scan a 'Bluetooth Transmit' barcode, often supplied with your scanner.
+:::
