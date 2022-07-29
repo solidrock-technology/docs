@@ -2,7 +2,7 @@
 
 If you sell tickets or extras on-site during your event, such as day tickets and merchandise, you can use the Solidrock Box Office to perform this function and have it all recorded into your Solidrock event data.
 
-The Box Office will list available (not sold out, enabled and within the available from and to dates) [Tickets](/guide/tickets) & [Extras](/guide/extras) as specified within the event management backend.
+The Box Office will list available (not sold out, enabled and within the available from and to dates) [Tickets](/guide/tickets/ticket-options) & [Extras](/guide/extras) as specified within the event management backend.
 
 ## Tickets
 
