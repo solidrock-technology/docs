@@ -91,7 +91,8 @@ module.exports = {
                                 },
                             ]
                         },
-                        '/guide/integrations'
+                        '/guide/integrations',
+                        '/guide/payment-plans'
                     ]
                 }
             ],
