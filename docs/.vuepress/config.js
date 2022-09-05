@@ -92,7 +92,25 @@ module.exports = {
                             ]
                         },
                         '/guide/integrations',
-                        '/guide/payment-plans'
+                        {
+                            collapsible: true,
+                            text: 'Payment Plans',
+                            link: '/guide/payment-plans',
+                            children: [
+                                {
+                                    text: 'Creating and Editing',
+                                    link: '/guide/payment-plans/creating-editing',
+                                },
+                                {
+                                    text: 'Instalments',
+                                    link: '/guide/payment-plans/instalments',
+                                },
+                                {
+                                    text: 'Lead Booker Payments',
+                                    link: '/guide/payment-plans/lead-booker-payments',
+                                },
+                            ]
+                        }
                     ]
                 }
             ],
