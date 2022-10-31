@@ -26,7 +26,25 @@ module.exports = {
                     text: 'Guide',
                     children: [
                         '/guide/',
-                        '/guide/accounts',
+                        {
+                          collapsible: true,
+                          text: 'Accounts',
+                          link: '/guide/accounts/',
+                          children: [
+                              {
+                                  text: 'Registration',
+                                  link: '/guide/accounts/registration'
+                              },
+                              {
+                                  text: 'Account Types',
+                                  link: '/guide/accounts/account-types'
+                              },
+                              {
+                                  text: 'Two Factor Authentication',
+                                  link: '/guide/accounts/two-factor-authentication'
+                              }
+                          ]
+                        },
                         '/guide/organisations',
                         '/guide/events',
                         '/guide/digital-events',

@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-c5a8b6d0","path":"/guide/payment-plans/","title":"Payment Plans","lang":"en-GB","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null},"filePathRelative":"guide/payment-plans/index.md"}');export{e as data};
