@@ -8,7 +8,7 @@ The event name is shown in multiple places across the Solidrock Booking System b
 
 ### Slug
 
-The event slug is what appears in the unique Solidrock URL for your event. Typically the event slug would be similar to the event name, but must follow URL encoding principles such that it would predomintantely contain alphanumeric characters and hyphens. By way of example if the event slug was set to `our-amazing-event` and our [organisation slug](/guide/organisations.md#slug) was set to `mega-events`, the frontend landing page for this event would be reachable at `https://events.solidrock.io/mega-event/our-amazing-event`. 
+The event slug is what appears in the unique Solidrock URL for your event. Typically the event slug would be similar to the event name, but must follow URL encoding principles such that it would predomintantely contain alphanumeric characters and hyphens. By way of example if the event slug was set to `our-amazing-event` and our [organisation slug](/guide/organisations.md#slug) was set to `mega-events`, the frontend landing page for this event would be reachable at `https://events.solidrock.io/mega-event/our-amazing-event`.
 
 ::: warning
 Once a slug has been set for an event it **cannot** be changed in the future.
@@ -147,7 +147,7 @@ When adding a payment option, you can choose to limit that option to only Group 
 
 ### Refund Admin Fee
 
-The Refund Admin Fee field is where you can set a specific baseline administrative fee for a payment option. 
+The Refund Admin Fee field is where you can set a specific baseline administrative fee for a payment option.
 
 ### Refund Fee Receipt Text
 
@@ -187,6 +187,60 @@ As with the 'Team Opportunities Description', this is shown on the frontend even
 If your event doesn't require team members, or teams aren't required across multiple time periods, you can leave this empty.
 :::
 
+## Groups
+
+Groups in Solidrock represent a collection of people or items (tickets and extras) that are associated together. A group could be people from the same church, business, charity or club. Multiple bookings can be made by multiple different lead bookers but have the option to associate all the tickets and extras with the same group. A group coordinator (someone who manages or leads the group) would then be able to see all those who have been associated to their group.
+
+![Event Group Settings](./images/group-config.png)
+
+### Does this event have groups?
+
+If your event has groups as described above, toggle this option on the further refine how groups are managed for the event. With this option turned off there will be no opportunity for a booker to register a group or assign their tickets and extras to an existing group.
+
+### Must tickets have a group assigned?
+
+If all tickets for your event must be assigned to a group, turn this option on. Bookers will be required to assign a group to their tickets before being able to checkout and complete their booking.
+
+### Must extras have a group assigned?
+
+If all extras for your event must be assigned to a group, turn this option on. Bookers will be required to assign a group to their extras before being able to checkout and complete their booking.
+
+### Are public group registrations allowed?
+
+If you want to allow booker to register their own groups you can enable this option.
+
+**When enabled**, bookers will be required to enter a unique group code to assign their tickets and extras to a group. The person who registered the group initially (the 'Group Coordinator') will have access to this unique code that they can distrubite to those coming with their group.
+
+**When disabled**, the only way groups can be registered is by an event administrator from the [groups](https://events.solidrock.io/admin/groups) area. Bookers will then be able to search for and select a group by name to assign to their tickets and extras.
+
+### Which set of groups should be used for this event?
+
+A group will always exist as part of a set. Your set of groups might be named 'Businesses', 'Youth Groups', 'Churches', 'Event Name 2024' and so on as a way to differentiate some groups from others and whether a set of groups is to be used across multiple events of should be for a single specific event only. Within this dropdown all previously created sets of groups will be listed as well as an option to 'Generate new set' which if selected will create a group based on the event name.
+
+Any publicly registered groups will be created within the set selected here.
+
+---
+
+### Example Configurations
+
+Hre are some examples of what lead bookers would see based on teh following group configurations.
+
+#### #1. Event has groups, but not required for tickets/extras. No public group registrations.
+
+![Groups optional for tickets and extras. No public group registration](./images/fe-has-groups-optional-tickets-no-pgr.png)
+
+#### #2. Event has groups, group required for tickets/extras. No public group registrations.
+
+![Group required for tickets. No public group registration](./images/fe-has-groups-tickets-no-pgr.png)
+
+#### #3. Event has groups, group required for tickets/extras. Public group registrations enabled.
+
+![Group required for tickets. No public group registration](./images/fe-has-groups-tickets-pgr.png)
+
+Group registration form.
+
+![Public Group registration form](./images/fe-pgr-form.png)
+
 ## Emails
 
 ### Receipt Organiser Text
@@ -204,6 +258,14 @@ Use this field to provide some custom text on the receipt email specifically to 
 ### Receipt Email BACs Payment Text
 
 Use this field to provide some custom text on the receipt email specifically to those who have opted to pay by bank transfer (BACs). You may for example want to outline that the bank transfer description should contain the Solidrock order reference to enable you to easily match up the money in your account with the right order in Solidrock.
+
+### Send Unassigned Ticket Reminder Email?
+
+If enabled Solidrock will automatically send an email reminder notification to any lead booker who has one or more unassigned tickets (the ticket doesn't have all required form data filled in) within their booking(s) one week before the order edit cut-off date.
+
+### Automatically Send Digital Tickets?
+
+If enabled Solidrock will automatically send out the digital tickets to all lead bookers for their completed bookings on the date specified in the `Digital Ticket Delivery Date` field. For any bookings that are completed after this date they will immediately receive their tickets on completion and full payment of the order.
 
 ## Tracking
 
