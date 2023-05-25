@@ -2,12 +2,12 @@
 
 Accounts take the form of different roles/types including (in order of most privileges to least):
 
-- [Organisation Admin](#organisation-admin)
-- [Front of House Admin](#front-of-house-admin)
-- [Group Coordinator](#group-coordinator)
-- [Lead Booker](#lead-bookers)
-- [Team Member](#team-members)
-- [Team Leader](#team-leaders)
+-   [Organisation Admin](#organisation-admin)
+-   [Front of House Admin](#front-of-house-admin)
+-   [Group Coordinator](#group-coordinator)
+-   [Lead Booker](#lead-bookers)
+-   [Team Member](#team-members)
+-   [Team Leader](#team-leaders)
 
 An account can have one or more types associated with it. For example, you could be a Team Leader for Event ‘A’ run by Organisation ‘X’, and a Lead Booker for Event ‘B’ run by Organisation ‘Y’.
 
@@ -17,41 +17,41 @@ Account Types are automatically assigned for Lead Bookers and Team Members throu
 
 An organisation admin has permission to access the backend control panel to create and manage their own events, including access to:
 
-- Event Details (incl. dates, description, location, payment options, invoice/receipt email customisations)
-- Sales Information
-- Orders
-- Ticket & Extras management
-- Discounts
-- Teams:
-    - Team Leaders
-    - Team Members
-    - Access Levels
-    - Approval Criteria
-- Reporting
-- Accounts:
-    - Creating new accounts
-    - See account details for those accounts who have made a booking for one or more of the organiser's events
-- Groups
-- Integrations (e.g. Mailchimp)
-- Front of House pages
+-   Event Details (incl. dates, description, location, payment options, invoice/receipt email customisations)
+-   Sales Information
+-   Orders
+-   Ticket & Extras management
+-   Discounts
+-   Teams:
+    -   Team Leaders
+    -   Team Members
+    -   Access Levels
+    -   Approval Criteria
+-   Reporting
+-   Accounts:
+    -   Creating new accounts
+    -   See account details for those accounts who have made a booking for one or more of the organiser's events
+-   Groups
+-   Integrations (e.g. Mailchimp)
+-   Front of House pages
 
 ### Front of House Admin
 
 Front of House admins have permission to access the Front of House management pages as well as being able to access all other publicly available pages and their own profile. These admins **do not** have access to the backend event managament pages.
 They can access:
 
-- [Arrivals](/guide/front-of-house/arrivals)
-- [Check in & out](/guide/front-of-house/check-in-out)
-- [Ticket lookup/search](/guide/front-of-house/search)
-- The [Box Office](/guide/front-of-house/box-office)
+-   [Arrivals](/guide/front-of-house/arrivals)
+-   [Check in & out](/guide/front-of-house/check-in-out)
+-   [Ticket lookup/search](/guide/front-of-house/search)
+-   The [Box Office](/guide/front-of-house/box-office)
 
 ### Group Coordinator
 
 Group Coordinators are those who lead and manage groups of event delegates. Coordinators are assigned to one or more [groups](/guide/groups.md). It is possible for an event organiser to provide alternative features and limits to Group Coordinators than regular bookers. For example a Group Coordinator may be able to:
 
-- Book more tickets in a single order
-- Complete and pay for their order without filling in all the usual required ticket details
-- Pay for orders using other payment options than by card (e.g. Bank Transfer/BACs)
+-   Book more tickets in a single order
+-   Complete and pay for their order without filling in all the usual required ticket details
+-   Pay for orders using other payment options than by card (e.g. Bank Transfer/BACs)
 
 When logged in to their [profile area](https://events.solidrock.io/admin/profile) a Group Coordinator will be able to see which Groups they have been assigned to, for which events and see who has booked in to those events, associated with their group.
 
@@ -59,9 +59,9 @@ When logged in to their [profile area](https://events.solidrock.io/admin/profile
 
 Anyone who starts a booking for an event is given the 'Lead Booker' account type for that particular event. Lead Bookers can save and return to their bookings at a later date, having only 1 active booking per event at any one time. From their profile area Lead Bookers can:
 
-- View their active orders and continue where they left off
-- Make edits to ticket and extra details on completed orders
-- Download a PDF of their tickets for completed, paid for orders. This PDF includes a QR code per ticket that can be used to [check-in](/guide/check-in.md) to the event on arrival if that is something you need for your event.
+-   View their active orders and continue where they left off
+-   Make edits to ticket and extra details on completed orders
+-   Download a PDF of their tickets for completed, paid for orders. This PDF includes a QR code per ticket that can be used to [check-in](/guide/front-of-house/check-in-out.md) to the event on arrival if that is something you need for your event.
 
 ### Team Members
 

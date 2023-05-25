@@ -1,6 +1,6 @@
 # Front of House - Check In &amp; Out
 
-Unlike [Front of House Arrivals](/guide/front-of-house-arrivals) the quick check in &amp; out functions do not return search results when performing a search either by entering text in the search field or scanning a barcode or QR code.
+Unlike [Front of House Arrivals](/guide/front-of-house/arrivals) the quick check in &amp; out functions do not return search results when performing a search either by entering text in the search field or scanning a barcode or QR code.
 
 These functions also restrict the search terms to only digitial ticket, event pass and wristband codes as well as unique ticket IDs. You cannot search by delegate name or order reference.
 

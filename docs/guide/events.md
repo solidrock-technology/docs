@@ -163,7 +163,7 @@ Use the at a glance calculator to get an understanding for how fees will break d
 
 ### Access Pass Image
 
-The access pass image relates to the [Teams](/guide/teams.md) area of an event within Solidrock. If you need to print out lanyards or passes for team members to wear at an event you can do so through Solidrock. This pass image becomes the background image/graphic for that printed pass that then has dynamic information –such as team member name, team name, access privileges etc– overlaid on top.
+The access pass image relates to the [Teams](/guide/teams/) area of an event within Solidrock. If you need to print out lanyards or passes for team members to wear at an event you can do so through Solidrock. This pass image becomes the background image/graphic for that printed pass that then has dynamic information –such as team member name, team name, access privileges etc– overlaid on top.
 
 The image you upload should be high resolution (at least 2000px wide), but no more than 4MB (megabytes) in size. Images can be PNG, JPG or GIF.
 
@@ -189,9 +189,11 @@ If your event doesn't require team members, or teams aren't required across mult
 
 ## Groups
 
-Groups in Solidrock represent a collection of people or items (tickets and extras) that are associated together. A group could be people from the same church, business, charity or club. Multiple bookings can be made by multiple different lead bookers but have the option to associate all the tickets and extras with the same group. A group coordinator (someone who manages or leads the group) would then be able to see all those who have been associated to their group.
+Groups in Solidrock represent a collection of people or items (tickets and extras) that are associated together. A group could be people from the same church, business, charity or club etc. Multiple bookings can be made by multiple different lead bookers but have the option to associate all the tickets and extras with the same group. A group coordinator (someone who manages or leads the group) would then be able to see all those who have been associated to their group.
 
-![Event Group Settings](./images/group-config.png)
+Here's a demo outlining the configuration settings and booking process.
+
+<iframe style="width: 100%;" height="365" src="https://www.youtube.com/embed/AV1dtwo_OVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Does this event have groups?
 
@@ -227,19 +229,19 @@ Hre are some examples of what lead bookers would see based on teh following grou
 
 #### #1. Event has groups, but not required for tickets/extras. No public group registrations.
 
-![Groups optional for tickets and extras. No public group registration](./images/fe-has-groups-optional-tickets-no-pgr.png)
+![Groups optional for tickets and extras. No public group registration](./images/fe-has-groups-optional-tickets-no-pgr.png){data-zoomable}
 
 #### #2. Event has groups, group required for tickets/extras. No public group registrations.
 
-![Group required for tickets. No public group registration](./images/fe-has-groups-tickets-no-pgr.png)
+![Group required for tickets. No public group registration](./images/fe-has-groups-tickets-no-pgr.png){data-zoomable}
 
 #### #3. Event has groups, group required for tickets/extras. Public group registrations enabled.
 
-![Group required for tickets. No public group registration](./images/fe-has-groups-tickets-pgr.png)
+![Group required for tickets. No public group registration](./images/fe-has-groups-tickets-pgr.png){data-zoomable}
 
 Group registration form.
 
-![Public Group registration form](./images/fe-pgr-form.png)
+![Public Group registration form](./images/fe-pgr-form.png){data-zoomable}
 
 ## Emails
 

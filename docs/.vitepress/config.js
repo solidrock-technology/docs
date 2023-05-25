@@ -75,7 +75,6 @@ export default defineConfig({
 
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-            { text: "Home", link: "/" },
             { text: "Guide", link: "/guide/" },
             { text: "FAQs", link: "/faqs/" },
             { text: "Releases", link: "/releases/" },
@@ -229,6 +228,10 @@ export default defineConfig({
                     link: "/guide/discounts",
                 },
                 {
+                    text: "Groups",
+                    link: "/guide/groups",
+                },
+                {
                     text: "Integrations",
                     link: "/guide/integrations",
                 },
@@ -243,6 +246,12 @@ export default defineConfig({
                 {
                     text: "Releases",
                     link: "/releases/",
+                    items: [
+                        {
+                            text: "Roadmap",
+                            link: "/releases/roadmap",
+                        },
+                    ],
                 },
             ],
         },
