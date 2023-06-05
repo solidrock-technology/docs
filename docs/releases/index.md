@@ -1,6 +1,5 @@
 # Updates
 
-<!---
 ## May 2023
 
 As Spring rolls into Summer we've got a host of updates rolling out including a major refactor of how groups are managed, improvements to Payment Plans and instalments and some refinements to the booking process UI.
@@ -26,7 +25,6 @@ If an instalment payment fails when paid by card or set for automatic collection
 The main booking process a Lead Booker would navigate through has been updated to bring refinements to colours, text sizes and iconography as well as to provide easier access to their account profile, bookings and groups.
 
 The event landing page now includes a table listing the available tickets and prices, meaning people can access and digest this important information without having to register a Solidrock account first.
---->
 
 ## February 2023
 
