@@ -1,5 +1,32 @@
 # Updates
 
+## October 2023
+
+With Autumn now here and bookings for next year's events starting, we've got some exciting updates with Custom Forms, Groups, and more.
+Of course, we've also been continuing to squash pesky bugs :bug: and improve overall system performance :racing_car:.
+
+### Custom Forms
+
+We've given Custom Form a number of functional updates to make your custom forms more powerful and flexible, such as:
+
+- **Previews**: Form previews have been given a long needed update! Now you can see exactly what your Lead Bookers see within the preview for both Delegate and Team Member type tickets.
+- **Custom Labels and Instructions**: This allows you to use the same underlying custom fields but tweak the name (label) and field instructions within each form, to better fit the use case of that form.
+- **Hidden Fields**: You can now hide certain fields from Lead Bookers but still have them accessible within the event's Admin Console. This is great for fields that are time-sensitive and not applicable year-round, or for 'Office Use Only' fields.
+
+### Groups
+
+Continuing on from our May updates around groups, we've added some extra functionality to make it easier to manage Groups within your event.
+These include:
+
+- **Over 18s Check**: A new event settings will allow you to display an over-18s check on the Public Group Registration form
+- **Importing Group Coordinators**: From the Group Coordinators list, you can now import Group Coordinators from any other event using the same Group Set
+- **Removing Group Coordinators**: You can now easily remove a Group Coordinator from the Group Coordinators page
+
+### Notifications
+
+We've added a new opt-in notification to alert you whenever a new group has been publicly registered.
+There is also an updated UI for the notifications area, to make it easier to manage which notifications you've opted into for each of your events.
+
 ## May 2023
 
 As Spring rolls into Summer we've got a host of updates rolling out including a major refactor of how groups are managed, improvements to Payment Plans and instalments and some refinements to the booking process UI.
@@ -28,7 +55,7 @@ The event landing page now includes a table listing the available tickets and pr
 
 ## February 2023
 
-This updates brings a ton of little refinements across the platform to Payment Instalments, form validation errors & UI, Groups and automated Event Emails.
+This update brings a ton of little refinements across the platform to Payment Instalments, form validation errors & UI, Groups and automated Event Emails.
 
 Oh, and did we mention we squashed over 40 bugs too!?
 
