@@ -12,7 +12,7 @@ The code a booker would enter on the booking summary page to apply this discount
 
 ### Discount Type
 
-Whether or not this discount applies a % off or a fixed (£) value.
+Whether this discount applies a % off or a fixed (£) value, or not.
 
 ### Discount Value
 
@@ -65,7 +65,7 @@ If either **ticket** or **extra** are chosen there will be further options shown
 
 ### Can be used on bookings site?
 
-Turn this option on the enable the discount for use from the event frontend (in conjunction with the valid to and from dates).
+Turn this option on to enable the discount for use from the event frontend (in conjunction with the valid to and from dates).
 
 ## Country Restrictions
 

@@ -18,14 +18,14 @@ You can optionally assign an order level discount to a Box Office order by enter
 
 ## Fees
 
-Where an event is setup to charge the customer the Solidrock fees on top of the ticket and extra costs you will be presented the fee amount so you can confirm that ahead of completing the order.
+Where an event is set up to charge the customer the Solidrock fees on top of the ticket and extra costs you will be presented the fee amount, so you can confirm that ahead of completing the order.
 
 ## Order Completion
 
 To complete a Box Office order click the green 'Total' button which will also indicate the order total and follow the on-screen instructions.
 
 :::warning Payment
-At this time Solidrock is unable to handle the payment of Box Office orders. Instead you should have payment mechanisms setup in parallel - such as a card reader terminal or option to pay by cash.
+At this time Solidrock is unable to handle the payment of Box Office orders. Instead, you should have payment mechanisms setup in parallel - such as a card reader terminal or option to pay by cash.
 
 Once you have collected payment you can indicate as such within the Solidrock Box Office.
 :::
@@ -38,6 +38,6 @@ Selecting to complete as a guest associated the final order with the 'Box Office
 
 ### Lead Booker
 
-To complete the order as a real Lead Booker you must provide the first name, last name and email address of the person. The Box Office will then search for any existing Solidrock accounts with those details and if a match is found associate this order to their account so they can view it from their ['My Bookings'](https://events.solidrock.io/admin/profile/my-bookings) profile area in the future. If no match is found a new Solidrock account will be registered for them and the order associated. In both cases, the Box Office is then able to email a receipt to the Lead Booker for their records.
+To complete the order as a real Lead Booker you must provide the first name, last name and email address of the person. The Box Office will then search for any existing Solidrock accounts with those details and if a match is found associate this order to their account, so they can view it from their ['My Bookings'](https://events.solidrock.io/admin/profile/my-bookings) profile area in the future. If no match is found a new Solidrock account will be registered for them and the order associated. In both cases, the Box Office is then able to email a receipt to the Lead Booker for their records.
 
 Once complete, the Box Office terminal will reset ready for the next order to be placed.

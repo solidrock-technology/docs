@@ -37,7 +37,7 @@ An organisation admin has permission to access the backend control panel to crea
 
 ### Front of House Admin
 
-Front of House admins have permission to access the Front of House management pages as well as being able to access all other publicly available pages and their own profile. These admins **do not** have access to the backend event managament pages.
+Front of House admins have permission to access the Front of House management pages as well as being able to access all other publicly available pages and their own profile. These admins **do not** have access to the backend event management pages.
 They can access:
 
 -   [Arrivals](/guide/front-of-house/arrivals)
@@ -61,12 +61,12 @@ Anyone who starts a booking for an event is given the 'Lead Booker' account type
 
 -   View their active orders and continue where they left off
 -   Make edits to ticket and extra details on completed orders
--   Download a PDF of their tickets for completed, paid for orders. This PDF includes a QR code per ticket that can be used to [check-in](/guide/front-of-house/check-in-out.md) to the event on arrival if that is something you need for your event.
+-   Download a PDF of their tickets for completed, paid for orders. This PDF includes a QR code per ticket that can be used to [check in](/guide/front-of-house/check-in-out.md) to the event on arrival if that is something you need for your event.
 
 ### Team Members
 
-Team Member account types are set once a person has booked a Team Member ticket and that person has then been [accepted onto a team](/guide/teams/approval.md). Team Members are automatically emailed once they have been accepted onto a team. They can also login to their Solidrock profile area to see the approval status of their team member applications.
+Team Member account types are set once a person has booked a Team Member ticket and that person has then been [accepted onto a team](/guide/teams/approval.md). Team Members are automatically emailed once they have been accepted onto a team. They can also log in to their Solidrock profile area to see the approval status of their team member applications.
 
 ### Team Leaders
 
-Solidrock teams can optionally have one or more team leaders. Team Leader account types are set within the backend control panel on a user's account by an Organisation Admininstrator. When an account has the Team Leader role they can access their profile to see all the team members that have been accepted to their team(s).
+Solidrock teams can optionally have one or more team leaders. Team Leader account types are set within the backend control panel on a user's account by an Organisation Administrator. When an account has the Team Leader role they can access their profile to see all the team members that have been accepted to their team(s).

@@ -4,11 +4,11 @@
 
 ### Event Name
 
-The event name is shown in multiple places across the Solidrock Booking System but primarily within the frontend booking experience for delegeates. They will see this within the event summary cards if your event is set to `public`, on the event landing page and within email communications (such as invoices and receipts) regarding your event.
+The event name is shown in multiple places across the Solidrock Booking System but primarily within the frontend booking experience for delegates. They will see this within the event summary cards if your event is set to `public`, on the event landing page and within email communications (such as invoices and receipts) regarding your event.
 
 ### Slug
 
-The event slug is what appears in the unique Solidrock URL for your event. Typically the event slug would be similar to the event name, but must follow URL encoding principles such that it would predomintantely contain alphanumeric characters and hyphens. By way of example if the event slug was set to `our-amazing-event` and our [organisation slug](/guide/organisations.md#slug) was set to `mega-events`, the frontend landing page for this event would be reachable at `https://events.solidrock.io/mega-event/our-amazing-event`.
+The event slug is what appears in the unique Solidrock URL for your event. Typically, the event slug would be similar to the event name, but must follow URL encoding principles such that it would predominantly contain alphanumeric characters and hyphens. By way of example if the event slug was set to `our-amazing-event` and our [organisation slug](/guide/organisations.md#slug) was set to `mega-events`, the frontend landing page for this event would be reachable at `https://events.solidrock.io/mega-event/our-amazing-event`.
 
 ::: warning
 Once a slug has been set for an event it **cannot** be changed in the future.
@@ -27,12 +27,12 @@ You can add simple text formatting to the description text, such as **bold** _it
 The event image is shown within event summary cards and on the frontend landing page for the event. The image you upload should be high resolution (at least 2000px wide), but no more than 4MB (megabytes) in size. Images can be PNG, JPG or GIF.
 
 ::: tip
-To avoid any automated cropping taking place on the image it should be uploaded at 16:9 aspect ratio. This is especially important if your image has text or other critical details embeded in it.
+To avoid any automated cropping taking place on the image it should be uploaded at 16:9 aspect ratio. This is especially important if your image has text or other critical details embedded in it.
 :::
 
 ### Start Date
 
-This is the start date and time of the event itself. Typically the date that delegates can start to arrive for your event.
+This is the start date and time of the event itself. Typically, the date that delegates can start to arrive for your event.
 
 ### End Date
 
@@ -55,7 +55,7 @@ The event status offers a few options:
 1. **Offline:** The event is _not_ accessible by anyone from the frontend. Anyone trying to access the booking process for this event will be instructed that bookings are closed.
 2. **Public:** The event _is_ accessible by any member of the public from the frontend. The event will also appear on the main [event listing page](https://events.solidrock.io/events).
 3. **Private:** The event _is_ accessible by any member of the public so long as they have the specific website URL for the event. The event will not be listed on the main event listing page.
-4. **Cancelled:** The event has been cancelled and is no longer accessible for people to book in. Any person trying to access the event frontend will be instructed that the event has been cancelled and they should contact the event organiser for more information.
+4. **Cancelled:** The event has been cancelled and is no longer accessible for people to book in. Any person trying to access the event frontend will be instructed that the event has been cancelled, and they should contact the event organiser for more information.
 
 ## Contact Information
 
@@ -75,7 +75,7 @@ This is the address for the event location. If your event is not in-person (i.e.
 
 ### Hide Event Map
 
-If an event address has been set a map will be shown on the event landing page to provide a clearer indication of the event location for those wishing to book in. If you'd prefer this map wasn't show you can toggle this setting on.
+If an event address has been set a map will be shown on the event landing page to provide a clearer indication of the event location for those wishing to book in. If you'd prefer this map was not shown, you can toggle this setting on.
 
 ## Booking Information
 
@@ -101,7 +101,7 @@ This date and time signals when bookings can no longer be edited for this event.
 
 ### Terms & Conditions
 
-If your event has Terms & Conditions that everyone making a booking must agree to please select them from this dropdown. [Terms & Conditions](https://events.solidrock.io/admin/terms-conditions) can be shared across multiple events so they are created/uploaded [here](https://events.solidrock.io/admin/terms-conditions) ahead of selecting them for the event.
+If your event has Terms & Conditions that everyone making a booking must agree to please select them from this dropdown. [Terms & Conditions](https://events.solidrock.io/admin/terms-conditions) can be shared across multiple events, so they are created/uploaded [here](https://events.solidrock.io/admin/terms-conditions) ahead of selecting them for the event.
 
 ### Unassigned Tickets Allowed?
 
@@ -119,9 +119,9 @@ You can change this event setting at any point.
 
 ### Who can edit tickets after they're paid for?
 
-By default, nobody is allowed to edit the details associated to tickets and extra once they have been purchase, for example the name of the delegate.
+By default, nobody is allowed to edit the details associated to tickets and extras once they have been purchased. For example, editing the name of the delegate.
 
-You may change this option, to allow either Group Coordinators, everyone or nobody to to edit ticket details on completed, paid for orders.
+You may change this option, to allow either Group Coordinators, everyone, or nobody, to edit ticket details on completed, paid for orders.
 
 ::: warning
 This setting works in conjunction with the **Booking Editing Cutoff Date**, after which nobody will be able to edit any details.
@@ -155,7 +155,7 @@ This text will appear alongside the fee amount in the refund receipt email as a 
 
 ### Solidrock Charges & Fees
 
-Use the at a glance calculator to get an understanding for how fees will break down and what you, the event organiser, would receive once the Soldrock and any card processing/transaction fees have been charged. You can set an event to handle the fees in one of two ways:
+Use the at a glance calculator to get an understanding for how fees will break down and what you, the event organiser, would receive once the Solidrock and any card processing/transaction fees have been charged. You can set an event to handle the fees in one of two ways:
 
 1. **Fees included within ticket & extra prices:** This is the default setting for fees. Under this option the Solidrock and card processing fees will be taken _out of_ the total cost of the order. For example a £100 order might have a 2% (£2) Solidrock fee deducted as well as a Stripe transaction fee (approximately 1.4%-2.9% if order paid by card). The customer would pay £100 and the event would receive in the region of £95.
 
@@ -163,12 +163,12 @@ Use the at a glance calculator to get an understanding for how fees will break d
 
 ### Access Pass Image
 
-The access pass image relates to the [Teams](/guide/teams/) area of an event within Solidrock. If you need to print out lanyards or passes for team members to wear at an event you can do so through Solidrock. This pass image becomes the background image/graphic for that printed pass that then has dynamic information –such as team member name, team name, access privileges etc– overlaid on top.
+The access pass image relates to the [Teams](/guide/teams/) area of an event within Solidrock. If you need to print out lanyards or passes for team members to wear at an event you can do so through Solidrock. This pass image becomes the background image/graphic for that printed pass that then has dynamic information (such as team member name, team name, access privileges etc.) overlaid on top.
 
 The image you upload should be high resolution (at least 2000px wide), but no more than 4MB (megabytes) in size. Images can be PNG, JPG or GIF.
 
 ::: tip
-Passes are printed at a portrait aspect ratio approximately 10:16. Images should therefore sollow this same sizing ratio to prevent unexpected cropping results.
+Passes are printed at a portrait aspect ratio approximately 10:16. Images should therefore follow this same sizing ratio to prevent unexpected cropping results.
 :::
 
 ### Team Opportunities Description
@@ -181,7 +181,7 @@ If your event doesn't require team members to be booked in through Solidrock you
 
 ### Team Times Description
 
-As with the 'Team Opportunities Description', this is shown on the frontend event booking pages for Team Member ticket types where a person is being asked to select which team(s) they would like to join. This field is optional and could be used to explain a little more about how teams work across different time periods within your event. For example you may have some teams needed for the event setup, some for while the event runs and some for post-event setdown.
+As with the 'Team Opportunities Description', this is shown on the frontend event booking pages for Team Member ticket types where a person is being asked to select which team(s) they would like to join. This field is optional and could be used to explain a little more about how teams work across different time periods within your event. For example, you may have some teams needed for the event setup, some for while the event runs and some for post-event set-down.
 
 ::: tip
 If your event doesn't require team members, or teams aren't required across multiple time periods, you can leave this empty.
@@ -189,7 +189,7 @@ If your event doesn't require team members, or teams aren't required across mult
 
 ## Groups
 
-Groups in Solidrock represent a collection of people or items (tickets and extras) that are associated together. A group could be people from the same church, business, charity or club etc. Multiple bookings can be made by multiple different lead bookers but have the option to associate all the tickets and extras with the same group. A group coordinator (someone who manages or leads the group) would then be able to see all those who have been associated to their group.
+Groups in Solidrock represent a collection of people or items (tickets and extras) that are associated. A group could be people from the same church, business, charity or club etc. Multiple bookings can be made by multiple different lead bookers but have the option to associate all the tickets and extras with the same group. A group coordinator (someone who manages or leads the group) would then be able to see all those who have been associated to their group.
 
 Here's a demo outlining the configuration settings and booking process.
 
@@ -201,23 +201,23 @@ If your event has groups as described above, toggle this option on the further r
 
 ### Must tickets have a group assigned?
 
-If all tickets for your event must be assigned to a group, turn this option on. Bookers will be required to assign a group to their tickets before being able to checkout and complete their booking.
+If all tickets for your event must be assigned to a group, turn this option on. Bookers will be required to assign a group to their tickets before being able to check out and complete their booking.
 
 ### Must extras have a group assigned?
 
-If all extras for your event must be assigned to a group, turn this option on. Bookers will be required to assign a group to their extras before being able to checkout and complete their booking.
+If all extras for your event must be assigned to a group, turn this option on. Bookers will be required to assign a group to their extras before being able to check out and complete their booking.
 
 ### Are public group registrations allowed?
 
 If you want to allow booker to register their own groups you can enable this option.
 
-**When enabled**, bookers will be required to enter a unique group code to assign their tickets and extras to a group. The person who registered the group initially (the 'Group Coordinator') will have access to this unique code that they can distrubite to those coming with their group.
+**When enabled**, bookers will be required to enter a unique group code to assign their tickets and extras to a group. The person who registered the group initially (the 'Group Coordinator') will have access to this unique code that they can distribute to those coming with their group.
 
-**When disabled**, the only way groups can be registered is by an event administrator from the [groups](https://events.solidrock.io/admin/groups) area. Bookers will then be able to search for and select a group by name to assign to their tickets and extras.
+**When disabled**, the only way groups can be registered is by an event administrator from the [Groups](https://events.solidrock.io/admin/groups) area. Bookers will then be able to search for and select a group by name to assign to their tickets and extras.
 
 ### Which set of groups should be used for this event?
 
-A group will always exist as part of a set. Your set of groups might be named 'Businesses', 'Youth Groups', 'Churches', 'Event Name 2024' and so on as a way to differentiate some groups from others and whether a set of groups is to be used across multiple events of should be for a single specific event only. Within this dropdown all previously created sets of groups will be listed as well as an option to 'Generate new set' which if selected will create a group based on the event name.
+A group will always exist as part of a set. Your set of groups might be named 'Businesses', 'Youth Groups', 'Churches', 'Event Name 2024' and so on as a way to differentiate some groups from others and whether a set of groups is to be used across multiple events of should be for a single specific event only. Within this dropdown all previously created sets of groups will be listed as well as an option to 'Generate new set' which, if selected, will create a group based on the event name.
 
 Any publicly registered groups will be created within the set selected here.
 
@@ -250,7 +250,7 @@ Group registration form.
 Alongside all the standard order receipt information (such as a summary of the order tickets and extras purchased and total amounts paid or due) you can use this field to provide some custom information from you the event organiser.
 
 ::: tip
-This could be a thank you message or links to your social media and website for more information.
+This could be a thank-you message or links to your social media and website for more information.
 :::
 
 ### Receipt Email Card Payment Text
@@ -273,4 +273,4 @@ If enabled Solidrock will automatically send out the digital tickets to all lead
 
 ### Facebook Pixel
 
-If you wish Solidrock to pass relevant data back to Facebook for your marketing and campaign purposes you can add a Facebook Pixel ID here. Find out where and hoe to create a [Facebook Pixel here](https://www.facebook.com/business/help/952192354843755?id=1205376682832142).
+If you wish Solidrock to pass relevant data back to Facebook for your marketing and campaign purposes you can add a Facebook Pixel ID here. Find out where and how to create a [Facebook Pixel here](https://www.facebook.com/business/help/952192354843755?id=1205376682832142).

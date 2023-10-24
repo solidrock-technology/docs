@@ -1,21 +1,3 @@
-<style>
-    .in-progress {
-        color:rgb(124 45 18);
-        background-color:rgb(254 215 170);
-        border-radius:9999px;
-        padding:0.125rem 0.50rem;
-        white-space: nowrap;
-    }
-
-    .paid {
-        color:rgb(20 83 45);
-        background-color:rgb(187 247 208);
-        border-radius:9999px;
-        padding:0.125rem 0.50rem;
-        white-space: nowrap;
-    }
-</style>
-
 # Payment Plans
 
 Payment Plans within Solidrock allow lead bookers a method to pay for their orders over multiple instalments, rather than as one full payment.

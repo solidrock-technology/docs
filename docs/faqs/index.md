@@ -10,11 +10,11 @@ You can still access all the event details and associated ticket and extra data 
 
 ### How do public group registrations work?
 
-Group registrations largely work in one of two ways. Either by being created by organisation admins which provides a greater opportunity to verify and moderate the groups being registered, but can be time consuming. Or by allowing groups to be registered publicly by any Solidrock account holder for a given event, which makes registration quick but removes some of the opportunity for organisation admins to verify the groups that are being registered in the system for their events.
+Group registrations largely work in one of two ways. Either by being created by organisation admins which provides a greater opportunity to verify and moderate the groups being registered, but can be time-consuming. Or by allowing groups to be registered publicly by any Solidrock account holder for a given event, which makes registration quick but removes some opportunity for organisation admins to verify the groups that are being registered in the system for their events.
 
 #### 1. Registered by Organisation Admins
 
-This is the default bahaviour for groups in Solidrock and means that only organisation admins can create groups and group coordinators for those groups. This option allows organisations to have full control of the groups associated to their events. 
+This is the default behaviour for groups in Solidrock and means that only organisation admins can create groups and group coordinators for those groups. This option allows organisations to have full control of the groups associated to their events. 
 
 Due to the nature of having this level of moderation, any 'Group Select' fields then used within custom forms created to capture delegate details for tickets and extras can use a dropdown and search-to-find by name feature for those making bookings to locate the appropriate group to assign their tickets too.
 
@@ -27,7 +27,7 @@ There are 2 ways to enable this functionality:
 2. Enable it at the custom field level. Doing it this way means you don't need to have public group registrations enabled for every event that uses a particular group set, but can be more granular in deciding which events should allow this option and which should not. When creating or editing a 'Group Select' field from the 'Admin Console' > 'Form Builder' > 'Fields' area you will have the option to enable this feature. Fields setup in this way will provide an instruction to LEad Bookers that they must enter the unique group code, or if they themselves are the group coordinator that they can register a group and be sent the unique code to use.
 
 ::: warning Change in field behaviour
-When the setting is enabled globally for a Group Set, or individually for a given Group Select field the behaviour of assigning tickets to groups changes for Lead Bookers. Instead of having the option to search by name or view within a dropdown, they must now use the unique group code when filling out delegate details.
+When the setting is enabled, the behaviour of assigning tickets to group items changes for Lead Bookers. Instead of having the option to search by name or view within a dropdown, they must now use the unique group code when filling out delegate details.
 :::
 
 ## Orders
@@ -50,7 +50,7 @@ Solidrock instructs the Lead Booker paying by BACs to use the order reference as
 
 Using the 3 dots action menu choose to 'Edit' the order. You can also access the edit page from the order 'Show' page by clicking on the 'Order Options' button and choosing 'Edit Order' from the menu.
 
-On the order edit page update the 'Amount Paid' field to match the amount you received by bank transfer (we'll show you the total value of the order so you can easily see if the transfered amount is equal to the full value of the order). If the order has been fully paid set the 'Payment Status' dropdown to 'Paid' (if not you may want to leave the status as pending). Click the 'Update Order' to save the changes.
+On the order edit page update the 'Amount Paid' field to match the amount you received by bank transfer (we'll show you the total value of the order, so you can easily see if the transferred amount is equal to the full value of the order). If the order has been fully paid set the 'Payment Status' dropdown to 'Paid' (if not you may want to leave the status as pending). Click the 'Update Order' to save the changes.
 
 ## Accounts
 
@@ -60,7 +60,7 @@ There are 2 primary ways Group Coordinators can be registered within Solidrock. 
 
 #### 1. Registered by Organisation Admin
 
-Before creating a Group Coordinator in this way you will need to have first setup the group they will be assigned to from the 'Admin Console' > ['Groups'](https://events.solidrock.io/admin/groups) area.
+Before creating a Group Coordinator in this way you will need to have first set up the group they will be assigned to from the 'Admin Console' > ['Groups'](https://events.solidrock.io/admin/groups) area.
 
 Having done that organisation admins can then register group coordinators from the 'Admin Console' > ['Accounts'](https://events.solidrock.io/admin/accounts) area. If you know the person you're setting up as a Group Coordinator already has a Solidrock account you can first search for them in the account list then using the actions menu choose to 'Edit' the account. At the bottom of the edit page you have the option to 'Add new account type' which when clicked will display a pop-up window. From here set:
 
@@ -76,15 +76,15 @@ If the person **does not** already have a Solidrock account you will need to reg
 
 #### 2. Self-registered Group Coordinators
 
-If an event is setup to allow 'Public Group Registrations' any member of the public who has created a Solidrock account will be able to register their group for that given event by specifying the group's name and location. The person registering the group will automatically become the Group Coordinator.
+If an event is set up to allow 'Public Group Registrations' any member of the public who has created a Solidrock account will be able to register their group for that given event by specifying the group's name and location. The person registering the group will automatically become the Group Coordinator.
 
 ## Arrivals & Check-in
 
 ### How do I check people in to my event?
 
-Using Solidrock's Front of House suite of functions you can manage checking people in as they arrive at your event, as well as being able to manage the check-in and out on a per venue basis throughout the course of your event.
+Using Solidrock's Front of House suite of functions you can manage checking people in as they arrive at your event, as well as being able to manage the check-in and out on a per-venue basis throughout the course of your event.
 
-For arrival to the event you can use the ['Arrivals'](/guide/front-of-house/arrivals) feature to search by:
+For arrivals at the event, you can use the ['Arrivals'](/guide/front-of-house/arrivals) feature to search by:
 
 - Delegate name
 - Order Reference

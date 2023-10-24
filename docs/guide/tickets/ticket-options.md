@@ -3,7 +3,7 @@
 Within any event you can create as many tickets as you need. To aid the creation of tickets which may share many similar settings you can duplicate a ticket using the **&vellip;** icon and choosing the **Duplicate** option.
 
 ::: tip
-If your event has price breaks for its tickets, duplicating a ticket and then modifying it's price and available to and from dates is often the quickest way to set these up.
+If your event has price breaks for its tickets, duplicating a ticket and then modifying its price and available to and from dates is often the quickest way to set these up.
 :::
 
 Outlined below are all the available options and settings for event tickets.
@@ -76,7 +76,7 @@ If you have ticket price breaks, you can use these dates to swap between the dif
 
 ### Status
 
-Whether or not to make the ticket available to bookers on the frontend.
+Whether to make the ticket available to bookers on the frontend, or not.
 
 ::: tip
 You can set a ticket to **Disabled** and still provide a link directly to it on the frontend for specific people to book.
@@ -100,7 +100,7 @@ In most cases the 'Delegate' option is the likely choice but if you have teams t
 
 ### Hide team selection fields
 
-By default if the Ticket Type has been set to 'Team Member' then the booker filling in their ticket details will need to select one or more teams to apply to join. If you'd prefer that they don't see these options you can toggle this field on.
+By default, if the Ticket Type has been set to 'Team Member' then the booker filling in their ticket details will need to select one or more teams to apply to join. If you'd prefer that they don't see these options you can toggle this field on.
 
 ::: tip
 This field will only be shown if **Ticket Type** has been set to 'Team Member'
@@ -116,7 +116,7 @@ You may for example create ticket sets for various age ranges such as 0-2 (Infan
 
 ### Does this ticket have any age restrictions?
 
-If a ticket has age registrictions you can toggle this option on. Enabling this feature automatically adds a **Date of Birth** field to the ticket to capture and then calculate the age of the person.
+If a ticket has age restrictions you can toggle this option on. Enabling this feature automatically adds a **Date of Birth** field to the ticket to capture and then calculate the age of the person.
 
 ### Minimum Age
 
@@ -131,7 +131,7 @@ The maximum age a person must be for a ticket. Their age will be compared agains
 The date to compare the person's age against to determine if they fall within the minimum and maximum age range.
 
 ::: tip
-Often you'll want to set this date to the start date of your event so you're checking the age they'll be once they arrive for the event instead of how old they are on the date they complete their booking.
+Often you'll want to set this date to the start date of your event, so you're checking the age they'll be once they arrive for the event, instead of how old they are on the date they complete their booking.
 :::
 
 ### Terms & Conditions

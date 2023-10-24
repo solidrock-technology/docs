@@ -4,7 +4,7 @@ Solidrock's Front of House features cover all the bases from event arrivals, ven
 
 The Front of House pages are accessible to 'Organisation Administrators' and 'Front of House Administrators'. 'Front of House Administrators' can only access these pages alongside all other publicly accessible pages on Solidrock, they have no access to the event management backend.
 
-The Front of House pages can be accessed [here](https://events.solidrock.io/foh) or from the left hand sidebar within the event management backend.
+The Front of House pages can be accessed [here](https://events.solidrock.io/foh) or from the left-hand sidebar within the event management backend.
 
 Use the links below to explore the full feature set across all the Front of House options.
 

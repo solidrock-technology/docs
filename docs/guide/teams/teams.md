@@ -8,11 +8,12 @@ You will need to create at least 1 [serving time](#serving-times) before you can
 
 ## Serving Times
 
-Serving Times are are a way to organise and categorise your teams by time periods. You can create as many as required but must have at least 1 before being able to create teams themselves. They can be called whatever you'd like but some common examples include:
+Serving Times are a way to organise and categorise your teams by time periods. You can create as many as required but must have at least 1 before being able to create teams themselves. 
+They can be called whatever you'd like but some common examples include:
 
 - Setup
 – At event / During event
-- Setdown / Takedown
+- Set-down / Take-down
 
 Each serving time must have a name and set of dates to indicate what time period they cover. They can also optionally include a description to provide more context. This is especially useful to provide clarity to those wanting to be team members as all of this detail is shown to those booking in as they decide when they want to be on team.
 
@@ -52,7 +53,7 @@ The total number of part-time team members required for a team. Once this many p
 
 You can distribute a team code for people to enter instead of them selecting from a dropdown list.
 
-In some cases you may want to hide certain teams from the general public as they book in as team members but still need to provide a mechanism for _some_ to choose the team.
+In some cases you may want to hide certain teams from the public as they book in as team members but still need to provide a mechanism for _some_ to choose the team.
 
 ::: warning
 If this team is set to **unlisted** then using the code is the only way they'll be able to apply to join this team from the event frontend.

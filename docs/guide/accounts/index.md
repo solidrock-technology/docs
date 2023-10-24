@@ -6,4 +6,4 @@ Use the links below to read more about different areas of accounts.
 
 1. [Registration](/guide/accounts/registration.md)
 2. [Account Types](/guide/accounts/account-types.md)
-3. [Two Factor Authentication](/guide/accounts/two-factor-authentication.md)
+3. [Two-Factor Authentication](/guide/accounts/two-factor-authentication.md)

@@ -1,6 +1,6 @@
 # Front of House - Arrivals
 
-You've done the hard work of marketing your event, selling the tickets and now people are starting to arrive on site.
+You've done the hard work of marketing your event, selling the tickets, and now people are starting to arrive on-site.
 
 Front of House Arrivals is your one-stop shop for checking people in to the event which is monitored throughout the course of the event providing you powerful data such as:
 
@@ -34,7 +34,7 @@ From here you can check and change the entrance you are checking people through 
 
 The dashboard displays the number of tickets checked in to the selected venue as a proportion of the total number of tickets sold for the event.
 
-In addition, if your event is setup with [Ticket Sets](/guide/tickets/ticket-sets) the dashboard lists the breakdown of how many tickets from within each set have also been checked in to the selected venue.
+In addition, if your event is set up with [Ticket Sets](/guide/tickets/ticket-sets) the dashboard lists the breakdown of how many tickets from within each set have also been checked in to the selected venue.
 
 The figures are automatically kept in sync when multiple people and devices are being used to check people in to the same venue so everyone can see the up-to-date totals.
 
@@ -44,12 +44,12 @@ In addition to scanning a digital ticket or event pass you can also search for t
 
 Each result will indicate where known:
 
--   the delegate name
--   the unique ticket ID
--   the ticket name (e.g. Team Member, Early Bird, V.I.P, Exhibitor etc)
--   the group they're with
--   whether or not they are checked in already to this venue, indicated by the date and time they were checked in
--   whether or not they have been assigned an event pass or wristband, indicated by listing the unique ID of the pass.
+-   The delegate name
+-   The unique ticket ID
+-   The ticket name (e.g. Team Member, Early Bird, V.I.P, Exhibitor etc)
+-   The group they're with
+-   Whether they are checked in already to this venue, indicated by the date and time they were checked in, or not.
+-   Whether they have been assigned an event pass or wristband, indicated by listing the unique ID of the pass, or not.
 
 In addition to this at a glance information you can check a person in and out of the selected venue using the checkmark icon as well as associate an event pass or wristband to the person using the wristband icon.
 
@@ -58,7 +58,7 @@ Clicking on a ticket result returned from the search will open a window providin
 -   The date and time the ticket was booked and who by (the Lead Booker)
 -   any teams they have applied to be on, and the approval status
 -   The check-in information for this delegate and this venue - a record of all the times they checked in and out.
--   The Event Pass/Wristband details including the currently active ID and any previous IDs they may have been issued that have had to be replaced for one reason or other (e.g. damaged, lost, stolen) alsongside the date and time each pass or wristband was issued.
+-   The Event Pass/Wristband details including the currently active ID and any previous IDs they may have been issued that have had to be replaced for one reason or other (e.g. damaged, lost, stolen) alongside the date and time each pass or wristband was issued.
 
 ## Scanning
 

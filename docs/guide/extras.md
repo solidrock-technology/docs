@@ -24,15 +24,15 @@ The total number of this extra available. Once the number available have been ad
 
 ### Max per Lead Booker
 
-The maximum number of a extra that can be purchased per lead booker across all of their bookings
+The maximum number of an extra that can be purchased per lead booker across all of their bookings
 
 ### Max per Lead Booker _(Group Coordinators)_
 
-For those logged in as Group Coordinators you can provide a different maximum purchase limit of a extra per booking.
+For those logged in as Group Coordinators you can provide a different maximum purchase limit of an extra per booking.
 
 ### Max per Group
 
-If you want to restrict the number of a extra that can be purchased within an entire group across multiple bookings you can set that value here.
+If you want to restrict the number of an extra that can be purchased within an entire group across multiple bookings you can set that value here.
 
 ### Available From Date/Time
 
@@ -44,10 +44,10 @@ The date and time from which an extra should no longer be available for purchase
 
 ### Status
 
-Whether or not to make the extra available to bookers on the frontend.
+Whether to make the extra available to bookers on the frontend or not.
 
 ::: tip
-You can set a extra to **Disabled** and still provide a link directly to it on the frontend for specific people.
+You can set an extra to **Disabled** and still provide a link directly to it on the frontend for specific people.
 :::
 
 ### Form Selection
@@ -60,7 +60,7 @@ You're often best to create your custom fields and forms ahead of then making yo
 
 ### Restriction by Ticket Type
 
-If you want to restrict an extra to only show once a booking already has a particular type of ticket in it you can turn this option on and then select which ticket types to apply.
+If you want to restrict an extra to only show once a booking already has a particular type of ticket in it, you can turn this option on and then select which ticket types to apply.
 
 ::: tip
 For example you may have extras that are relevant only to Team Members. To show an extra only for bookings in which there is at least 1 Team Member ticket added you would toggle this field on and then select 'Team Member' from the list.

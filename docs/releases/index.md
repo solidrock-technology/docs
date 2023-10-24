@@ -30,19 +30,19 @@ The event landing page now includes a table listing the available tickets and pr
 
 This updates brings a ton of little refinements across the platform to Payment Instalments, form validation errors & UI, Groups and automated Event Emails.
 
-Oh and did we mentioned we squashed over 40 bugs too!?
+Oh, and did we mention we squashed over 40 bugs too!?
 
 ### Groups
 
-When groups are created, either by an event admin or registered by a Lead Booker, they are given a unique, random group code. Event Admins now have the ability to chage this code to be something a little less random and a little more memorable!
+When groups are created, either by an event admin or registered by a Lead Booker, they are given a unique, random group code. Event Admins now have the ability to change this code to be something a little less random and a little more memorable!
 
 ### Event Emails
 
-They been a little while coming but we are finally ready to release two new automated emails that can be enabled per event.
+They've been a little while coming, but we are finally ready to release two new automated emails that can be enabled per event.
 
-1. **Unassigned Tickets Reminder:** This email is sent to all Lead Bookers who have a booking with tickets that are still missing required form information (e.g. DOB, Dietary Requirements, etc) 1 week before the order editing cut-off date. This is especially useful if the event is setup to allow Group Coordinators or anybody to complete a booking without first providing this information.
+1. **Unassigned Tickets Reminder:** This email is sent to all Lead Bookers who have a booking with tickets that are still missing required form information (e.g. DOB, Dietary Requirements, etc.) 1 week before the order editing cut-off date. This is especially useful if the event is set up to allow Group Coordinators or anybody to complete a booking without first providing this information.
 
-2. **Digital Tickets:** Until now a Lead Booker needed to login to their Solidrock profile to download their tickets. This email simplifies the process significantly by emailing the tickets to them at an appropriate date specified by the event admins using the `Digital Ticket Delivery Date` field.
+2. **Digital Tickets:** Until now a Lead Booker needed to log in to their Solidrock profile to download their tickets. This email simplifies the process significantly by emailing the tickets to them at an appropriate date specified by the event admins using the `Digital Ticket Delivery Date` field.
 
 ::: tip NOTE
 Any booking that is completed and paid for after the Digital Ticket Delivery Date will have their tickets emailed immediately.
@@ -68,19 +68,19 @@ In this update we've only gone and ticked off one of the most requested features
 
 ### Payment Plans
 
-Want to offer the option to your customers to pay a deposit and subsequent weekly or monthly instalments for their order? Now you can! Deposit amount and number of instalments are completely customisable. You can even offer multiple payment plans to the customer for them to choose the most appropriate option for them.
+Want to offer the option to your customers to pay a deposit and subsequent weekly or monthly instalments for their order? Now you can! Deposit amount and number of instalments are completely customisable. You can even offer multiple payment plans to the customer for them to choose the most appropriate option for them.
 
-Orders can of course always be paid in full at checkout by card or, in certain circumstances, by BACs (Bank Transfer) too. Payment plans build on these payment methods allowing you the option to attempt automatic collection of an instalment where a customer is paying by card. Where this isn't possible (if the customer is paying instalments by BACs) or fails (e.g. the saved card on record has since expired) then an instalment payment instruction is sent directing the customer on how to pay the scheduled instalment either by making another bank transfer, or by logging into their Solidrock profile and paying by card.
+Orders can of course always be paid in full at checkout by card or, in certain circumstances, by BACs (Bank Transfer) too. Payment plans build on these payment methods allowing you the option to attempt automatic collection of an instalment where a customer is paying by card. Where this isn't possible (if the customer is paying instalments by BACs) or fails (e.g. the saved card on record has since expired) then an instalment payment instruction is sent directing the customer on how to pay the scheduled instalment either by making another bank transfer, or by logging into their Solidrock profile and paying by card.
 
 ### Wristband Assignment
 
 With in-person events now a real thing again (🙏🏻 _Hopefully we've said goodbye to COVID restrictions for good_ 🙏🏻) we've spent some time refining and updating the delegate arrivals and check-in experience as well as bring the [Box Office](/guide/front-of-house/box-office) out of beta! We've brought all these features under one roof we're calling ['Front of House'](/guide/front-of-house/).
 
-With these updates we now also offer support for USB and Bluetooth HID barcode scanners and, now that we've revamped the check in and out process allowing multiple records per ticket, we've setup a new 'Check In' report so you can pull out this detail.
+With these updates we now also offer support for USB and Bluetooth HID barcode scanners and, now that we've revamped the check in and out process allowing multiple records per ticket, we've set up a new 'Check In' report, so you can pull out this detail.
 
-If your event uses wristbands, or any other uniquely identifiable ID pass on-site you can now assign these to tickets within Solidrock either by entering the unique ID of the band or pass, or by scanning a QR Code or Barcode. Wristbands can be assigned ahead of the event, during check-in or through the box-office.
+If your event uses wristbands, or any other uniquely identifiable ID pass on-site you can now assign these to tickets within Solidrock either by entering the unique ID of the band or pass, or by scanning a QR Code or Barcode. Wristbands can be assigned ahead of the event, during check-in or through the box-office.
 
-Once assigned, a search can be performed on a wristband ID or a QR/Barcode scanned to pull up the associated ticket details.
+Once assigned, a search can be performed on a wristband ID or a QR/Barcode scanned to pull up the associated ticket details.
 
 ### Design updates for the backend
 
@@ -98,11 +98,11 @@ Tidy up your event lists by archiving old, past events!
 From the event list page in the backend open up the event options menu (by clicking on the cog) and selecting 'Archive' from the list of options.
 :::
 
-Archived event data is still fully accessible and is now accessed from a more desicrete list on the same event list page. Archivfed events do not show in the 'My Events' navigation.
+Archived event data is still fully accessible and is now accessed from a more discrete list on the same event list page. Archived events do not show in the 'My Events' navigation.
 
 ### Extras Chart
 
-For events that sell extras, we've added a new chart to event dashboards to provide at a glance statistics on the number of extras sold, indiciating the number that are full paid, and those in Pending (BACs) orders.
+For events that sell extras, we've added a new chart to event dashboards to provide at a glance statistics on the number of extras sold, indicating the number that are full paid, and those in Pending (BACs) orders.
 
 ### Quick link to documentation & guide
 
@@ -114,7 +114,7 @@ Solidrock Booking System is under constant development. Some worthy mentions for
 
 ### Event Check-in
 
-From the event sidebar navigation you can access the check-in link that will load up the event arrivals and check-in pages. From here you can either scan a ticket's QR code to check-in an individual ticket or search for and entire order by entering the unique order reference to then check-in one or more tickets.
+From the event sidebar navigation you can access the check-in link that will load up the event arrivals and check-in pages. From here you can either scan a ticket's QR code to check in an individual ticket or search for and entire order by entering the unique order reference to then check-in one or more tickets.
 
 ::: tip
 Checked-in tickets will be indicated as such within the backend event ticket list by a visual &check; symbol.

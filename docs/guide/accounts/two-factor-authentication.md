@@ -1,7 +1,7 @@
-# Two Factor Authentication
+# Two-Factor Authentication
 
 ## Requirements
-In order to use Two Factor Authentication (2FA) on your account, you need to have a compatible app installed on a second device, such as your mobile phone or tablet.
+In order to use Two-Factor Authentication (2FA) on your account, you need to have a compatible app installed on a second device, such as your mobile phone or tablet.
 We recommend using Google Authenticator, available for [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_GB&gl=US) and [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605). 
 Other apps maybe be compatible, but Google Authenticator is the one we recommend.
 
@@ -13,7 +13,7 @@ If you have an admin-level account, the 2FA form will immediately appear on your
 Administrator accounts **must** have 2FA enabled. Other account types, such as Lead Bookers, can optionally enable/disable 2FA from the Security page.
 :::
 
-Once you have clicked "Enable Two Factor Authentication" and confirmed your account password, you'll see the 2FA setup form.
+Once you have clicked "Enable Two-Factor Authentication" and confirmed your account password, you'll see the 2FA setup form.
 Using the authentication app you have downloaded to your device, scan the presented QR code. 
 This will lead to a 6-digit code being shown on your device and this is the code you will use when logging into the system in the future.
 
@@ -30,7 +30,7 @@ After you have stored your recovery codes, please use your device and find the 6
 Now select "Validate 2FA Setup" and we'll check the code is valid and if so, 2FA will be enabled on your account.
 Every time you log into Solidrock, we'll ask for a 6-digit code from the authentication app.
 
-## Resetting Two Factor Authentication
+## Resetting Two-Factor Authentication
 If for any reason you need to reset your 2FA, for example you have lost your device, please use a recovery code to access your account then go to the [Security page](https://events.solidrock.io/admin/profile/security) in your profile area.
 You will see the option to disable your 2FA. You will need to confirm your password to do this, and then you will be able to enable 2FA again.
 
