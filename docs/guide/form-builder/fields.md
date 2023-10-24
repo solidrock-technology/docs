@@ -1,6 +1,6 @@
 # Fields
 
-Event organisers can manage the custom fields used across their events from the [Form Builder Fields](https://events.solidrock.io/admin/form-builder/fields) page. From here you will be able to see all the existing fields setup including the field labels, instructions and field type (e.g. Checkbox, Text, Select etc) as well as create new fields.
+Event organisers can manage the custom fields used across their events from the [Form Builder Fields](https://events.solidrock.io/admin/form-builder/fields) page. From here you will be able to see all the existing fields' setup including the field labels, instructions and field type (e.g. Checkbox, Text, Select etc.) as well as create new fields.
 
 Each field must have a label which succinctly describes what information the field is asking for.
 
@@ -11,7 +11,6 @@ Each field can be one of the following types:
 - Checkbox
 - Date
 - Email
-- Group Select
 - Instructions
 - Lightswitch
 - Number
@@ -34,17 +33,7 @@ Date field types will automatically validate the entered value to ensure it is i
 
 ### Email
 
-Email fields will automatically validate the entered value to ensure it is a date. In addition you can further specify if there is a minimum or maximum length of the entered value as well as if there is any specific validation you want to run on the entered value to ensure it only uses certain characters (e.g. the alphabet only, alphanumeric etc)
-
-### Group Select
-
-If you have a Group Set created for your organisation you will be able to specify this within the Group Select field type to allow people to assign a group to their ticket.
-
-By default Solidrock configures groups to only be registered by organisation admins within the admin backend to provide the greatest control and ability to verify and moderate the groups associated with their events. If however you want to allow members of the public to register their own groups you have the option to enable 'Public Group Registration'.
-
-::: warning Change in field behaviour
-When the setting is enabled globally for a Group Set, or individually for a Group Select field the behaviour of assigning tickets to groups changes for Lead Bookers. Instead of the default behaviour of having the option to search by name or view within a dropdown, they must now use the unique group code when filling out delegate details.
-:::
+Email fields will automatically validate the entered value to ensure it is a date. In addition, you can further specify if there is a minimum or maximum length of the entered value as well as if there is any specific validation you want to run on the entered value to ensure it only uses certain characters (e.g. the alphabet only, alphanumeric etc)
 
 ### Instructions
 
@@ -56,7 +45,7 @@ Similar to having a checkbox field with only 1 option, the Lightswitch field is 
 
 ### Number
 
-Number fields validate to only allow numbers. In addition you can specify a minimum and maximum length of the entered value. For example the number must be between 1 and 100.
+Number fields validate to only allow numbers. In addition, you can specify a minimum and maximum length of the entered value. For example the number must be between 1 and 100.
 
 ### Password
 
@@ -79,7 +68,7 @@ Telephone fields can be configured to:
 
 ### Terms & Conditions
 
-Terms & Condition fields allow you to select from one of your created Terms & Condition records within the 'Admin Console' > 'Terms & Conditions' area of the admin backend. The text content, or downloadable file (if available) will be made presented to the user to read and/or download and must be agreed to before they can complete the details on their ticket. This could be useful if you need certain tickets to agree to a specifc set of terms, for example Team Members or Volunteers.
+Terms & Condition fields allow you to select from one of your created Terms & Condition records within the 'Admin Console' > 'Terms & Conditions' area of the admin backend. The text content, or downloadable file (if available) will be made presented to the user to read and/or download and must be agreed to before they can complete the details on their ticket. This could be useful if you need certain tickets to agree to a specific set of terms, for example Team Members or Volunteers.
 
 ### Text
 
