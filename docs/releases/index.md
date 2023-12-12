@@ -1,5 +1,37 @@
 # Updates
 
+## November 2023
+
+The cold and wet :umbrella: weather hasn't stopped us from continuing to expand and improve Solidrock this month.
+We've got a number of updates around emails, a new timeout system and much more, alongside some infrastructure updates to give you even better security :lock: and performance :racing_car:.
+
+### Time Restricted Items
+
+The biggest piece of work from this month is the ability to mark certain items as 'Time Restricted'. 
+Time Restricted items will start a 30-minute inactivity timer for a Lead Booker. When the timer runs out, those items will be removed and become available for others to purchase.
+
+The timer is reset back to 30-minutes by staying active in their order by updating ticket and extra details, adding new items to their order and otherwise being active in the booking flow.
+
+To read more about time restricted items, [take a look at our docs page](/guide/tickets/time-restricted-items.md).
+
+### Notifications & Emails
+
+This month we've made a number of changes, and we've added some new emails, to help you manage your event much easier, such as:
+- **Emails Area**: All email settings for your event now have their own area. You can access this from the left-hand navigation. Click `Event Emails` under the `Event Info` section.
+- **Weekly Sales Summary**: This opt-in email will give you a quick summary of the previous weeks sales, new team members and groups registered and a breakdown of how many of each of your tickets and extras were bought. 
+- **Unpaid Item Expiry Reminder**: You can now enable a new email to be sent automatically to any Lead Booker who will have items in their unpaid orders expire within a week.
+- **Group Coordinator Notification**: Group Coordinators can now opt in to a new notification which is sent whenever a new ticket for their group is purchased.
+
+### Team Leader Assignment
+One of the things we implemented in October was a simpler way to add and remove Group Coordinators within your event.
+We've expanded on this and have now made managing your Team Leaders just as quick and easy.
+
+### Dashboard Updates
+We have made a number of updates to the dashboard to make it clearer to get the data you need, including:
+- **Tickets Chart**: We've added a chart to break down each of your tickets, as we have for extras.
+- **Tooltip Data**: Tooltips in the Tickets and Extras charts now show the sales data for each item, broken down by payment status.
+- **In Progress Colour**: We've updated the colour of In Progress data to <span style="color:#22d3ee;">cyan</span> to differentiate it from <span style="color: #f97316">Pending</span> data.
+
 ## October 2023
 
 With Autumn now here and bookings for next year's events starting, we've got some exciting updates with Custom Forms, Groups, and more.

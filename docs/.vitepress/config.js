@@ -121,6 +121,10 @@ export default defineConfig({
                             text: "Ticket Sets",
                             link: "/guide/tickets/ticket-sets",
                         },
+                        {
+                            text: "Time Restricted Items",
+                            link: "/guide/tickets/time-restricted-items",
+                        },
                     ],
                 },
                 {
@@ -133,7 +137,7 @@ export default defineConfig({
                             link: "/guide/teams/teams",
                         },
                         {
-                            text: "Tem Member Approval Criteria",
+                            text: "Team Member Approval Criteria",
                             link: "/guide/teams/approval",
                         },
                         {
