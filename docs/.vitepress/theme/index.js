@@ -2,7 +2,7 @@
 import { h, onMounted } from "vue";
 import Theme from "vitepress/theme";
 import mediumZoom from "medium-zoom";
-import "./style.css";
+import "./custom.css";
 
 export default {
     ...Theme,

@@ -14,7 +14,7 @@ Group registrations largely work in one of two ways. Either by being created by 
 
 #### 1. Registered by Organisation Admins
 
-This is the default behaviour for groups in Solidrock and means that only organisation admins can create groups and group coordinators for those groups. This option allows organisations to have full control of the groups associated to their events. 
+This is the default behaviour for groups in Solidrock and means that only organisation admins can create groups and group coordinators for those groups. This option allows organisations to have full control of the groups associated to their events.
 
 Due to the nature of having this level of moderation, any 'Group Select' fields then used within custom forms created to capture delegate details for tickets and extras can use a dropdown and search-to-find by name feature for those making bookings to locate the appropriate group to assign their tickets too.
 
@@ -34,7 +34,7 @@ When the setting is enabled, the behaviour of assigning tickets to group items c
 
 ### Where can a lead booker find their tickets?
 
-Lead bookers can first find their orders (incomplete, pending and paid) from their ['My Bookings'](https://events.solidrock.io/admin/profile/my-bookings) page within their Solidrock profile. 
+Lead bookers can first find their orders (incomplete, pending and paid) from their ['My Bookings'](https://events.solidrock.io/admin/profile/my-bookings) page within their Solidrock profile.
 
 From here they can continue where they left off with any incomplete order and (subject to the event settings) update the details of paid for tickets and extras in pending and paid orders.
 
@@ -42,7 +42,7 @@ Digital tickets are available for **Paid orders only** from the 3 dots action me
 
 ### How do I reconcile a Pending BACs order?
 
-Once you have confirmed you've received the bank transfer into your bank account you can update the related order within Solidrock to mark it as paid. To do so, first find the order from your event's 'Order List' page (searching by order reference or lead booker name should bring back the order). 
+Once you have confirmed you've received the bank transfer into your bank account you can update the related order within Solidrock to mark it as paid. To do so, first find the order from your event's 'Order List' page (searching by order reference or lead booker name should bring back the order).
 
 :::tip
 Solidrock instructs the Lead Booker paying by BACs to use the order reference as the payment reference for the bank transfer.
@@ -64,11 +64,11 @@ Before creating a Group Coordinator in this way you will need to have first set 
 
 Having done that organisation admins can then register group coordinators from the 'Admin Console' > ['Accounts'](https://events.solidrock.io/admin/accounts) area. If you know the person you're setting up as a Group Coordinator already has a Solidrock account you can first search for them in the account list then using the actions menu choose to 'Edit' the account. At the bottom of the edit page you have the option to 'Add new account type' which when clicked will display a pop-up window. From here set:
 
-- 'Select a category' to 'Group Coordinator'
-- 'Select an organisation' to your organisation (if you manage multiple organisations in Solidrock more than one may be listed)
-- 'Select and event' to the event that you want them to be a group coordinator for
-- 'Select a group set' to the set that their group belongs to.
-- 'Select a group item' to the group that they will coordinate.
+-   'Select a category' to 'Group Coordinator'
+-   'Select an organisation' to your organisation (if you manage multiple organisations in Solidrock more than one may be listed)
+-   'Select and event' to the event that you want them to be a group coordinator for
+-   'Select a group set' to the set that their group belongs to.
+-   'Select a group item' to the group that they will coordinate.
 
 You can optionally choose to notify the person by email and click 'Save changes' to apply this account type.
 
@@ -86,9 +86,17 @@ Using Solidrock's Front of House suite of functions you can manage checking peop
 
 For arrivals at the event, you can use the ['Arrivals'](/guide/front-of-house/arrivals) feature to search by:
 
-- Delegate name
-- Order Reference
-- Unique Ticket ID
-- Event Pass/Wristband ID
+-   Delegate name
+-   Order Reference
+-   Unique Ticket ID
+-   Event Pass/Wristband ID
 
 You also have the option to scan-to-search which works either by using a device's camera or a barcode reader to read the QR code from Solidrock's digital tickets or a barcode/QR code on an event pass or wristband you have issued that has been allocated to a ticket within Solidrock.
+
+## Tickets & Extras
+
+### How do I set up time restricted items?
+
+When creating or editing a ticket or an extra, you have the option to mark that item as 'Time Restricted'. This option enables a 30-minute inactivity timer while that item is in an unpaid order. If the Lead Booker does not extend their session by remaining active within their order such as continuting through the booking process, then the time-restricted items will be deleted from their order.
+
+Good candidates for time restricted items are those where there is a very limited supply and you want to ensure that they are not held in unpaid orders for long periods of time such as a limited number of hotel rooms or a limited number of pre-sale tickets at much lower cost.

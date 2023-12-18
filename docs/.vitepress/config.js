@@ -70,7 +70,9 @@ export default defineConfig({
         ],
     ],
     themeConfig: {
-        lastUpdatedText: "Last Updated",
+        lastUpdated: {
+            text: "Last Updated",
+        },
         editLink: false,
 
         // https://vitepress.dev/reference/default-theme-config

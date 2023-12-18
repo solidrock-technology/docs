@@ -12,8 +12,8 @@ Any items that are time restricted will be marked as such on both the booking fl
 ## Inactivity Timer
 
 When a Lead Booker adds a time restricted item to their order, a 30-minute timer will start.
-The timer will re-start when they are active within an order. 
-For example, every the Lead Booker moves pages within the booking flow, adds items to their basket or save ticket or extra details, the 30-minute timer will restart.
+The timer will re-start when they are active within an order.
+For example, every time the Lead Booker moves pages within the booking process, adds items to their basket or saves ticket or extra details, the 30-minute timer will restart.
 
 ### Timed-out Items
 
