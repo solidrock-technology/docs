@@ -1,5 +1,27 @@
 # Updates
 
+## December 2023
+With Christmas gone and the new year here, it's time to look at what we've been working on in the past month.
+Alongside some of the highlights listed below, we've made some significant performance updates behind the scenes.
+
+### Group Ratios
+A new option for your event allows you to set a limit on the ratio between child tickets and adult tickets.
+One this ratio is surpassed, an email will be sent to alert the Group Coordinator to the issue. 
+
+Secondly a notice will appear in the Group Coordinator's profile area which remains until this issue has been resolved by adding more adult tickets.
+
+### Group Linking
+A Group Coordinator can now link their group to another group attending the event by using the second group's unique code.
+Once linked the second group's coordinators and organisation admins will be notified. Organisation admins can also remove this link if necessary.
+
+This link can also be seen in both the event's Group List and both group's coordinator's profile areas.
+
+### Tickets &amp; Extras Exports
+We've added the ability to export data from the Tickets List and the Extras List.
+Clicking the 'Export' button in the (newly updated) footer of the table will display a pop-up window giving you an option:
+- **Simple**: Export table data as seen in the table
+- **Extended**: Export an extended version of the data for the records in the table. This data is similar to the reports for Tickets and Extras.
+
 ## November 2023
 
 The cold and wet :umbrella: weather hasn't stopped us from continuing to expand and improve Solidrock this month.
