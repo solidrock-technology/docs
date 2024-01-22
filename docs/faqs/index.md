@@ -100,3 +100,12 @@ You also have the option to scan-to-search which works either by using a device'
 When creating or editing a ticket or an extra, you have the option to mark that item as 'Time Restricted'. This option enables a 30-minute inactivity timer while that item is in an unpaid order. If the Lead Booker does not extend their session by remaining active within their order such as continuting through the booking process, then the time-restricted items will be deleted from their order.
 
 Good candidates for time restricted items are those where there is a very limited supply and you want to ensure that they are not held in unpaid orders for long periods of time such as a limited number of hotel rooms or a limited number of pre-sale tickets at much lower cost.
+
+### Can I export the Ticket List data?
+
+Yes you can! By using the 'Export' button in the table footer, you'll be presented with a modal window with an option for the type of export.
+This option is where you'll select to have a 'Simple' or 'Extended' export. 
+
+A 'Simple' export will contain only the data shown in the table itself, whereas the 'Extended' export is more akin to the reports, containing much more data about each record.
+
+Both export options will be exported as CSV files. This export is available on both the Ticket List and the Extra List when managing an event.
