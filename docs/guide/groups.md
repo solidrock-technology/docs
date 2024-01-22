@@ -59,3 +59,45 @@ When you do this, any Group Coordinators that are not already part of the event 
 ### Removing Group Coordinators
 From the Group Coordinators page, you can use the triple-dot menu to see a 'Remove Group Coordinator' option. 
 This will prompt you to confirm the removal of the Group Coordinator for this event.
+
+## Group Ratios
+
+If you wish to have a notification go out to Group Coordinators when the ratio between child tickets and adult tickets reaches a certain point, you can set up the group ratios setting.
+This setting is a whole number value for the amount of child tickets allowed per adult ticket. 
+
+:::warning
+This limit is a soft limit and does not prevent further orders being placed for the group.
+:::
+
+### Setup
+
+![Group Ratio settings](./images/group-ratios.png)
+
+Firstly, to enable this ratio and set a ratio limit, you will need to enable the 'Group Adult to Child Ratio Enabled?' lightswitch within the 'Groups' tab of the event settings form.
+
+Once that has been enabled, a second settings field called 'Group Adult to Child Ratio Value'. This is where you'll enter the required limit of child tickets.
+For example if you want the notification to be sent out when within a group there are 10 child tickets for each adult ticket, enter the value of "10".
+
+### Reaching the Limit
+
+When a limit is hit, the group coordinators for the group in question will be notified, by email, that their group has hit the limit.
+
+The email sent will contain a link to the Group Coordinator's profile area, where they can see the group's tickets for the event.
+This page can be used to track the amount of children attending the event for the group and to track the adult tickets, should more be needed.
+
+Also within the Group Coordinator's 'My Groups' area, there will be a displayed alert message whenever a group is over the limit.
+This alert will contain links to the groups that are in breach of the group ratio limit and display the current ratio of tickets for those groups.
+
+## Group Linking
+
+Groups can now link themselves together within an event. This can be useful if groups are wanting to camp with one another, for example.
+A group coordinator can use the 'Link to Group' button from their group ticket list for an event, before entering the unique group code for the group they wish to link to.
+
+![Group Linking Modal](./images/group-linking-modal.png)
+
+Once the group code is entered and saved, the system will link the groups and display any links in the Group Coordinator's group tickets page and on the Group List page for Organisation Admins.
+The table will show who linked the group as well as the group they linked to.
+
+![Group Linking Modal](./images/group-linking-table.png)
+
+An Organisation Admin can remove these links from the action menu in the Group List table.
