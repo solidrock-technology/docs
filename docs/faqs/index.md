@@ -100,3 +100,16 @@ You also have the option to scan-to-search which works either by using a device'
 When creating or editing a ticket or an extra, you have the option to mark that item as 'Time Restricted'. This option enables a 30-minute inactivity timer while that item is in an unpaid order. If the Lead Booker does not extend their session by remaining active within their order such as continuting through the booking process, then the time-restricted items will be deleted from their order.
 
 Good candidates for time restricted items are those where there is a very limited supply and you want to ensure that they are not held in unpaid orders for long periods of time such as a limited number of hotel rooms or a limited number of pre-sale tickets at much lower cost.
+
+## Orders
+
+### How do I refund an order on a pyment plan?
+
+Refunding an order that has been paid for in full is a simple process, but when the order is still in the process of being paid for through a payment plan it can be a little more complex. To refund an order that is still in the process of being paid for you will need to first cancel the payment plan and then refund the amount that has been paid so far.
+
+To do this:
+
+1. first find the order from your event's 'Order List' page (searching by order reference or lead booker name should bring back the order).
+2. Using the 3 dots action menu choose to 'Show' the order.
+3. From the order 'Show' page click on the 'Order Options' button and choose 'Cancel Payment Plan' from the menu. This action will cancel and remove all overdue and scheduled payment plan instalments and update the order payment status.
+4. Now you can refund the amount that has been paid so far by clicking on the 'Refund' button from the order 'Show' page. You will be asked to confirm the amount to refund and the reason for the refund before the refund is processed.
