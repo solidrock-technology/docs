@@ -1,5 +1,87 @@
 # Updates
 
+## July/August/September 2024
+
+The second half of the year is here, and we've been busy bees buzzing around with exciting updates! We've been hard at work improving the event management experience for both admins and attendees, and we've even squashed a few bugs along the way. Let's dive into some of the big features we've cooked up!
+
+### Team Member References
+
+We've introduced a new feature that allows events to capture and review references for team members applying to join a team. Designated referees will receive an email with a link to provide a reference for the applicant.
+
+Check it out in this video
+
+[![Team Member References](https://img.youtube.com/vi/DQxpWI9N73M/maxresdefault.jpg)](https://www.youtube.com/watch?v=DQxpWI9N73M "Team Member References")
+
+### Payment Plan Fee
+
+Events now have the option to charge a fee for using a payment plan. This provides additional flexibility for event organizers.
+
+### Automated Cleanup of Front of House Admin Accounts
+
+To enhance data security, we've implemented an automated process that removes Front of House admin roles after an event has concluded.
+
+### Custom Event Location Coordinates
+
+Events can now set the exact location of their event for use in the event map, ensuring accuracy even when automated location data is incomplete.
+
+### Discrete Check-ins
+
+A new option is available for ticket check-in and out that eliminates the need for a confirmation step, streamlining the process.
+
+### Check-in Reset
+
+For venues hosting multiple meetings, we've added the ability to reset the number of checked-in tickets between events.
+
+### Simplified Payment Plan Cancellation
+
+Canceling a payment plan for an order is now a more straightforward process.
+
+### Account Verification Grace Period
+
+Users now have a 48-hour grace period to verify their email address before their account is locked.
+
+## April/May/June 2024
+
+We've been busy over the last few months with a number of updates to improve the event management experience for both event admins and attendees. Here's a summary of what we've been working on:
+
+### User Profile
+
+We've brought a brand new look and feel for the user profile area making it easier to navigate and find the information customers need. You can now:
+
+-   See all your bookings in one place across all relevant events
+-   Easily access your downloadable digital tickets
+-   Pay any outstanding balances and instalments on your orders
+
+Watch the video below to see the new profile and 'My Bookings' area in action:
+
+[![Updated Profile](https://img.youtube.com/vi/4e6XSRjLcsg/maxresdefault.jpg)](https://www.youtube.com/watch?v=4e6XSRjLcsg "Updated Profile")
+
+### 'Remember Me' login
+
+It's the simple things that ooften make the biggest difference and this one is no exception. We've added a 'Remember Me' option to the login page so you can stay logged in for longer without having to re-enter your details.
+
+## January/February/March 2024
+
+We're kicking off the new year with exciting updates to streamline team management, event arrivals and digtesting top-level event data.
+
+### Enhanced Team Member Approval Criteria
+
+We're excited to announce a significant update to our Approval Criteria feature! Now, you can customize approval requirements for each individual team within your event. This flexibility allows you to tailor your workflow to the specific needs of each team. Key Benefits include:
+
+-   **Increased Efficiency**: Streamline your approval process by setting criteria that align with your team's unique requirements.
+-   **Improved Compliance**: Ensure that all team members meet the necessary qualifications before being granted approval.
+-   **Enhanced Customization**: Tailor your workflow to the specific needs of each team within your event.
+
+### Event Arrivals
+
+-   **Bulk Arrivals**: Arrive entire bookings or groups in one go! This feature is perfect for events with large groups or bookings that need to be checked in quickly.
+-   **Search**: Search now takes into account group names and codes
+-   **Accountability**: We now record which account was responsible for checking in/out a ticket and assigning an event pass.
+
+### Event Dashboard
+
+Each dashboard block now includes a tooltip to priovide context for the data displayed. This is especially useful for new users or those who may not be familiar with the data being presented. We also now provide an alternative 'table' view for data to make at-a-glance analysis easier.
+
 ## November 2023
 
 The cold and wet :umbrella: weather hasn't stopped us from continuing to expand and improve Solidrock this month.
