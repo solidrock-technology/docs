@@ -103,7 +103,7 @@ Good candidates for time restricted items are those where there is a very limite
 
 ## Orders
 
-### How do I refund an order on a pyment plan?
+### How do I refund an order on a payment plan?
 
 Refunding an order that has been paid for in full is a simple process, but when the order is still in the process of being paid for through a payment plan it can be a little more complex. To refund an order that is still in the process of being paid for you will need to first cancel the payment plan and then refund the amount that has been paid so far.
 
