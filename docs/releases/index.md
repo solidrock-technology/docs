@@ -1,6 +1,6 @@
 # Updates
 
-## July/August/September 2024
+## Q3 2024
 
 The second half of the year is here, and we've been busy bees buzzing around with exciting updates! We've been hard at work improving the event management experience for both admins and attendees, and we've even squashed a few bugs along the way. Let's dive into some of the big features we've cooked up!
 
@@ -40,7 +40,7 @@ Canceling a payment plan for an order is now a more straightforward process.
 
 Users now have a 48-hour grace period to verify their email address before their account is locked.
 
-## April/May/June 2024
+## Q2 2024
 
 We've been busy over the last few months with a number of updates to improve the event management experience for both event admins and attendees. Here's a summary of what we've been working on:
 
@@ -60,7 +60,7 @@ Watch the video below to see the new profile and 'My Bookings' area in action:
 
 It's the simple things that ooften make the biggest difference and this one is no exception. We've added a 'Remember Me' option to the login page so you can stay logged in for longer without having to re-enter your details.
 
-## January/February/March 2024
+## Q1 2024
 
 We're kicking off the new year with exciting updates to streamline team management, event arrivals and digtesting top-level event data.
 

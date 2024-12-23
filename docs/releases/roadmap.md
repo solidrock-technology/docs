@@ -2,9 +2,8 @@
 
 Upcoming planned and in-progress features for Solidrock!
 
--   Adding Apple Pay and Google Pay options to check out
+-   Adding Apple Pay and Google Pay options to booking payment pages
 -   Add the ability to sell Ticket & Extra bundles
--   Create custom team member reference fields and forms
 -   Front of House: Allow creating 'Meetings' for venues
 -   Front of House: Allow setting venue capactiy and indicating within check-in pages the live progress towards this capacity
 -   'Places': Allocating groups, orders and tickets to spceific areas/zones/villages within an event
@@ -24,6 +23,7 @@ This is not a comprehensive list of all work in the development backlog.
 -   Updates to event dashboard to provide more at-a-glance details.
 -   Allow events to delete unpaid, inactive tickets & extras after a specified timeframe (e.g. after 8 hours of inactivity) to prevent scarce tickets and extras being held within unpaid orders indefinitely.
 -   Managing team member application reference capture and review
+-   Create custom team member reference fields and forms
 
 ::: tip INFO
 This is not a comprehensive list of all work in the development backlog.
