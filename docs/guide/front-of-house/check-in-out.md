@@ -12,7 +12,7 @@ These check in and out functions are primarily tailored around quickly checking 
 
 ## Venues & Entrances/Exits
 
-Like the Arrivals feature you can select which venue you are checking people into and out of as well as the gate (where a venue has multiple gates).
+You can select which venue you are checking people into and out of as well as the gate (where a venue has multiple gates).
 
 To change which gate you are checking people in and out of, select the cog icon from the navigation bar at the bottom and then use to 'Gate' dropdown to select the gate you want to use.
 

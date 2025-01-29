@@ -42,6 +42,11 @@ The date and time that an extra should become available for purchase.
 
 The date and time from which an extra should no longer be available for purchase.
 
+# Time Restricted
+
+This option enables a 30-minute inactivity timer while the extra is in an unpaid order.
+More information about time-resricted items can be found [here](/guide/tickets/time-restricted-items.md).
+
 ### Status
 
 Whether to make the extra available to bookers on the frontend or not.

@@ -74,6 +74,11 @@ The date and time from which a ticket should no longer be available for purchase
 If you have ticket price breaks, you can use these dates to swap between the different available price break tickets.
 :::
 
+# Time Restricted
+
+This option enables a 30-minute inactivity timer while the ticket is in an unpaid order.
+More information about time-resricted items can be found [here](/guide/tickets/time-restricted-items.md).
+
 ### Status
 
 Whether to make the ticket available to bookers on the frontend, or not.

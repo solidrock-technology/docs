@@ -18,8 +18,8 @@ Whether this discount applies a % off or a fixed (£) value, or not.
 
 Used in combination with the 'Discount Type'. For example:
 
-- If % is selected in the discount type field and 50 in this field, you'd be giving 50% off.
-- If £ is selected in the discount type field and 50 in this field, you'd be giving £50 off.
+-   If % is selected in the discount type field and 50 in this field, you'd be giving 50% off.
+-   If £ is selected in the discount type field and 50 in this field, you'd be giving £50 off.
 
 ### Total Available
 
@@ -55,12 +55,16 @@ The date that a discount should become available for use.
 
 The date that a discount should no longer be available for use.
 
-### Voucher Type
+### Discount Level
 
-Whether the discount is for use against a ticket, an extra or the entire booking.
+Whether the discount is for use against a ticket, an extra, a bundle or the entire booking.
 
 ::: tip
-If either **ticket** or **extra** are chosen there will be further options shown to restrict which specific tickets or extras it can be used on.
+If either **ticket**, **extra** or **bundle** are chosen there will be further options shown to restrict which specific items this discount can be used on.
+:::
+
+::: warning
+Discounts cannot be applied to tickets or extras that are within a bundle.
 :::
 
 ### Can be used on bookings site?
@@ -111,9 +115,9 @@ Specify a pattern for the discount codes being produced.
 
 The pattern accepts 3 different characters:
 
-- **X**: Alpha-Numeric Character (e.g. A-Za-z0-9)
-- **A**: Alphabetical Character (e.g. A-Za-z)
-- **N**: Numerical Character (e.g. 0-9)
+-   **X**: Alpha-Numeric Character (e.g. A-Za-z0-9)
+-   **A**: Alphabetical Character (e.g. A-Za-z)
+-   **N**: Numerical Character (e.g. 0-9)
 
 The pattern can be between 1 and 4 characters long, depending on how many codes you wish to generate.
 
@@ -121,10 +125,10 @@ The pattern can be between 1 and 4 characters long, depending on how many codes 
 
 Batch generated discounts have a simpler set of available settings from regular discounts. All settings are described in more detail further up this page. They include:
 
-- Discount Type
-- Discount Amount
-- Minimum Subtotal
-- Valid From Date
-- Valid To Date
-- Voucher Type
-- Can be used on bookings site?
+-   Discount Type
+-   Discount Amount
+-   Minimum Subtotal
+-   Valid From Date
+-   Valid To Date
+-   Voucher Type
+-   Can be used on bookings site?

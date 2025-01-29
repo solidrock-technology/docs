@@ -28,7 +28,7 @@ To add a new approval criteria, navigate to the 'Teams' section of the Solidrock
 
 You can name the template for easier reference elsewhere in the system, and then add as many criteria as you need. Each criteria is simply a name or title. Any criteria you've created previously and used in other templates will be available to re-sue in this template. Click on the criteria in the sidebar to ad it to the template.
 
-Criateria can be nested, allowing you to group related criteria together. This can be useful for grouping criteria by type, or by the stage in the process they are relevant to. To nest a criteria, simply click the cog icon and select the parent criteria from the dropdown. You can also re-order criteria within the template by dragging and dropping them into the desired order. Removing a criteria from the template is as simple as clicking the 'x' icon next to the criteria name.
+Criteria can be nested, allowing you to group related criteria together. This can be useful for grouping criteria by type, or by the stage in the process they are relevant to. To nest a criteria, simply click the cog icon and select the parent criteria from the dropdown. You can also re-order criteria within the template by dragging and dropping them into the desired order. Removing a criteria from the template is as simple as clicking the 'x' icon next to the criteria name.
 
 ## Applying a criteria template to a team
 

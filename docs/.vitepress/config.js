@@ -150,6 +150,10 @@ export default defineConfig({
                             text: "Team Leaders",
                             link: "/guide/teams/leaders",
                         },
+                        {
+                            text: "References",
+                            link: "/guide/teams/references",
+                        },
                     ],
                 },
                 {
@@ -230,6 +234,10 @@ export default defineConfig({
                     link: "/guide/extras",
                 },
                 {
+                    text: "Bundles",
+                    link: "/guide/bundles",
+                },
+                {
                     text: "Discounts",
                     link: "/guide/discounts",
                 },
@@ -244,8 +252,28 @@ export default defineConfig({
             ],
             "/faqs/": [
                 {
-                    text: "FAQs",
+                    text: "Intro",
                     link: "/faqs/",
+                },
+                {
+                    text: "Event Setup",
+                    link: "/faqs/event-setup",
+                },
+                {
+                    text: "Orders",
+                    link: "/faqs/orders",
+                },
+                {
+                    text: "Tickets, Extras & Bundles",
+                    link: "/faqs/tickets-extras-bundles",
+                },
+                {
+                    text: "Front of House",
+                    link: "/faqs/foh",
+                },
+                {
+                    text: "Accounts",
+                    link: "/faqs/accounts",
                 },
             ],
             "/releases/": [

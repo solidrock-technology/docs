@@ -12,9 +12,11 @@ Front of House Arrivals is your one-stop shop for checking people in to the even
 
 ## Pre-Arrival Setup
 
-Every event managed through Solidrock is automatically setup with a 'Main Event' venue and 'Main Entrance'. From the Venues area in the event management backend you can rename this venue and create other venues and entrances as needed for your event.
+Every event managed through Solidrock is automatically setup with a 'Main Event' venue and 'Main Entrance'. From the Venues area in the event management backend you can rename this venue and create other gates/entrances as needed for your the 'Main Event' venue.
 
-When working with the Arrivals functionality you will first select which venue you are managing the arrivals for, and optionally also the entrance your delegates are arriving through.
+:::info hint
+Arrivals will always check people in to the 'Main Event' venue
+:::
 
 ## Managing Arrivals
 
@@ -22,19 +24,19 @@ From the [Front of House landing page](https://events.solidrock.io/foh) choose t
 
 Arrivals can be managed across multiple devices in parallel allowing you to have as many people as needed for the size of your event, welcoming your delegates and checking them in through one or more separate entrances.
 
-Once you have selected the venue you're managing arrivals for you will be taken to the arrivals page, broken down into 3 core functions:
+The arrivals page is broken down into 3 core functions:
 
 1. Dashboard
 2. Ticket and Event Pass scanning
 3. Ticket Search
 
-From here you can check and change the entrance you are checking people through by clicking on the cog icon.
+You can check and change the entrance you are checking people through by clicking on the cog icon in the nvaigation bar at the bottom of the page.
 
 ### Dashboard
 
-The dashboard displays the number of tickets checked in to the selected venue as a proportion of the total number of tickets sold for the event.
+The dashboard displays the number of tickets checked in as a proportion of the total number of tickets sold for the event.
 
-In addition, if your event is set up with [Ticket Sets](/guide/tickets/ticket-sets) the dashboard lists the breakdown of how many tickets from within each set have also been checked in to the selected venue.
+In addition, if your event is set up with [Ticket Sets](/guide/tickets/ticket-sets) the dashboard lists the breakdown of how many tickets from within each set have also been checked in.
 
 The figures are automatically kept in sync when multiple people and devices are being used to check people in to the same venue so everyone can see the up-to-date totals.
 
@@ -48,23 +50,18 @@ Each result will indicate where known:
 -   The unique ticket ID
 -   The ticket name (e.g. Team Member, Early Bird, V.I.P, Exhibitor etc)
 -   The group they're with
--   Whether they are checked in already to this venue, indicated by the date and time they were checked in, or not.
--   Whether they have been assigned an event pass or wristband, indicated by listing the unique ID of the pass, or not.
-
-In addition to this at a glance information you can check a person in and out of the selected venue using the checkmark icon as well as associate an event pass or wristband to the person using the wristband icon.
-
-Clicking on a ticket result returned from the search will open a window providing a little more detail about the delegate. In addition to what was listed in the search result row you will also see:
-
--   The date and time the ticket was booked and who by (the Lead Booker)
 -   any teams they have applied to be on, and the approval status
--   The check-in information for this delegate and this venue - a record of all the times they checked in and out.
+-   The date and time the ticket was booked and who by (the Lead Booker)
+-   The check-in information for this delegate - a record of all the times they checked in and out of the main event.
 -   The Event Pass/Wristband details including the currently active ID and any previous IDs they may have been issued that have had to be replaced for one reason or other (e.g. damaged, lost, stolen) alongside the date and time each pass or wristband was issued.
+
+Clicking on a ticket result returned from the search will expand the card providing access to the Check In/Out and Assign Event PAss Actions
 
 ## Scanning
 
 ### Digital Tickets
 
-All completed and paid tickets in Solidrock are available as a digital ticket downloads - each of which displays a unique QR code. This QR code can be scanned via your devices built-in camera(s) or external camera/webcam through the scan tab.
+All completed and paid tickets in Solidrock are available as a digital ticket downloads - each of which displays a unique QR code. This QR code can be scanned via your devices built-in camera(s) or external camera/webcam through the scan tab. In addition the QR code can be scanned using a compatible barcode reader.
 
 ### Event Pass or Wristband
 
@@ -74,6 +71,10 @@ Once you have issued an event pass, wristband or similar with a barcode or QR co
 
 ::: tip
 Scanning using a camera is often more reliable when done in an environment with plenty of light.
+:::
+
+::: tip
+If the digital ticket is being presented on a mobile phone or tablet, scanning accuracy can be improved by increasing the screen brightness.
 :::
 
 If your device has multiple available cameras (e.g. front facing and rear facing) you can click the rotate icon to change the camera being used.

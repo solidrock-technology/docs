@@ -1,5 +1,39 @@
 # Updates
 
+<!--
+## Q1 2025
+
+We're kicking off the new year with a bang, bringing you a host of exciting updates and improvements to enhance your event management experience. Let's take a look at some of the huge features we've been working on!
+
+### 🎁 Bundles! 🎁
+
+We're thrilled to introduce a brand new feature that allows you to create ticket and bundles for your events. With bundles, you can group multiple tickets and extras together and offer them at a discounted price. This is perfect for events that want to offer special packages or deals to their attendees.
+
+### Updating Orders with an 'In Progress' Status
+
+We've made it easier for event organizers to update orders with an 'In Progress' status. Now, you can edit the details of these orders directly from the order details page, making it simple to make changes and keep your records up to date. Where an update alters the total cost of the order, we will automatically adjust the existing future instalments or create a new one to capture the difference.
+
+### Updated Payment Options
+
+We've made some improvements to the payment options available to attendees. Now, when paying for an order or instalment, attendees can choose to pay using Apple Pay and Google Pay providing a seamless payment experience.
+
+### Other Quality of Life Improvements
+
+-   **Improved Arrivals Experience**: Now, when assigning an event pass to a ticket, the ticket will automatically be checked in, saving you time and effort, ensuring a seamless check-in process and reducing the risk of human error.
+-   **Group Coordinators Digital Tickets**: Events now have the option to allow their group coordinators to download digital tickets for all of their group members, whether or not those tickets were booked by them or by others. This feature is perfect for events where group coordinators are responsible for distributing tickets to their group members. -->
+
+## Q4 2024
+
+As we head into the final quarter of the year, we've been hard at work making improvements to the event management experience for both admins and attendees. We've introduced new features, enhanced existing functionality, and squashed a few bugs along the way. Let's dive into some of the highlights from our recent updates!
+
+### Simplified Payment Plan Instalment Collection Setting
+
+We've made it easier for event organizers to manage payment plan instalment collection settings. You can now update on a per-order basis whether its future instalments should be collected automatically or manually. This option is available from the 'Order Options' menu on the order details page.
+
+### Re-sending Instalment Schedule Emails
+
+When an order is placed to pay by instalments, the Lead Booker receives an email with the instalment schedule. When an instalment is then paid, an updated version of this email is sent to acknowledge successful payment for the Lead Booker's records. If, however, the Lead Booker needs a copy of this email resent at any time, you can now do so directly from the 'Order Options' menu on the order details page.
+
 ## Q3 2024
 
 The second half of the year is here, and we've been busy bees buzzing around with exciting updates! We've been hard at work improving the event management experience for both admins and attendees, and we've even squashed a few bugs along the way. Let's dive into some of the big features we've cooked up!
@@ -30,7 +64,7 @@ A new option is available for ticket check-in and out that eliminates the need f
 
 ### Check-in Reset
 
-For venues hosting multiple meetings, we've added the ability to reset the number of checked-in tickets between events.
+For venues hosting multiple meetings, we've added the ability to reset the number of checked-in tickets between meetings.
 
 ### Simplified Payment Plan Cancellation
 
@@ -62,7 +96,7 @@ It's the simple things that ooften make the biggest difference and this one is n
 
 ## Q1 2024
 
-We're kicking off the new year with exciting updates to streamline team management, event arrivals and digtesting top-level event data.
+We're kicking off the new year with exciting updates to streamline team management, event arrivals and digesting top-level event data.
 
 ### Enhanced Team Member Approval Criteria
 

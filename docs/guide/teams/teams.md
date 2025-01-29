@@ -8,12 +8,12 @@ You will need to create at least 1 [serving time](#serving-times) before you can
 
 ## Serving Times
 
-Serving Times are a way to organise and categorise your teams by time periods. You can create as many as required but must have at least 1 before being able to create teams themselves. 
+Serving Times are a way to organise and categorise your teams by time periods. You can create as many as required but must have at least 1 before being able to create teams themselves.
 They can be called whatever you'd like but some common examples include:
 
-- Setup
-– At event / During event
-- Set-down / Take-down
+-   Setup
+    – At event / During event
+-   Set-down / Take-down
 
 Each serving time must have a name and set of dates to indicate what time period they cover. They can also optionally include a description to provide more context. This is especially useful to provide clarity to those wanting to be team members as all of this detail is shown to those booking in as they decide when they want to be on team.
 
@@ -73,6 +73,10 @@ If applicable, select a pre-created discount that should be automatically applie
 
 ::: tip
 You may for example give 100% off the team member ticket price if a person chooses to be Full-time and 50% off for those working Part-Time.
+:::
+
+::: warning
+Discounts will not be applied to a team member ticket if it is within a bundle
 :::
 
 ### Part-Time Discount
