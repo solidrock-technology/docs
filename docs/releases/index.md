@@ -1,6 +1,44 @@
 # Updates
 
-<!--
+## Q2 2025
+
+As we move into the second quarter of 2025, we're excited to share some fantastic updates that will enhance your event management experience. We've been hard at work listening to your feedback and implementing new features to make your life easier. Let's take a look at what's new!
+
+### Stripe
+
+We've refactored and updated our Stripe integrations to use the latest Stripe API and payment elements. This update brings a host of improvements, including:
+
+-   **Improved Payment Experience**: The new Stripe integration provides a more seamless and user-friendly payment experience for your attendees.
+-   **More Payment Methods**: The latest Stripe Peyment Elements support a wider range of payment methods, allowing your attendees to pay using their preferred method including Apple Pay and Google Pay as well as providing the option for them to save multiple card details for future use.
+-   **Enhanced Security**: The latest Stripe API offers improved security features to protect your payment data.
+
+### Linking Extras to Tickets
+
+We've improved the ticket linking feature for extras. Now, when an extra is added to an order that requires some custom data a Lead Booker can link it to any ticket across any order they've placed for the same event.
+
+In addition we've added a new setting for Extras to alow you to specificy if the extra is required to be linked to a ticket or not. This is useful for extras, such as meal vouchers, that should always be associated with a particular person. A Lead Booker will not be able to complete their order until they have linked the extra(s) to a ticket with this setting enabled.
+
+### Groups
+
+#### Group Coordinator Ticket Status Visibility
+
+Group Coordinators now have a little more visibility over the status of the tickets and extras assigned to their group. They can now see at a glance if a ticket or extra is paid or unpaid, and how complete the ticket data is:
+
+-   **Unassigned**: No ticket data has been provided for this ticket
+-   **Partially Assigned**: Some ticket data has been provided for this ticket but some _required_ data remains incomplete.
+-   **Fully Assigned**: All _required_ ticket data has been provided for this ticket
+
+#### 🎟️ Group Coordinator Access to Download All Tickets 🎟️
+
+Event Organisers now have the ability to enable or disable the option for Group Coordinators to download all tickets for their group members. This is a great way to streamline the ticket distribution process and ensure that all group members have access to their tickets especially for larger groups or those where tickets are purchased by many different individuals.
+
+### Reports
+
+We've made some improvements to the reports available:
+
+-   **Date Columns**: The output format for these columns has been updated to be more consistent across all reports and to work more reliably with various spreadsheet software, such as Excel, Google Sheets & Apple Numbers, to be automatically recognised as Dates and therefore be instantly sortable.
+-   **Custom Form Data**: Columns related to custom form data have now been ordered according to the order those fields are present within the forms. This makes it easier to read and understand the data being presented in the reports.
+
 ## Q1 2025
 
 We're kicking off the new year with a bang, bringing you a host of exciting updates and improvements to enhance your event management experience. Let's take a look at some of the huge features we've been working on!
@@ -20,7 +58,7 @@ We've made some improvements to the payment options available to attendees. Now,
 ### Other Quality of Life Improvements
 
 -   **Improved Arrivals Experience**: Now, when assigning an event pass to a ticket, the ticket will automatically be checked in, saving you time and effort, ensuring a seamless check-in process and reducing the risk of human error.
--   **Group Coordinators Digital Tickets**: Events now have the option to allow their group coordinators to download digital tickets for all of their group members, whether or not those tickets were booked by them or by others. This feature is perfect for events where group coordinators are responsible for distributing tickets to their group members. -->
+-   **Group Coordinators Digital Tickets**: Events now have the option to allow their group coordinators to download digital tickets for all of their group members, whether or not those tickets were booked by them or by others. This feature is perfect for events where group coordinators are responsible for distributing tickets to their group members.
 
 ## Q4 2024
 
