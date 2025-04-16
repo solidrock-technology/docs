@@ -268,6 +268,10 @@ export default defineConfig({
                     link: "/faqs/tickets-extras-bundles",
                 },
                 {
+                    text: "Team Members & References",
+                    link: "/faqs/team-members",
+                },
+                {
                     text: "Front of House",
                     link: "/faqs/foh",
                 },
