@@ -207,6 +207,10 @@ If all tickets for your event must be assigned to a group, turn this option on. 
 
 If all extras for your event must be assigned to a group, turn this option on. Bookers will be required to assign a group to their extras before being able to check out and complete their booking.
 
+### Can Group Coordinators download all tickets for their groups?
+
+If enabled, Group Coordinators will be able to download all tickets associated with their group(s) from their 'My Groups' profile page. This is useful for those events where a group coordinator may need to print out tickets on behalf of their group members.
+
 ### Are public group registrations allowed?
 
 If you want to allow booker to register their own groups you can enable this option.
@@ -221,11 +225,27 @@ A group will always exist as part of a set. Your set of groups might be named 'B
 
 Any publicly registered groups will be created within the set selected here.
 
+### Custom Group Instructions
+
+This text will appear at the top of the group selection page during the frontend bookings flow. You can use this text to convey important booking information related to groups.
+
+### Group Adult to Child Ratio Enabled?
+
+If enabled, this setting will require you to set a ratio value for the number of child tickets (any tickets caculated as being for under 18s) to adult tickets (any tickets calculated as being for 18s+). This is useful for events where there are specific ratios of adults to children that must be adhered to for safeguarding purposes.
+
+### Group Adult to Child Ratio Value
+
+This is the ratio value that will be used to calculate the number of adult tickets required for a given number of child tickets within a group. For example, if the value is set to 10, then for every 10 child tickets purchased, at least 1 adult ticket must also be associated with the group.
+
+### Groups with only adults check?
+
+If your event expects both adults and children to be present within groups, enabling this option will allow you see which groups have only adults in them.
+
 ---
 
 ### Example Configurations
 
-Hre are some examples of what lead bookers would see based on teh following group configurations.
+Hre are some examples of what lead bookers would see based on the following group configurations.
 
 #### #1. Event has groups, but not required for tickets/extras. No public group registrations.
 

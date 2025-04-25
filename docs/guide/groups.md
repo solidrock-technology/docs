@@ -44,18 +44,31 @@ Having Public Group Registration disabled can be a good solution for those cases
 :::
 
 ##### Over 18s Check
+
 When the 'Show Over-18 check?' setting is enabled for your event, a checkbox will be shown on the Public Group Registration form.
 This checkbox will need to be checked when registering a group to confirm the user registering the group is over 18.
 
+### Group Linking
+
+Group Coordinators can opt to connect their group to another group. This is useful for groups that are part of a larger organisation or network, or would benefit from being situated together on-site for logistical purposes (e.g. shared catering, accommodation, etc).
+
+To link a group, the Group Coordinator will need to enter the unique code of the group they wish to link to - shared with them by the Group Coorindator of the other group. Once linked, the Group Coordinator of the other group and al event admins will receive a notification informing them of the link.
+
+::: info
+Event administrators can view which groups have been linked withn the Event > Group List page as well as the groups report. They also have the option to unlink them if needed.
+:::
+
 ## Group Coordinators
 
-A Group Coordinator is any group leader or administrator for a group. They may or may not be attending the event themselves. 
+A Group Coordinator is any group leader or administrator for a group. They may or may not be attending the event themselves.
 In Solidrock any account can be given the [Group Coordinator account type](/guide/accounts/account-types#group-coordinator) which wil allow them to view all tickets and extras assigned to their group(s) for each event.
 
 ### Importing Group Coordinators
+
 Using the 'Import Group Coordinators' button on the Group Coordinators page for your event, you'll be able to import any Group Coordinators from another event that uses the same group set.
 When you do this, any Group Coordinators that are not already part of the event you're managing will be copied across.
 
 ### Removing Group Coordinators
-From the Group Coordinators page, you can use the triple-dot menu to see a 'Remove Group Coordinator' option. 
+
+From the Group Coordinators page, you can use the triple-dot menu to see a 'Remove Group Coordinator' option.
 This will prompt you to confirm the removal of the Group Coordinator for this event.
