@@ -12,3 +12,4 @@ Use the links below to explore the full feature set across all the Front of Hous
 2. [Venue Check In & Out](/guide/front-of-house/check-in-out.md)
 3. [Box Office](/guide/front-of-house/box-office)
 4. [Ticket Search](/guide/front-of-house/search)
+5. [Managing Users](/guide/front-of-house/managing-users.md)

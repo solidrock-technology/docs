@@ -196,6 +196,10 @@ export default defineConfig({
                             text: "Search",
                             link: "/guide/front-of-house/search",
                         },
+                        {
+                            text: "Managing Users",
+                            link: "/guide/front-of-house/managing-users",
+                        },
                     ],
                 },
                 {
