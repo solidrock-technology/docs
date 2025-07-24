@@ -3,9 +3,9 @@
 Upcoming planned and in-progress features for Solidrock!
 
 -   Front of House: Allow creating 'Meetings' for venues
--   Front of House: Allow setting venue capactiy and indicating within check-in pages the live progress towards this capacity
--   Front of House: Allowing event organisers to specifcy other custom field data to be included on arrivals and person lookup pages
--   'Places': Allocating groups, orders and tickets to spcefiic areas/zones/villages within an event
+-   Front of House: Allow setting venue capacity and indicating within check-in pages the live progress towards this capacity
+-   Front of House: Allowing event organisers to specify other custom field data to be included on arrivals and person lookup pages
+-   'Places': Allocating groups, orders and tickets to specific areas/zones/villages within an event
 -   Tickets: Adding an option for event organisers to be able to flag 🚩 a ticket and provide a reason
 -   Tickets: Adding the ability to provide an event a 'banned people' list that will automatically flag an notify event organisers if someon books in with matching details
 -   Bookings: Allowing Lead Bookers to re-use the details from tickets they have previously purchased for new orders.
@@ -17,7 +17,7 @@ This is not a comprehensive list of all work in the development backlog.
 
 ### Recently Released 🎉
 
--   Adding an option to allow Group Coordinators to download the tickets for everone in their group
+-   Adding an option to allow Group Coordinators to download the tickets for everyone in their group
 -   Adding Apple Pay and Google Pay options to booking payment pages
 -   Add the ability to sell Ticket & Extra bundles
 -   Ability for event admins to alter a ticket option for a purchased ticket. For example, changing and ticket within an order from a 5-10s ticket to an 11-18s ticket.

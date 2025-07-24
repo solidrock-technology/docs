@@ -16,7 +16,7 @@ What you will see in the admin backend to understand what this form is for.
 
 ### Form Submit Button Text
 
-The text in the submit button that a Lead Booker will see when they are filling the form in (e.g. 'Submit', 'Save Information', 'Save' etc).
+The text in the submit button that a Lead Booker will see when they are filling the form in (e.g. 'Submit', 'Save Information', 'Save' etc.).
 
 ### Fields
 

@@ -77,7 +77,7 @@ If you have ticket price breaks, you can use these dates to swap between the dif
 # Time Restricted
 
 This option enables a 30-minute inactivity timer while the ticket is in an unpaid order.
-More information about time-resricted items can be found [here](/guide/tickets/time-restricted-items.md).
+More information about time-restricted items can be found [here](/guide/tickets/time-restricted-items.md).
 
 ### Status
 

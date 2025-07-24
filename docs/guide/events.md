@@ -44,7 +44,7 @@ Set the timezone for your event start date.
 
 ### Digital Event Streaming
 
-If your event is an online or digital event, or has a digital component, you can turn this option on to gain access to further content settings for the digital part of your event. The new area will appear in the sidebar called ['Digital Event'](/guide/digital-events.md).
+If your event is an online or digital event, or has a digital component, you can turn this option on to gain access to further content settings for the digital part of your event. The new area will appear in the sidebar called '[Digital Event](/guide/digital-events.md)'.
 
 From this new area you will be able to create a page, restricted by login using a ticket ID, to stream video content and provide details for other content available online, for example links to hidden content, digital meetings and so on.
 
@@ -231,7 +231,7 @@ This text will appear at the top of the group selection page during the frontend
 
 ### Group Adult to Child Ratio Enabled?
 
-If enabled, this setting will require you to set a ratio value for the number of child tickets (any tickets caculated as being for under 18s) to adult tickets (any tickets calculated as being for 18s+). This is useful for events where there are specific ratios of adults to children that must be adhered to for safeguarding purposes.
+If enabled, this setting will require you to set a ratio value for the number of child tickets (any tickets calculated as being for under 18s) to adult tickets (any tickets calculated as being for 18s+). This is useful for events where there are specific ratios of adults to children that must be adhered to for safeguarding purposes.
 
 ### Group Adult to Child Ratio Value
 

@@ -12,7 +12,8 @@ Front of House Arrivals is your one-stop shop for checking people in to the even
 
 ## Pre-Arrival Setup
 
-Every event managed through Solidrock is automatically setup with a 'Main Event' venue and 'Main Entrance'. From the Venues area in the event management backend you can rename this venue and create other gates/entrances as needed for your the 'Main Event' venue.
+Every event managed through Solidrock is automatically setup with a 'Main Event' venue and 'Main Entrance'. 
+From the Venues area in the event management backend you can rename this venue and create other gates/entrances as needed for your 'Main Event' venue.
 
 :::info hint
 Arrivals will always check people in to the 'Main Event' venue
@@ -30,7 +31,7 @@ The arrivals page is broken down into 3 core functions:
 2. Ticket and Event Pass scanning
 3. Ticket Search
 
-You can check and change the entrance you are checking people through by clicking on the cog icon in the nvaigation bar at the bottom of the page.
+You can check and change the entrance you are checking people through by clicking on the cog icon in the navigation bar at the bottom of the page.
 
 ### Dashboard
 
@@ -48,7 +49,7 @@ Each result will indicate where known:
 
 -   The delegate name
 -   The unique ticket ID
--   The ticket name (e.g. Team Member, Early Bird, V.I.P, Exhibitor etc)
+-   The ticket name (e.g. Team Member, Early Bird, V.I.P, Exhibitor etc.)
 -   The group they're with
 -   any teams they have applied to be on, and the approval status
 -   The date and time the ticket was booked and who by (the Lead Booker)
@@ -61,7 +62,7 @@ Clicking on a ticket result returned from the search will expand the card provid
 
 ### Digital Tickets
 
-All completed and paid tickets in Solidrock are available as a digital ticket downloads - each of which displays a unique QR code. This QR code can be scanned via your devices built-in camera(s) or external camera/webcam through the scan tab. In addition the QR code can be scanned using a compatible barcode reader.
+All completed and paid tickets in Solidrock are available as a digital ticket downloads - each of which displays a unique QR code. This QR code can be scanned via your devices built-in camera(s) or external camera/webcam through the scan tab. In addition, the QR code can be scanned using a compatible barcode reader.
 
 ### Event Pass or Wristband
 

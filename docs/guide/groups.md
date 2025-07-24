@@ -50,12 +50,12 @@ This checkbox will need to be checked when registering a group to confirm the us
 
 ### Group Linking
 
-Group Coordinators can opt to connect their group to another group. This is useful for groups that are part of a larger organisation or network, or would benefit from being situated together on-site for logistical purposes (e.g. shared catering, accommodation, etc).
+Group Coordinators can opt to connect their group to another group. This is useful for groups that are part of a larger organisation or network, or would benefit from being situated together on-site for logistical purposes (e.g. shared catering, accommodation, etc.).
 
-To link a group, the Group Coordinator will need to enter the unique code of the group they wish to link to - shared with them by the Group Coorindator of the other group. Once linked, the Group Coordinator of the other group and al event admins will receive a notification informing them of the link.
+To link a group, the Group Coordinator will need to enter the unique code of the group they wish to link to - shared with them by the Group Coordinator of the other group. Once linked, the Group Coordinator of the other group and al event admins will receive a notification informing them of the link.
 
 ::: info
-Event administrators can view which groups have been linked withn the Event > Group List page as well as the groups report. They also have the option to unlink them if needed.
+Event administrators can view which groups have been linked within the Event > Group List page as well as the groups report. They also have the option to unlink them if needed.
 :::
 
 ## Group Coordinators

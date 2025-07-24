@@ -2,7 +2,7 @@
 
 ## Why does a referee see a message saying there are no references to complete?
 
-If a team member application requires a reference, the team member will be required to provide the name and email address of a suitable referee. When the application is submitted, the referee will receive an email with a link to login to complete the reference.
+If a team member application requires a reference, the team member will be required to provide the name and email address of a suitable referee. When the application is submitted, the referee will receive an email with a link to log in to complete the reference.
 
 Once logged in, if the referee sees a message saying there are no references to complete, it is likely that they have logged in to a Solidrock account that uses a different email address to the referee email address provided by the team member in their application.
 

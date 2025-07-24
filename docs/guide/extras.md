@@ -45,7 +45,7 @@ The date and time from which an extra should no longer be available for purchase
 # Time Restricted
 
 This option enables a 30-minute inactivity timer while the extra is in an unpaid order.
-More information about time-resricted items can be found [here](/guide/tickets/time-restricted-items.md).
+More information about time-restricted items can be found [here](/guide/tickets/time-restricted-items.md).
 
 ### Status
 
