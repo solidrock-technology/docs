@@ -124,8 +124,27 @@ export default defineConfig({
                             link: "/guide/tickets/ticket-sets",
                         },
                         {
+                            text: "Ticket Collections",
+                            link: "/guide/tickets/ticket-collections",
+                        },
+                        {
                             text: "Time Restricted Items",
                             link: "/guide/tickets/time-restricted-items",
+                        },
+                    ],
+                },
+                {
+                    collapsed: true,
+                    text: "Extras",
+                    link: "/guide/extras/extra-options",
+                    items: [
+                        {
+                            text: "Extra Options",
+                            link: "/guide/extras/extra-options",
+                        },
+                        {
+                            text: "Extra Collections",
+                            link: "/guide/extras/extra-collections",
                         },
                     ],
                 },
