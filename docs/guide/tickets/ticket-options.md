@@ -87,6 +87,14 @@ Whether to make the ticket available to bookers on the frontend, or not.
 You can set a ticket to **Disabled** and still provide a link directly to it on the frontend for specific people to book.
 :::
 
+### Box Office Status
+
+Whether to make the ticket available in the Front of House Box Office kiosk, or not.
+
+::: tip
+Tickets can be set to be available in the Box Office even if they are not available on the public frontend booking pages.
+:::
+
 ### Form Selection
 
 Here you can choose a custom form you've already created to associate with a ticket. Custom forms can contain any number of custom fields that you've created to capture delegate information or preferences necessary for the running of your event.

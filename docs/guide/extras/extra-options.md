@@ -55,6 +55,14 @@ Whether to make the extra available to bookers on the frontend or not.
 You can set an extra to **Disabled** and still provide a link directly to it on the frontend for specific people.
 :::
 
+### Box Office Status
+
+Whether to make the extra available in the Front of House Box Office kiosk, or not.
+
+::: tip
+Extras can be set to be available in the Box Office even if they are not available on the public frontend booking pages.
+:::
+
 ### Form Selection
 
 Here you can choose a custom form you've already created to associate with an extra. Custom forms can contain any number of custom fields that you've created to capture delegate information or preferences necessary for the running of your event.
