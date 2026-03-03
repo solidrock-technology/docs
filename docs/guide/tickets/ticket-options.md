@@ -77,7 +77,7 @@ If you have ticket price breaks, you can use these dates to swap between the dif
 ### Time Restricted
 
 This option enables a 30-minute inactivity timer while the ticket is in an unpaid order.
-More information about time-resricted items can be found [here](/guide/tickets/time-restricted-items.md).
+More information about time-restricted items can be found [here](/guide/tickets/time-restricted-items.md).
 
 ### Front-end Status
 
@@ -89,7 +89,11 @@ You can set a ticket to **Disabled** and still provide a link directly to it on 
 
 ### Box Office Status
 
-Whether to make the ticket available within the Front of House Box Office or not.
+Whether to make the ticket available in the Front of House Box Office kiosk, or not.
+
+::: tip
+Tickets can be set to be available in the Box Office even if they are not available on the public frontend booking pages.
+:::
 
 ### Form Selection
 

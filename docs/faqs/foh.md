@@ -18,9 +18,9 @@ You also have the option to scan-to-search which works either by using a device'
 
 ### Can I check people in and out of venues at my event?
 
-Yes, you can! Using the ['Check in & out'](/guide/front-of-house/check-in-out) feature you can manage the check-in and out of delegates on a per-venue basis throughout the course of your event. This feature is particularly useful for events that have multiple venues or areas that require different levels of access control.
+Yes, you can! Using the '[Check in & out](/guide/front-of-house/check-in-out)' feature you can manage the check-in and out of delegates on a per-venue basis throughout the course of your event. This feature is particularly useful for events that have multiple venues or areas that require different levels of access control.
 
-You can search for delegates to check-in or out by:
+You can search for delegates to check in or out by:
 
 -   Delegate name
 -   Unique Ticket ID

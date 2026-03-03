@@ -33,7 +33,7 @@ Date field types will automatically validate the entered value to ensure it is i
 
 ### Email
 
-Email fields will automatically validate the entered value to ensure it is a date. In addition, you can further specify if there is a minimum or maximum length of the entered value as well as if there is any specific validation you want to run on the entered value to ensure it only uses certain characters (e.g. the alphabet only, alphanumeric etc)
+Email fields will automatically validate the entered value to ensure it is a date. In addition, you can further specify if there is a minimum or maximum length of the entered value as well as if there is any specific validation you want to run on the entered value to ensure it only uses certain characters (e.g. the alphabet only, alphanumeric etc.)
 
 ### Instructions
 
@@ -64,7 +64,7 @@ You can provide one or more options for select/dropdown fields. Where multiple o
 Telephone fields can be configured to:
 
 - Restrict the length of text being entered (e.g. between 1 and 14 characters)
-- Restrict the characters allowed to be entered (e.g. the alphabet only, alphanumeric etc)
+- Restrict the characters allowed to be entered (e.g. the alphabet only, alphanumeric etc.)
 
 ### Terms & Conditions
 
@@ -75,7 +75,7 @@ Terms & Condition fields allow you to select from one of your created Terms & Co
 Text fields can be configured to:
 
 - Restrict the length of text being entered (e.g. between 1 and 50 characters)
-- Restrict the characters allowed to be entered (e.g. the alphabet only, alphanumeric etc)
+- Restrict the characters allowed to be entered (e.g. the alphabet only, alphanumeric etc.)
 - Allow for multiple lines of text to be entered - effectively converting the field from a simple text input field to a multi-line textarea field for longer format information gathering.
 
 ## Globally available default fields

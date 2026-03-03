@@ -155,11 +155,11 @@ export default defineConfig({
                 {
                     collapsed: true,
                     text: "Extras",
-                    link: "/guide/extras",
+                    link: "/guide/extras/extras-options",
                     items: [
                         {
-                            text: "Extras",
-                            link: "/guide/extras",
+                            text: "Extra Options",
+                            link: "/guide/extras/extras-options",
                         },
                         {
                             text: "Extra Sets",
@@ -237,6 +237,10 @@ export default defineConfig({
                         {
                             text: "Search",
                             link: "/guide/front-of-house/search",
+                        },
+                        {
+                            text: "Managing Users",
+                            link: "/guide/front-of-house/managing-users",
                         },
                     ],
                 },

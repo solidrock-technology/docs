@@ -22,9 +22,9 @@ References can be of two types:
 Once a reference has been requested, the status of the reference will be displayed in the 'References' section of the teams area. The status can be one of the following:
 
 1. **Not Started** - The referee has been informed they need to leave a reference, but they have not yet started it yet.
-2. **In Progress** - The referee begun the reference but not not yet completed it.
+2. **In Progress** - The referee has started the reference, but not yet completed it.
 3. **Completed** - The reference has been completed by the referee.
-4. **Rejected** - The referee has rejected the reference. This could be because they don't know the person well enough or they don't feel they can provide a reference for another reason.
+4. **Rejected** - The referee has rejected the reference. This could be because they don't know the person well enough, or they don't feel they can provide a reference for another reason.
 
 ## Reference Review Status
 
@@ -51,7 +51,7 @@ A referee can quickly see and access the references they need to complete from t
 
 A default reference form is provided for every event. This form can be customised by the event organiser to include additional questions or to remove questions that are not relevant to the event.
 
-In addition more reference forms can be created in Form Builder that are entirely bespoke to the event or specific teams. These forms can be assigned to specific teams from the team edit form and will be used in place of the default reference form.
+In addition, more reference forms can be created in Form Builder that are entirely bespoke to the event or specific teams. These forms can be assigned to specific teams from the team edit form and will be used in place of the default reference form.
 
 ## Altering the referee
 

@@ -47,7 +47,7 @@ The date and time from which the bundle should no longer be available for purcha
 # Time Restricted
 
 This option enables a 30-minute inactivity timer while the bundle is in an unpaid order.
-More information about time-resricted items can be found [here](/guide/tickets/time-restricted-items.md).
+More information about time-restricted items can be found [here](/guide/tickets/time-restricted-items.md).
 
 ::: tip
 If a bundle contains time-restricted tickets or extras then the bundle becomes time-restricted as well.
@@ -63,7 +63,7 @@ Optionally provide some terms of sale for the bundle. These will be displayed to
 
 ### Bundle Items
 
-Here you can add tickets and extras to the bundle. You can add as many items as you like and set the minimum and maximum quantities of each item that should be included in the bundle. If the minimum and maximum quanties are the same then the quantity of the item in the bundle will be fixed, otherwise the number of items will be configurable by the lead booker within the range.
+Here you can add tickets and extras to the bundle. You can add as many items as you like and set the minimum and maximum quantities of each item that should be included in the bundle. If the minimum and maximum quantities are the same then the quantity of the item in the bundle will be fixed, otherwise the number of items will be configurable by the lead booker within the range.
 
 ::: tip
 Tickets and Extras will need to be created first, before they can be added to a bundle.
@@ -75,7 +75,7 @@ Bundles will not appear on the frontend booking flow if they contain zero items.
 
 ## Unwrapping a Bundle
 
-Once a bundle is configured and added to an order, the lead booker can continue to modify the contents of the bundle until they complete the order, adding more items (if configurable) and deleting items. When items in a bundle are deleted Solidrock will check if the bundle remains valid (the quantity of each item is within the minimum and maxmimum range) or invalid. If deemed invalid Solidrock will **unwrap** the bundle setting any remaining items as individual items in the order.
+Once a bundle is configured and added to an order, the lead booker can continue to modify the contents of the bundle until they complete the order, adding more items (if configurable) and deleting items. When items in a bundle are deleted Solidrock will check if the bundle remains valid (the quantity of each item is within the minimum and maximum range) or invalid. If deemed invalid Solidrock will **unwrap** the bundle setting any remaining items as individual items in the order.
 
 ## Editing the contents of a Bundle
 

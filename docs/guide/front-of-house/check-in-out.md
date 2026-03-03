@@ -17,7 +17,7 @@ You can select which venue you are checking people into and out of as well as th
 To change which gate you are checking people in and out of, select the cog icon from the navigation bar at the bottom and then use to 'Gate' dropdown to select the gate you want to use.
 
 :::tip
-You can create and manage the available gates gates for venues from the event management backend.
+You can create and manage the available gates for venues from the event management backend.
 :::
 
 ## Reset Venue Check-ins
