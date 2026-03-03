@@ -1,4 +1,4 @@
-# Events
+# Event Settings
 
 ## General Information
 
@@ -57,6 +57,10 @@ The event status offers a few options:
 3. **Private:** The event _is_ accessible by any member of the public so long as they have the specific website URL for the event. The event will not be listed on the main event listing page.
 4. **Cancelled:** The event has been cancelled and is no longer accessible for people to book in. Any person trying to access the event frontend will be instructed that the event has been cancelled, and they should contact the event organiser for more information.
 
+### Event Pass Pattern
+
+A regular expression pattern to match event pass codes against when assigning a pass to check their validity. This is an advanced setting and should only be used if you have a specific format for your event pass codes that you want to enforce. For example, if all your event pass codes are 6 characters long and contain only uppercase letters and numbers, you could use the following regular expression pattern: `^[A-Z0-9]{6}$`. This pattern ensures that only valid event pass codes are accepted when assigning passes to tickets.
+
 ## Contact Information
 
 The event contact information is specifically related to the event which may be different to the contact information for your organisation. The address in particular should be the location of the event.
@@ -72,6 +76,10 @@ This is the full URL (including the _https://_) of the website that provides com
 ### Address
 
 This is the address for the event location. If your event is not in-person (i.e. it's a digital only event) you can leave all of these fields empty.
+
+### Custom Latitude & Longitude
+
+If you want to have more control over the location shown on the event map on the frontend, you can enter custom latitude and longitude coordinates here. This is especially useful if your event address is not being accurately translated into a location on the map or if your event doesn't have a specific address (e.g. it's taking place in a large park or open space).
 
 ### Hide Event Map
 
@@ -98,6 +106,10 @@ This date and time signals when bookings close through Solidrock for this event.
 ### Booking Editing Cutoff Date
 
 This date and time signals when bookings can no longer be edited for this event. Under some circumstances details associated with tickets and extras within a booking can be edited after it has been paid for. Once this date/time is reached the booker will no longer be able to make any changes and must contact the event organiser to make further changes, subject to the event terms & conditions and discretion of the organiser.
+
+### Ticket Limit
+
+If this limit is set, the total event ticket sales will be capped at this limit. If this field is blank, no limit will be applied to ticket sales for the event.
 
 ### Terms & Conditions
 
@@ -143,7 +155,7 @@ This text will appear at the top of the extra selection page during the frontend
 
 This is where you set how people can pay for their bookings from the frontend. Supported payment methods include [Stripe](https://stripe.com) and bank transfer (BACs). As you may wish to have the same payment options (e.g. the same Stripe account, or Bank Account for transfers) used across multiple events you first set these up [here](https://events.solidrock.io/admin/payment-options).
 
-When adding a payment option, you can choose to limit that option to only Group Coordinators by using the checkbox below the payment option dropdown.
+All available payment options set at the organisation level for this event will be visible with options to enable and configure them for the event.
 
 ### Refund Admin Fee
 
@@ -160,32 +172,6 @@ Use the at a glance calculator to get an understanding for how fees will break d
 1. **Fees included within ticket & extra prices:** This is the default setting for fees. Under this option the Solidrock and card processing fees will be taken _out of_ the total cost of the order. For example a £100 order might have a 2% (£2) Solidrock fee deducted as well as a Stripe transaction fee (approximately 1.4%-2.9% if order paid by card). The customer would pay £100 and the event would receive in the region of £95.
 
 2. **Fees are charged to the customer:** You can turn this option on which charges the customer the **Solidrock** fees on top of the order total. Using the same example as before, a customer would pay the £100 order total plus the £2 Solidrock fee. Stripe fees are always taken out of the final amount paid.
-
-### Access Pass Image
-
-The access pass image relates to the [Teams](/guide/teams/) area of an event within Solidrock. If you need to print out lanyards or passes for team members to wear at an event you can do so through Solidrock. This pass image becomes the background image/graphic for that printed pass that then has dynamic information (such as team member name, team name, access privileges etc.) overlaid on top.
-
-The image you upload should be high resolution (at least 2000px wide), but no more than 4MB (megabytes) in size. Images can be PNG, JPG or GIF.
-
-::: tip
-Passes are printed at a portrait aspect ratio approximately 10:16. Images should therefore follow this same sizing ratio to prevent unexpected cropping results.
-:::
-
-### Team Opportunities Description
-
-This description, which can have basic text formatting applied, is shown on the frontend event bookings pages for Team Member ticket types where a person is being asked to select which team(s) they would like to join. This field is optional and could be used to explain a little more about the team structure at your event.
-
-::: tip
-If your event doesn't require team members to be booked in through Solidrock you can leave this empty.
-:::
-
-### Team Times Description
-
-As with the 'Team Opportunities Description', this is shown on the frontend event booking pages for Team Member ticket types where a person is being asked to select which team(s) they would like to join. This field is optional and could be used to explain a little more about how teams work across different time periods within your event. For example, you may have some teams needed for the event setup, some for while the event runs and some for post-event set-down.
-
-::: tip
-If your event doesn't require team members, or teams aren't required across multiple time periods, you can leave this empty.
-:::
 
 ## Groups
 
@@ -215,13 +201,23 @@ If enabled, Group Coordinators will be able to download all tickets associated w
 
 If you want to allow booker to register their own groups you can enable this option.
 
-**When enabled**, bookers will be required to enter a unique group code to assign their tickets and extras to a group. The person who registered the group initially (the 'Group Coordinator') will have access to this unique code that they can distribute to those coming with their group.
+**If enabled**, the person who registered the group initially (the 'Group Coordinator') will immediately have access to manage this group, seeing all tickets and extras purchased and associated with it by them, or others who select the group during their booking.
 
-**When disabled**, the only way groups can be registered is by an event administrator from the [Groups](https://events.solidrock.io/admin/groups) area. Bookers will then be able to search for and select a group by name to assign to their tickets and extras.
+### Show Over-18 check?
+
+Enable this setting to show a confirmation checkbox that the group coordinator registering the group is over 18
+
+### Group Joining Mechanism
+
+Choose how Lead Bookers join groups when starting their orders for this event.
+
+**Search:** Bookers will be able to see all groups listed with the option to narrow them down by search.
+
+**Group Code:** Group association will require a unique group code to be entered by the booker. This unique group code will have be avilable to the Group Coordinator to distribute.
 
 ### Which set of groups should be used for this event?
 
-A group will always exist as part of a set. Your set of groups might be named 'Businesses', 'Youth Groups', 'Churches', 'Event Name 2024' and so on as a way to differentiate some groups from others and whether a set of groups is to be used across multiple events of should be for a single specific event only. Within this dropdown all previously created sets of groups will be listed as well as an option to 'Generate new set' which, if selected, will create a group based on the event name.
+A group will always exist as part of a set. Your set of groups might be named 'Businesses', 'Youth Groups', 'Churches', 'Event Name 2026' and so on as a way to differentiate some groups from others and whether a set of groups is to be used across multiple events of should be for a single specific event only. Within this dropdown all previously created sets of groups will be listed as well as an option to 'Generate new set' which, if selected, will create a group based on the event name.
 
 Any publicly registered groups will be created within the set selected here.
 
@@ -245,49 +241,61 @@ If your event expects both adults and children to be present within groups, enab
 
 ### Example Configurations
 
-Hre are some examples of what lead bookers would see based on the following group configurations.
+Here are some examples of what lead bookers would see based on the following group configurations.
 
-#### #1. Event has groups, but not required for tickets/extras. No public group registrations.
+#### 1. Event has groups, but not required for tickets/extras. No public group registrations. Group joining mechanism set to 'Search'.
 
-![Groups optional for tickets and extras. No public group registration](./images/fe-has-groups-optional-tickets-no-pgr.png){data-zoomable}
+![Groups optional for tickets and extras. No public group registration](../images/fe-has-groups-optional-tickets-no-pgr.png){data-zoomable}
 
-#### #2. Event has groups, group required for tickets/extras. No public group registrations.
+#### 2. Event has groups, group required for tickets/extras. No public group registrations. Group joining mechanism set to 'Search'.
 
-![Group required for tickets. No public group registration](./images/fe-has-groups-tickets-no-pgr.png){data-zoomable}
+![Group required for tickets. No public group registration](../images/fe-has-groups-tickets-no-pgr.png){data-zoomable}
 
-#### #3. Event has groups, group required for tickets/extras. Public group registrations enabled.
+#### 3. Event has groups, group required for tickets/extras. Public group registrations enabled. Group joining mechanism set to 'Group Code'.
 
-![Group required for tickets. No public group registration](./images/fe-has-groups-tickets-pgr.png){data-zoomable}
+![Group required for tickets. No public group registration](../images/fe-has-groups-tickets-pgr.png){data-zoomable}
 
-Group registration form.
+#### Group registration form
 
-![Public Group registration form](./images/fe-pgr-form.png){data-zoomable}
+The form a person would see when registering a group if public group registrations are enabled.
 
-## Emails
+![Public Group registration form](../images/fe-pgr-form.png){data-zoomable}
 
-### Receipt Organiser Text
+## Teams
 
-Alongside all the standard order receipt information (such as a summary of the order tickets and extras purchased and total amounts paid or due) you can use this field to provide some custom information from you the event organiser.
+### Access Pass Image
+
+The access pass image relates to the [Teams](/guide/teams/) area of an event within Solidrock. If you need to print out lanyards or passes for team members to wear at an event you can do so through Solidrock. This pass image becomes the background image/graphic for that printed pass that then has dynamic information (such as team member name, team name, access privileges etc.) overlaid on top.
+
+The image you upload should be high resolution (at least 2000px wide), but no more than 4MB (megabytes) in size. Images can be PNG, JPG or GIF.
 
 ::: tip
-This could be a thank-you message or links to your social media and website for more information.
+Passes are printed at a portrait aspect ratio approximately 10:16. Images should therefore follow this same sizing ratio to prevent unexpected cropping results.
 :::
 
-### Receipt Email Card Payment Text
+### Team Opportunities Description
 
-Use this field to provide some custom text on the receipt email specifically to those who have paid by card.
+This description, which can have basic text formatting applied, is shown on the frontend event bookings pages for Team Member ticket types where a person is being asked to select which team(s) they would like to join. This field is optional and could be used to explain a little more about the team structure at your event.
 
-### Receipt Email BACs Payment Text
+::: tip
+If your event doesn't require team members to be booked in through Solidrock you can leave this empty.
+:::
 
-Use this field to provide some custom text on the receipt email specifically to those who have opted to pay by bank transfer (BACs). You may for example want to outline that the bank transfer description should contain the Solidrock order reference to enable you to easily match up the money in your account with the right order in Solidrock.
+### Team Times Description
 
-### Send Unassigned Ticket Reminder Email?
+As with the 'Team Opportunities Description', this is shown on the frontend event booking pages for Team Member ticket types where a person is being asked to select which team(s) they would like to join. This field is optional and could be used to explain a little more about how teams work across different time periods within your event. For example, you may have some teams needed for the event setup, some for while the event runs and some for post-event set-down.
 
-If enabled Solidrock will automatically send an email reminder notification to any lead booker who has one or more unassigned tickets (the ticket doesn't have all required form data filled in) within their booking(s) one week before the order edit cut-off date.
+::: tip
+If your event doesn't require team members, or teams aren't required across multiple time periods, you can leave this empty.
+:::
 
-### Automatically Send Digital Tickets?
+### Enable Team Member References?
 
-If enabled Solidrock will automatically send out the digital tickets to all lead bookers for their completed bookings on the date specified in the `Digital Ticket Delivery Date` field. For any bookings that are completed after this date they will immediately receive their tickets on completion and full payment of the order.
+If team members require a reference from someone else as part of their application, enable this setting. Once enabled, the person providing the reference will receive an email with a link to a form where they can provide their reference for the team member.
+
+### Reference Form
+
+The reference form is the form that the person providing a reference for a team member will fill in. You can create and edit this form to collect the information you need from the referee to make a decision on whether to accept the team member onto your team or not.
 
 ## Tracking
 

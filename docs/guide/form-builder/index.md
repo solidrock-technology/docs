@@ -4,6 +4,8 @@ At Solidrock we know how important it is that events have the ability to capture
 
 The Form Builder is split into 2 distinct areas, first the forms themselves and 2nd the custom fields that can be shared across multiple forms and events.
 
+Custom forms can be used within tickets, extras and for Team Member References to enable captring all the relevant details you need a referee to provide about a team member when they apply to be on a team.
+
 Read more about setting up [custom forms here](/guide/form-builder/forms).
 
 Read more about setting up [custom fields here](/guide/form-builder/fields).

@@ -112,6 +112,25 @@ export default defineConfig({
                 },
                 {
                     collapsed: true,
+                    text: "Events",
+                    link: "/guide/events/settings",
+                    items: [
+                        {
+                            text: "Settings",
+                            link: "/guide/events/settings",
+                        },
+                        {
+                            text: "Emails",
+                            link: "/guide/events/emails",
+                        },
+                        {
+                            text: "Watchlist",
+                            link: "/guide/events/watchlist",
+                        },
+                    ],
+                },
+                {
+                    collapsed: true,
                     text: "Tickets",
                     link: "/guide/tickets/ticket-options",
                     items: [
@@ -124,8 +143,31 @@ export default defineConfig({
                             link: "/guide/tickets/ticket-sets",
                         },
                         {
+                            text: "Ticket Collections",
+                            link: "/guide/tickets/ticket-collections",
+                        },
+                        {
                             text: "Time Restricted Items",
                             link: "/guide/tickets/time-restricted-items",
+                        },
+                    ],
+                },
+                {
+                    collapsed: true,
+                    text: "Extras",
+                    link: "/guide/extras",
+                    items: [
+                        {
+                            text: "Extras",
+                            link: "/guide/extras",
+                        },
+                        {
+                            text: "Extra Sets",
+                            link: "/guide/extras/extra-sets",
+                        },
+                        {
+                            text: "Extra Collections",
+                            link: "/guide/extras/extra-collections",
                         },
                     ],
                 },
@@ -218,20 +260,20 @@ export default defineConfig({
                     ],
                 },
                 {
-                    text: "Organisations",
-                    link: "/guide/organisations",
+                    text: "User Profiles",
+                    link: "/guide/profile/index",
                 },
                 {
-                    text: "Events",
-                    link: "/guide/events",
+                    text: "Organisations",
+                    link: "/guide/organisations",
                 },
                 {
                     text: "Digital Events",
                     link: "/guide/digital-events",
                 },
                 {
-                    text: "Extras",
-                    link: "/guide/extras",
+                    text: "Places",
+                    link: "/guide/places",
                 },
                 {
                     text: "Bundles",
@@ -244,6 +286,10 @@ export default defineConfig({
                 {
                     text: "Groups",
                     link: "/guide/groups",
+                },
+                {
+                    text: "Order Tickets",
+                    link: "/guide/order-tickets",
                 },
                 {
                     text: "Integrations",

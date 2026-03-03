@@ -1,0 +1,7 @@
+# Ticket Collections
+
+Ticket collections are a way for you to group and categorise your tickets in a presentational way to make it easier for bookers to navigate and find the right ticket for them. You may for example have a number of tickets related to children, especially if you have price breaks for the event and if you sell tickets in advance and on the door. Creating a ticket collection for 'Children' and then applying that to each of the various tickets that would be applicable for a child would then make it easier for bookers to find the right ticket for their child.
+
+Collections can be nested within each other so you could have a top-level collection for 'Children' and then nested collections for the various age ranges such as 0-2 (Infant), 3-11 (Child) and 12-17 (Youth) and associate the relevant tickets to each age range. From the dashboard you'd then get a top-level view of the number of children coming to the event, and then be able to drill down into the various age ranges to see how many children are coming within each age range.
+
+Other applications for collections might be to separate out different types of tickets such as 'Standard', 'VIP' and 'Group' tickets, or to separate out different categories of tickets such as 'Adult', 'Child', 'Concession' and 'Day' tickets. The way you use collections is entirely up to you and how you want to present the ticket options to your bookers.

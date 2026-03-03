@@ -42,18 +42,26 @@ The date and time that an extra should become available for purchase.
 
 The date and time from which an extra should no longer be available for purchase.
 
-# Time Restricted
+### Time Restricted
 
 This option enables a 30-minute inactivity timer while the extra is in an unpaid order.
 More information about time-resricted items can be found [here](/guide/tickets/time-restricted-items.md).
 
-### Status
+### Must Be Linked To A Ticket
+
+Enable this option if this extra must be linked to a ticket to be valid and allow completion of an order.
+
+### Front-end Status
 
 Whether to make the extra available to bookers on the frontend or not.
 
 ::: tip
 You can set an extra to **Disabled** and still provide a link directly to it on the frontend for specific people.
 :::
+
+### Box Office Status
+
+Whether to make the extra available within the Front of House Box Office or not.
 
 ### Form Selection
 

@@ -74,18 +74,22 @@ The date and time from which a ticket should no longer be available for purchase
 If you have ticket price breaks, you can use these dates to swap between the different available price break tickets.
 :::
 
-# Time Restricted
+### Time Restricted
 
 This option enables a 30-minute inactivity timer while the ticket is in an unpaid order.
 More information about time-resricted items can be found [here](/guide/tickets/time-restricted-items.md).
 
-### Status
+### Front-end Status
 
-Whether to make the ticket available to bookers on the frontend, or not.
+Whether to make the ticket available to bookers on the frontend or not.
 
 ::: tip
-You can set a ticket to **Disabled** and still provide a link directly to it on the frontend for specific people to book.
+You can set a ticket to **Disabled** and still provide a link directly to it on the frontend for specific people.
 :::
+
+### Box Office Status
+
+Whether to make the ticket available within the Front of House Box Office or not.
 
 ### Form Selection
 
@@ -118,6 +122,10 @@ You can assign one existing [ticket set](/guide/tickets/ticket-sets.md) to each 
 ::: tip
 You may for example create ticket sets for various age ranges such as 0-2 (Infant), 3-11 (Child), 12-17 (Youth) and Adults and associate the relevant tickets to each age range. From the dashboard you'd then get a top-level view of the number of delegates coming to the event within each age range.
 :::
+
+### Ticket Collection
+
+If you have a large number of tickets for an event you can group them into collections to make it easier for bookers to navigate and find the right ticket for them. Here you can assign one existing [ticket collection](/guide/tickets/ticket-collections.md) to each ticket to categorise into a pre-defined collection.
 
 ### Does this ticket have any age restrictions?
 
