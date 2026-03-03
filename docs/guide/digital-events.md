@@ -2,7 +2,7 @@
 
 ## General Information
 
-If your event is an online or digital event, or has a digital component, you can turn this module on by first setting the [Digital Event Streaming](/guide/events.md#digital-event-streaming) toggle on within the Event Info page.
+If your event is an online or digital event, or has a digital component, you can turn this module on by first setting the [Digital Event Streaming](/guide/events/settings.md#digital-event-streaming) toggle on within the Event Info page.
 
 ### Digital Event Start Date
 
@@ -18,7 +18,7 @@ This is the date and time that you want to allow people to access the event page
 
 ### Maximum Logins Per Ticket
 
-In most cases the digital event page will be secured behind a simple login. The login requires a valid ticket ID from Solidrock (each purchased ticket is assigned a unique ID that is sent to the lead booker). 
+In most cases the digital event page will be secured behind a simple login. The login requires a valid ticket ID from Solidrock (each purchased ticket is assigned a unique ID that is sent to the lead booker).
 
 Here you can set how many times a single Ticket ID can be used to log in to the event. For example, you may set this to a low number so that a single ticket ID can't be distributed to a group of people to gain access. Alternatively you may set this number in the thousands and distribute a single ID yourselves to many people so that they'd all login under the same ID.
 

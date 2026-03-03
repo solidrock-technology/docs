@@ -97,7 +97,7 @@ Once the prefix has been set, and bookings made for the event, it **cannot** be 
 
 ### Bookings Open Date
 
-This date and time signals when bookings can be made through Solidrock for this event. It can be set in the future or the past. The [event status](/guide/events.md#status) must also be set to something other than `Offline` for people to access the booking process.
+This date and time signals when bookings can be made through Solidrock for this event. It can be set in the future or the past. The [event status](/guide/events/settings.md#status) must also be set to something other than `Offline` for people to access the booking process.
 
 ### Bookings Close Date
 
