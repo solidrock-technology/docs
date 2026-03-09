@@ -155,11 +155,11 @@ export default defineConfig({
                 {
                     collapsed: true,
                     text: "Extras",
-                    link: "/guide/extras/extras-options",
+                    link: "/guide/extras/extra-options",
                     items: [
                         {
                             text: "Extra Options",
-                            link: "/guide/extras/extras-options",
+                            link: "/guide/extras/extra-options",
                         },
                         {
                             text: "Extra Sets",

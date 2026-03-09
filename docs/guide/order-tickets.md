@@ -6,7 +6,7 @@ Order Tickets are the tickets that are created when a booking is made for an eve
 
 If your event uses groups, Order Tickets can be assigned to a specific group. This allows you to manage and track the tickets for each group separately, and can be used to generate reports and insights on ticket sales and attendance for each group. Group assignment can be done manually by the event organiser or automatically based on the group selection made by a lead booker at the time of booking.
 
-## Place Assignment
+## Place Assignment
 
 If your event uses places, Order Tickets can be assigned to a specific place. If you have places assigned at the group level, then an order ticket will inherit the place specified for the group they are a part of, otherwise the ticket can be assigned a place individually.
 
