@@ -2,7 +2,8 @@
 
 Upcoming planned and in-progress features for Solidrock!
 
-- Integrations: Building out a range of integrations with popular third-party platforms, such as CRM systems and marketing email tools and analytics platforms, to allow event organisers to connect their Solidrock data with other systems they use.
+- Add ability to flag other record types (e.g. orders, order extras) with a warning flag and reason, to allow event organisers to easily identify and keep track of any potentially concerning or problematic records within their events.
+- Add ability to disable group linking for an event
 - Authentication by Passkey: Allowing users to log in to their Solidrock account and access their bookings and tickets using a passkey, providing a more secure and convenient authentication method.
 - User Profile: Add option to 'Manage Saved Cards', allowing users to view and delete their saved cards that are stored for future use within the booking process.
 - Order Confirmation Pages: Allowing event organisers to add custom copy to the order confirmation page, for example to provide specific instructions for attendees after they have completed their booking.
@@ -17,6 +18,7 @@ This is not a comprehensive list of all work in the development backlog.
 
 ### Recently Released 🎉
 
+- Integrations: Building out a range of integrations with popular third-party platforms, such as CRM systems and marketing email tools and analytics platforms, to allow event organisers to connect their Solidrock data with other systems they use.
 - API: Solidrock's public REST API is now available for use by event organisers, with comprehensive documentation and support for authentication, allowing for integration with other systems and custom development.
 - Payment Plans: New option to allow event organisers to specify if the plan just requires a deposit and one, single balancing payment at a later date, rather than multiple instalments, with the ability to set the due date for this balancing payment.
 - Tickets & Extras: Independant controls to manage whether the item should appear in the Box Office and/or the frontend booking process.

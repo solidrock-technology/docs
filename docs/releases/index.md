@@ -1,5 +1,100 @@
 # Updates
 
+## Q1 2026
+
+We've not been resting on our laurels since the last update and have been busy working on some fantastic new features and improvements to make your event management experience even better. Here's a sneak peek at what we've launched in the first quarter of 2026:
+
+### Payment Plans
+
+- **Deposit & Single Balance Instalment Option**: Event organisers can now specify if a payment plan just requires a deposit and one, single balancing payment at a later date, rather than multiple instalments, with the ability to set the due date for this balancing payment. This is a great option for events that want to offer a simple payment plan without the need for multiple instalments.
+- **Allow specific payment options for instalments**: Event organisers can now specify which payment options they want to allow for each payment plan if different to the those generally avilable for those paying in full. For example, they may want to only allow card payments for Payment Plans, whereas those paying in full can choose to pay by card or BACs.
+
+### Tickets & Extras
+
+#### Box Office vs Frontend Sales
+
+We've added a new option to specify if an item should be for sale in the Box Office, the frontend booking process or both. This is a great way to have more control over where your tickets and extras are available for purchase. For example, you may want to have certain items that are only available for purchase in the Box Office and not on the frontend, or vice versa.
+
+#### Extras Sets
+
+Extras can now belong to 'sets', just like Tickets. This is a great way for you to report on and see within the event dashboard how many extras of a particular type have been sold. For example, you could have a set for 'Meal Extras' and then have different meal options within that set. This allows you to easily see how many meal extras have been sold in total as well as breaking it down by each meal option.
+
+### Team Member Management
+
+#### Separate Email for Team Member Management Communications
+
+We've added a new field to event settings to allow a different email address to be provided specifically for team member management. If provided, all team member related notifications sent to applicants will be addressed from this email address and any replies to those emails will go to this email address. This is a great way to keep team member management communications separate from other event communications.
+
+#### Approve Team Members with Outstanding Criteria
+
+An additional quality of life improvement alsoallows an event organiser to approve an application even if not all approval criteria have been met. Approving a team member under these conditions automatically flags the ticket to make it clear there are still outstanding criteria to be met for that team member.
+
+### Front of House
+
+A small but mighty update here now shows all In Progress and Pending orders within the arrivals area with a clear warning that they aren't yet fully paid. This is a great way to ensure your front of house team are aware of any bookings that may not yet be fully paid and therefore may require extra attention when they arrive at the event.
+
+### 3rd Party Platform Integrations
+
+We've been busy building out a range of integrations with popular third-party platforms, such as CRM systems and email marketing tools, to allow event organisers to connect their Solidrock data with other systems they use. The first batch of these integrations are now available. Check out the [Integrations & API](../guide/integrations/index.md) section of the guide for more details on the available integrations and how to set them up.
+
+### API
+
+Solidrock's public REST API is now available for use by event organisers, with comprehensive documentation and support for authentication, allowing for integration with other systems and custom development. The API documentation can be found at [https://events.solidrock.io/docs/api](https://events.solidrock.io/docs/api) and provides detailed information on the available endpoints, request and response formats, and examples of how to use the API.
+
+## Q4 2025
+
+The final part of 2025 sees some fantastic updates to payment plans, re-using ticket data, digital ticket passes and more.
+
+### Payment Plans
+
+- **Automatic instalment retries**: If a payment plan instalment fails to be automatically collected on the due date, we will now automatically retry collecting that instalment after 3 days and then 5 days from the initial failure. This is a great way to ensure you get paid without having to chase up your attendees for missed payments.
+- **Instlament amount automatic updates**: If an event organiser updates an order resulting in the total amount changing, we will now automatically update the amount for any existing instalments that haven't yet been paid to capture this new balance. This is a great way to ensure that your payment plans always reflect the correct amount without having to manually update each instalment.
+
+### Re-using Ticket Data
+
+Lead Bookers can now choose to re-use the details from tickets they have previously purchased for new orders. This is a great time saver for Lead Bookers who are purchasing multiple tickets across multiple orders or events, as they can simply select to re-use the details from a previous ticket and then just update any details that are different for the new ticket.
+
+### Digital Ticket Passes
+
+Purchased tickets can now be saved as event passes to Apple and Google digital wallets. This is a great way for attendees to keep their tickets handy on their mobile devices and have a seamless arrivals experience at the event.
+
+### Ticket & Extra Collections
+
+Events can now put their tickets and extras into 'collections' to allow for better organisation and grouping within frontend booking pages. For example, you could group all 'Day Tickets' together and all 'Camping Extras' together. This is a great way to make it easier for your attendees to find the tickets and extras they are looking for when booking without needing to scan through a long list of items.
+
+### Quality of Life Improvements & Bug Fixes
+
+- Added Reference actions to the reference details page to allow you to easily modify the reference status in-situ without needing to go back to the list page to do so.
+- A heap of bug fixes and performance improvements to make the system faster and more reliable for everyone.
+
+## Q3 2025
+
+As Summer draws to an end in the Northern Hemisphere and Spring is in the air in the Southern Hemisphere, we're excited to share some fantastic updates that will enhance your event management experience. We've been hard at work listening to your feedback and implementing new features to make your life easier. Let's take a look at what's new!
+
+### Front of House
+
+A number of significant updates have come to Front of House, including:
+
+- **Dashboard**: A brand new dashboard has been added to Front of House, providing a live feed of arrivals and check-ins for your event, as well as key metrics and data visualisations to help you keep your finger on the pulse of how your event is progressing.
+- **Front of House User Accounts**: We've added the ability to create dedicated Front of House user accounts that can be restricted to access only specific areas of Front of House, for example just check-in pages or just arrivals pages or just the Box Office. This allows you to give your front of house team access to the tools they need without giving them access to other areas of the system that they don't need.
+- **Customiseable Arrivals Search Result data**: Event organisers can now specify other custom field data to be included on arrivals and person lookup pages, allowing you to have key information about your attendees at your fingertips when checking people in such as dietary requirements, emegency contact details and more.
+- **Extras in Arrivals**: We've added the ability to see any extras that are part of a booking within the arrivals area, making it easier to manage arrivals for bookings with extras and ensuring you have all the information you need in one place.
+- **At Event Activity Log**: We've added the ability to make comments against a ticket within the Front of House system, which are then recorded in an 'At Event Activity Log' for that ticket. This is a great way to keep track of any important information or incidents related to that ticket during the event.
+
+### Ticket Watchlist
+
+Event organisers can now add tickets to a 'watchlist' that will automatically flag and notify event organisers if someone books in with matching details. This is a great way to keep an eye on any tickets that may be of concern for your event.
+
+### Group Flagging
+
+Event Organisers can now enable auto-flagging for groups that are either not meeting the minimum adult to child ratios as configured, or if any groups contain only adults which may be of concern for events that are particularly catering to children and families. This allows you to easily identify and keep track of any groups that may be of concern within your event.
+
+### Places
+
+We've added the ability to allocate groups, orders and tickets to specific areas/zones/villages within your event. This is a great way to keep track of where different groups and attendees are located within your event, and can be especially useful for larger events with multiple areas or zones.
+
+Including a new report, you can now easily see which groups and how many tickets and extras are allocated to each place, helping you to manage capacity and logistics within your event.
+
 ## Q2 2025
 
 As we move into the second quarter of 2025, we're excited to share some fantastic updates that will enhance your event management experience. We've been hard at work listening to your feedback and implementing new features to make your life easier. Let's take a look at what's new!
@@ -8,9 +103,9 @@ As we move into the second quarter of 2025, we're excited to share some fantasti
 
 We've refactored and updated our Stripe integrations to use the latest Stripe API and payment elements. This update brings a host of improvements, including:
 
--   **Improved Payment Experience**: The new Stripe integration provides a more seamless and user-friendly payment experience for your attendees.
--   **More Payment Methods**: The latest Stripe Peyment Elements support a wider range of payment methods, allowing your attendees to pay using their preferred method including Apple Pay and Google Pay as well as providing the option for them to save multiple card details for future use.
--   **Enhanced Security**: The latest Stripe API offers improved security features to protect your payment data.
+- **Improved Payment Experience**: The new Stripe integration provides a more seamless and user-friendly payment experience for your attendees.
+- **More Payment Methods**: The latest Stripe Payment Elements support a wider range of payment methods, allowing your attendees to pay using their preferred method including Apple Pay and Google Pay as well as providing the option for them to save multiple card details for future use.
+- **Enhanced Security**: The latest Stripe API offers improved security features to protect your payment data.
 
 ### Linking Extras to Tickets
 
@@ -24,9 +119,9 @@ In addition we've added a new setting for Extras to alow you to specificy if the
 
 Group Coordinators now have a little more visibility over the status of the tickets and extras assigned to their group. They can now see at a glance if a ticket or extra is paid or unpaid, and how complete the ticket data is:
 
--   **Unassigned**: No ticket data has been provided for this ticket
--   **Partially Assigned**: Some ticket data has been provided for this ticket but some _required_ data remains incomplete.
--   **Fully Assigned**: All _required_ ticket data has been provided for this ticket
+- **Unassigned**: No ticket data has been provided for this ticket
+- **Partially Assigned**: Some ticket data has been provided for this ticket but some _required_ data remains incomplete.
+- **Fully Assigned**: All _required_ ticket data has been provided for this ticket
 
 #### 🎟️ Group Coordinator Access to Download All Tickets 🎟️
 
@@ -36,8 +131,8 @@ Event Organisers now have the ability to enable or disable the option for Group 
 
 We've made some improvements to the reports available:
 
--   **Date Columns**: The output format for these columns has been updated to be more consistent across all reports and to work more reliably with various spreadsheet software, such as Excel, Google Sheets & Apple Numbers, to be automatically recognised as Dates and therefore be instantly sortable.
--   **Custom Form Data**: Columns related to custom form data have now been ordered according to the order those fields are present within the forms. This makes it easier to read and understand the data being presented in the reports.
+- **Date Columns**: The output format for these columns has been updated to be more consistent across all reports and to work more reliably with various spreadsheet software, such as Excel, Google Sheets & Apple Numbers, to be automatically recognised as Dates and therefore be instantly sortable.
+- **Custom Form Data**: Columns related to custom form data have now been ordered according to the order those fields are present within the forms. This makes it easier to read and understand the data being presented in the reports.
 
 ## Q1 2025
 
@@ -57,8 +152,8 @@ We've made some improvements to the payment options available to attendees. Now,
 
 ### Other Quality of Life Improvements
 
--   **Improved Arrivals Experience**: Now, when assigning an event pass to a ticket, the ticket will automatically be checked in, saving you time and effort, ensuring a seamless check-in process and reducing the risk of human error.
--   **Group Coordinators Digital Tickets**: Events now have the option to allow their group coordinators to download digital tickets for all of their group members, whether or not those tickets were booked by them or by others. This feature is perfect for events where group coordinators are responsible for distributing tickets to their group members.
+- **Improved Arrivals Experience**: Now, when assigning an event pass to a ticket, the ticket will automatically be checked in, saving you time and effort, ensuring a seamless check-in process and reducing the risk of human error.
+- **Group Coordinators Digital Tickets**: Events now have the option to allow their group coordinators to download digital tickets for all of their group members, whether or not those tickets were booked by them or by others. This feature is perfect for events where group coordinators are responsible for distributing tickets to their group members.
 
 ## Q4 2024
 
@@ -120,9 +215,9 @@ We've been busy over the last few months with a number of updates to improve the
 
 We've brought a brand new look and feel for the user profile area making it easier to navigate and find the information customers need. You can now:
 
--   See all your bookings in one place across all relevant events
--   Easily access your downloadable digital tickets
--   Pay any outstanding balances and instalments on your orders
+- See all your bookings in one place across all relevant events
+- Easily access your downloadable digital tickets
+- Pay any outstanding balances and instalments on your orders
 
 Watch the video below to see the new profile and 'My Bookings' area in action:
 
@@ -140,15 +235,15 @@ We're kicking off the new year with exciting updates to streamline team manageme
 
 We're excited to announce a significant update to our Approval Criteria feature! Now, you can customize approval requirements for each individual team within your event. This flexibility allows you to tailor your workflow to the specific needs of each team. Key Benefits include:
 
--   **Increased Efficiency**: Streamline your approval process by setting criteria that align with your team's unique requirements.
--   **Improved Compliance**: Ensure that all team members meet the necessary qualifications before being granted approval.
--   **Enhanced Customization**: Tailor your workflow to the specific needs of each team within your event.
+- **Increased Efficiency**: Streamline your approval process by setting criteria that align with your team's unique requirements.
+- **Improved Compliance**: Ensure that all team members meet the necessary qualifications before being granted approval.
+- **Enhanced Customization**: Tailor your workflow to the specific needs of each team within your event.
 
 ### Event Arrivals
 
--   **Bulk Arrivals**: Arrive entire bookings or groups in one go! This feature is perfect for events with large groups or bookings that need to be checked in quickly.
--   **Search**: Search now takes into account group names and codes
--   **Accountability**: We now record which account was responsible for checking in/out a ticket and assigning an event pass.
+- **Bulk Arrivals**: Arrive entire bookings or groups in one go! This feature is perfect for events with large groups or bookings that need to be checked in quickly.
+- **Search**: Search now takes into account group names and codes
+- **Accountability**: We now record which account was responsible for checking in/out a ticket and assigning an event pass.
 
 ### Event Dashboard
 
@@ -172,10 +267,10 @@ To read more about time restricted items, [take a look at our docs page](/guide/
 
 This month we've made a number of changes, and we've added some new emails, to help you manage your event much easier, such as:
 
--   **Emails Area**: All email settings for your event now have their own area. You can access this from the left-hand navigation. Click `Event Emails` under the `Event Info` section.
--   **Weekly Sales Summary**: This opt-in email will give you a quick summary of the previous weeks sales, new team members and groups registered and a breakdown of how many of each of your tickets and extras were bought. [Opt-in from your profile notifications page](https://events.solidrock.io/admin/profile/notifications)
--   **Unpaid Item Expiry Reminder**: You can now enable a new email to be sent automatically to any Lead Booker who will have items in their unpaid orders expire within a week.
--   **Group Coordinator Notification**: Group Coordinators can now opt in to a new notification which is sent whenever a new ticket for their group is purchased.
+- **Emails Area**: All email settings for your event now have their own area. You can access this from the left-hand navigation. Click `Event Emails` under the `Event Info` section.
+- **Weekly Sales Summary**: This opt-in email will give you a quick summary of the previous weeks sales, new team members and groups registered and a breakdown of how many of each of your tickets and extras were bought. [Opt-in from your profile notifications page](https://events.solidrock.io/admin/profile/notifications)
+- **Unpaid Item Expiry Reminder**: You can now enable a new email to be sent automatically to any Lead Booker who will have items in their unpaid orders expire within a week.
+- **Group Coordinator Notification**: Group Coordinators can now opt in to a new notification which is sent whenever a new ticket for their group is purchased.
 
 ### Team Leader Assignment
 
@@ -186,9 +281,9 @@ We've expanded on this and have now made managing your Team Leaders just as quic
 
 We have made a number of updates to the dashboard to make it clearer to get the data you need, including:
 
--   **Tickets Chart**: We've added a chart to break down each of your tickets, as we have for extras.
--   **Tooltip Data**: Tooltips in the Tickets and Extras charts now show the sales data for each item, broken down by payment status.
--   **In Progress Colour**: We've updated the colour of In Progress data to <span style="color:#22d3ee;">cyan</span> to differentiate it from <span style="color: #f97316">Pending</span> data.
+- **Tickets Chart**: We've added a chart to break down each of your tickets, as we have for extras.
+- **Tooltip Data**: Tooltips in the Tickets and Extras charts now show the sales data for each item, broken down by payment status.
+- **In Progress Colour**: We've updated the colour of In Progress data to <span style="color:#22d3ee;">cyan</span> to differentiate it from <span style="color: #f97316">Pending</span> data.
 
 ## October 2023
 
@@ -199,19 +294,19 @@ Of course, we've also been continuing to squash pesky bugs :bug: and improve ove
 
 We've given Custom Forms a number of functional updates to make them more powerful and flexible, such as:
 
--   **Previews**: Form previews have been given a refresh! Now you can see exactly what your Lead Bookers see within the preview for both Delegate and Team Member ticket types.
--   **Custom Labels and Instructions**: This allows you to use the same underlying custom fields but tweak the name (label) and field instructions within each form, to better fit the use case of that form. Want 'First Name' to read 'Delegate First Name' instead? No problem!
--   **Hidden Fields**: You can now hide certain fields from Lead Bookers but still have them accessible within the event's Admin Console. This is great for fields that are time-sensitive and not applicable year-round, or for 'Office Use Only' fields.
+- **Previews**: Form previews have been given a refresh! Now you can see exactly what your Lead Bookers see within the preview for both Delegate and Team Member ticket types.
+- **Custom Labels and Instructions**: This allows you to use the same underlying custom fields but tweak the name (label) and field instructions within each form, to better fit the use case of that form. Want 'First Name' to read 'Delegate First Name' instead? No problem!
+- **Hidden Fields**: You can now hide certain fields from Lead Bookers but still have them accessible within the event's Admin Console. This is great for fields that are time-sensitive and not applicable year-round, or for 'Office Use Only' fields.
 
 ### Groups
 
 Continuing on from our May updates around groups, we've added some extra functionality to make it easier to manage Groups within your event.
 These include:
 
--   **Over 18s Check**: A new event setting that allows you to display an over-18s check on the Public Group Registration form.
--   **Importing Group Coordinators**: From the Group Coordinators list, you can now import Group Coordinators from any other event using the same Group Set.
--   **Adding Group Coordinators**: You can now easily add a Group Coordinator to any existing group from the event's Group List page.
--   **Removing Group Coordinators**: You can now easily remove a Group Coordinator from the Group Coordinators page.
+- **Over 18s Check**: A new event setting that allows you to display an over-18s check on the Public Group Registration form.
+- **Importing Group Coordinators**: From the Group Coordinators list, you can now import Group Coordinators from any other event using the same Group Set.
+- **Adding Group Coordinators**: You can now easily add a Group Coordinator to any existing group from the event's Group List page.
+- **Removing Group Coordinators**: You can now easily remove a Group Coordinator from the Group Coordinators page.
 
 ### Notifications
 
@@ -226,11 +321,11 @@ As Spring rolls into Summer we've got a host of updates rolling out including a 
 
 With this update, groups have been revamped to remove complexity and head-scratching moments. Say hello to Groups v2.0 now with:
 
--   **Configuration:** Event admins now configure if and how an event uses groups from the event settings page
--   **Bookings:** When event settings require it, Lead Bookers will now be asked to register or assign a group to their booking as a first step which will automatically assign the chosen group to any tickets or extras then added to their booking.
--   **Forms/Fields:** Group Select fields are a thing of the past! Groups are no longer managed within custom form fields but are now assigned and managed from ticket lists and booking summary tables. You can now finally batch-update tickets and extras to a different group in just a couple of clicks :raised_hands: :tada:
--   **Reports:** The old `Group Tickets` report has been renamed to `Groups` and now includes details of all extras that have been associated to a group as well.
--   **Group Entry Pages:** These now list the tickets and extras assigned to a group. In addition, the page will provide details on all Group Coordinators.
+- **Configuration:** Event admins now configure if and how an event uses groups from the event settings page
+- **Bookings:** When event settings require it, Lead Bookers will now be asked to register or assign a group to their booking as a first step which will automatically assign the chosen group to any tickets or extras then added to their booking.
+- **Forms/Fields:** Group Select fields are a thing of the past! Groups are no longer managed within custom form fields but are now assigned and managed from ticket lists and booking summary tables. You can now finally batch-update tickets and extras to a different group in just a couple of clicks :raised_hands: :tada:
+- **Reports:** The old `Group Tickets` report has been renamed to `Groups` and now includes details of all extras that have been associated to a group as well.
+- **Group Entry Pages:** These now list the tickets and extras assigned to a group. In addition, the page will provide details on all Group Coordinators.
 
 ### Payment Plans
 

@@ -264,6 +264,37 @@ export default defineConfig({
                     ],
                 },
                 {
+                    collapsed: true,
+                    text: "Integrations & API",
+                    link: "/guide/integrations/",
+                    items: [
+                        {
+                            text: "Campaign Monitor",
+                            link: "/guide/integrations/campaign-monitor",
+                        },
+                        {
+                            text: "HighLevel",
+                            link: "/guide/integrations/highlevel",
+                        },
+                        {
+                            text: "Hubspot",
+                            link: "/guide/integrations/hubspot",
+                        },
+                        {
+                            text: "Klaviyo",
+                            link: "/guide/integrations/klaviyo",
+                        },
+                        {
+                            text: "Mailchimp",
+                            link: "/guide/integrations/mailchimp",
+                        },
+                        {
+                            text: "Mailerlite",
+                            link: "/guide/integrations/mailerlite",
+                        },
+                    ],
+                },
+                {
                     text: "User Profiles",
                     link: "/guide/profile/index",
                 },
@@ -294,10 +325,6 @@ export default defineConfig({
                 {
                     text: "Order Tickets",
                     link: "/guide/order-tickets",
-                },
-                {
-                    text: "Integrations",
-                    link: "/guide/integrations",
                 },
             ],
             "/faqs/": [
