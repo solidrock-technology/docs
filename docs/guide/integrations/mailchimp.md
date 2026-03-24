@@ -10,6 +10,10 @@ All accounts are synced to your Location with standard fields including name, em
 
 Whenever an [account type](/guide/accounts/#account-types) is added or changed for a Solidrock account, or an association to a team or group is made or deleted, the relevant Contact in Mailchimp is created or updated and tagged with the relevant information.
 
+### List Auto-Created
+
+A dedicated list is created in this called `Solidrock Booking System`
+
 ### Role Specific Tags Applied
 
 Event-specific tags for each role such as:
